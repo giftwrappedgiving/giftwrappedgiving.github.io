@@ -4,6 +4,7 @@ init::
 	python -m piptools compile requirements/dev-requirements.in
 	python -m piptools compile requirements/requirements.in
 	python -m piptools sync requirements/dev-requirements.txt requirements/requirements.txt
+	npm install
 
 
 sync-reqs::
@@ -11,6 +12,9 @@ sync-reqs::
 	python -m piptools compile requirements/requirements.in
 	python -m piptools sync requirements/requirements.txt requirements/dev-requirements.txt
 
+
+build::
+	npm run build
 
 render::
 	python render.py
