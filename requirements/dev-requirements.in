@@ -1,0 +1,5 @@
+-c requirements.in
+pytest
+flake8
+black
+isort
