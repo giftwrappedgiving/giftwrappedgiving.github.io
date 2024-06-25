@@ -5,14 +5,13 @@ env = setup_jinja()
 
 
 def generate_pages():
-    test_template = env.get_template("test.html")
+    home_template = env.get_template("home.html")
     # render the full backlog
     render(
         "./docs/index.html",
-        test_template,
+        home_template,
         name="GWG"
     )
-
 
 
 if __name__ == "__main__":

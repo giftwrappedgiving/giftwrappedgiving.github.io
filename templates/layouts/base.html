@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="{{ htmlLang | default('en') }}" class="{%- if htmlClasses %} {{ htmlClasses }}{% endif %}">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{% block pageTitle %}GWG - Gift wrapped giving{% endblock %}</title>
+
+    {%- block headFonts %}{% endblock %}
+
+    {%- block headStylesheets %}
+    <link rel="stylesheet" href="./static/stylesheets/application.css">
+    {% endblock -%}
+
+    {%- block headIcons %}
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    {% endblock -%}
+
+    {%- block head %}{% endblock %}
+  </head>
+  <body class="{%- if bodyClasses %} {{ bodyClasses }}{% endif %}">
+    <script>document.body.className += ' js-enabled';</script>
+    {% block bodyStart %}{% endblock %}
+
+    {% block header %}{% endblock %}
+
+    {% block main %}
+    <main>
+      {%- block content %}
+      <h1>Welcome to {{ name }}</h1> 
+      {% endblock -%} 
+    </main>
+    {% endblock %}
+
+    {% block footer %}{% endblock %}
+    
+    {% block bodyEnd %}
+      {% block pageScripts %}
+      <script src="index.js"></script>
+      {% endblock %}
+    {% endblock %}
+  </body>
+</html>

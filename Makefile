@@ -19,6 +19,7 @@ build::
 render::
 	python render.py
 
+gwg:: build render
 
 serve:
-	python -m http.server 8000 --bind 127.0.0.1 --directory docs
+	python -m http.server 8080 --bind 127.0.0.1 --directory docs
