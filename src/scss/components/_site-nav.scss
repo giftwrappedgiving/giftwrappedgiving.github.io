@@ -1,4 +1,5 @@
 .site-nav {
+  display: none;
   --site-nav-background-colour: var(--page-background-colour);
   position: absolute;
   top: 0;
@@ -9,4 +10,57 @@
   padding: 5vw;
   background-color: var(--page-background-colour);
   border-right: 2px solid black;
+}
+
+.site-nav__banner {
+  --site-spacing: 20px;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin: var(--site-spacing);
+  background-color: var(--page-background-colour);
+  height: 50px;
+  top: 0;
+  left: 0;
+  width: calc(100% - (2 * var(--site-spacing)));
+  padding: 0 5px;
+
+  .nav-links,
+  .nav-link {
+    display: flex;
+    height: 100%;
+    align-items: center;
+  }
+
+  .nav-links {
+    display: none;
+    padding: 0;
+
+    @include mq($from: mobileLandscape) {
+      display: flex;
+    }
+  }
+
+  .nav-link {
+    padding: 0 5px;
+  }
+
+  .site-nav__title {
+    order: 2;
+
+    @include mq($until: mobileLandscape) {
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+  .site-nav__sections {
+    order: 1;
+  }
+
+  .site-nav__content-sections {
+    order: 3;
+  }
 }

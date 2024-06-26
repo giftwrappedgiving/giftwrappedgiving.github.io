@@ -4,6 +4,7 @@
   height: 75vh;
 
   @include mq($from: tablet) {
-    background: red;
+    // color-mix would need a fallback
+    background-color: color-mix(in srgb, var(--hero-background-colour) 75%, black);;
   }
 }
