@@ -115,4 +115,14 @@ h1 {
   color: grey;
 }
 
-/*# sourceMappingURL=application.css.map */
+.sge-example {
+  padding: 20px;
+  border: 1px solid var(--gwg-border-colour, #cccccc);
+}
+
+.checkbox-label-2 {
+  display: block;
+  margin-top: 45px;
+}
+
+/*# sourceMappingURL=styleguide.css.map */

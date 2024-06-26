@@ -1,0 +1,22 @@
+{% extends 'layouts/base.html' %}
+{% from 'components/styleguide-example.html' import styleguideExample %}
+
+{%- block headStylesheets %}
+{{ super() }}
+<link rel="stylesheet" href="./static/stylesheets/styleguide.css">
+{% endblock -%}
+
+
+{% call styleguideExample({
+  "title": "Example 1",
+  "description": {
+    "text": "This example demonstrates using more than one label to control a checkbox"
+  }
+}) %}
+
+<form>
+  <input type="checkbox" id="checkbox">
+  <label for="checkbox">Checkbox label 1</label>
+  <label class="checkbox-label-2" for="checkbox">Checkbox label 2</label>
+</form>
+{% endcall %}

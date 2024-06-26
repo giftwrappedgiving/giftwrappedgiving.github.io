@@ -1,4 +1,5 @@
 .site-nav {
+  --site-nav-background-colour: var(--page-background-colour);
   position: absolute;
   top: 0;
   left: 0;
@@ -6,6 +7,6 @@
   min-height: 100vh;
   width: 75%;
   padding: 5vw;
-  background-color: white;
+  background-color: var(--page-background-colour);
   border-right: 2px solid black;
 }

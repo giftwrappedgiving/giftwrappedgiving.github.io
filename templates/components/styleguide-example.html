@@ -1,0 +1,15 @@
+{% macro styleguideExample(params) %}
+<section class="sge-container">
+  <h3 class="sge-title">{{ params.title }}</h3>
+  {% if params.description %}
+    {% if params.description.html %}
+      {{ params.description.html }}
+    {%- else -%}
+    <p>{{ params.description.text }}</p>
+    {% endif %}
+  {% endif %}
+  <div class="sge-example">
+    {{ caller() }}
+  </div>
+</section>
+{% endmacro %}
