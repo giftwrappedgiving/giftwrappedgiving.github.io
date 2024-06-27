@@ -101,19 +101,29 @@ body:before {
 
 :root {
   --main-nav-banner-height: 50px;
+  --main-nav-mobile-width: 75%;
 }
 
-.site-nav {
+.site-nav__panel {
+  --nav-panel-width: var(--main-nav-mobile-width);
   display: none;
   --site-nav-background-colour: var(--page-background-colour);
   position: absolute;
   top: 0;
   left: 0;
   min-height: 100vh;
-  width: 75%;
+  width: var(--nav-panel-width);
   padding: 5vw;
   background-color: var(--page-background-colour);
   border-right: 2px solid black;
+  z-index: 3;
+}
+@media (max-width: 29.99em) {
+  .site-nav__checkbox:checked ~ .site-nav__panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 }
 
 .site-nav__banner-btn {
@@ -121,17 +131,30 @@ body:before {
   top: calc(20px + var(--main-nav-banner-height) / 2);
   z-index: 2;
 }
+@media (min-width: 30em) {
+  .site-nav__banner-btn {
+    display: none;
+  }
+}
 
 .site-nav__panel-btn {
+  --close-btn-width: 25px;
   display: none;
+  position: absolute;
+  top: 20px;
+  left: calc(var(--main-nav-mobile-width) - 5vw - var(--close-btn-width));
+  z-index: 4;
 }
 
 .site-nav__checkbox {
+  position: absolute;
   display: none !important;
+}
+.site-nav__checkbox:checked {
+  display: inline-block;
 }
 .site-nav__checkbox:checked ~ .site-nav__panel-btn {
   display: inline-block;
-  position: absolute;
 }
 
 .site-nav__banner {
