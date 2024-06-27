@@ -1,3 +1,7 @@
+:root {
+  --main-nav-banner-height: 50px;
+}
+
 .site-nav {
   display: none;
   --site-nav-background-colour: var(--page-background-colour);
@@ -12,8 +16,28 @@
   border-right: 2px solid black;
 }
 
+.site-nav__banner-btn {
+  position: absolute;
+  top: calc(20px + (var(--main-nav-banner-height) / 2));
+  z-index: 2;
+}
+
+.site-nav__panel-btn {
+  display: none;
+}
+
+.site-nav__checkbox {
+  display: none !important;
+
+  &:checked ~ .site-nav__panel-btn {
+    display: inline-block;
+    position: absolute;
+  }
+}
+
 .site-nav__banner {
   --site-spacing: 20px;
+  --site-nav-banner-height: var(--main-nav-banner-height);
   position: absolute;
   display: flex;
   justify-content: space-between;
@@ -21,7 +45,7 @@
   flex-direction: row;
   margin: var(--site-spacing);
   background-color: var(--page-background-colour);
-  height: 50px;
+  height: var(--site-nav-banner-height);
   top: 0;
   left: 0;
   width: calc(100% - (2 * var(--site-spacing)));
