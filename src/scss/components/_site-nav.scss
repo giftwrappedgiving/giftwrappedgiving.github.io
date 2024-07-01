@@ -1,9 +1,19 @@
 :root {
   --main-nav-banner-height: 50px;
   --main-nav-mobile-width: 75%;
+  // do we want to set a global size for icons?
+  --icon-width: 20px;
+  --icon-width-half: calc(var(--icon-width) / 2);
+  --site-spacing: 20px;
 }
 
 // universal rule?
+.icon {
+  display: inline-flex;
+  width: var(--icon-width);
+  height: var(--icon-width);
+}
+
 .icon svg {
   width: 100%;
   height: 100%;
@@ -37,17 +47,18 @@
 
 .site-nav__banner-btn {
   position: absolute;
-  top: calc(20px + (var(--main-nav-banner-height) / 2));
+  top: calc(20px + (var(--main-nav-banner-height) / 2) - var(--icon-width-half));
+  left: calc(var(--site-spacing) * 1.5);
   z-index: 2;
 
   @include mq($from: mobileLandscape) {
     display: none;
   }
 
-  .icon {
-    display: inline-flex;
-    width: 1.2rem;
-  }
+  // .icon {
+  //   display: inline-flex;
+  //   width: 1.2rem;
+  // }
 }
 
 .site-nav__panel-btn {
@@ -73,7 +84,6 @@
 }
 
 .site-nav__banner {
-  --site-spacing: 20px;
   --site-nav-banner-height: var(--main-nav-banner-height);
   position: absolute;
   display: flex;
