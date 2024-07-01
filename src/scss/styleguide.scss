@@ -6,3 +6,37 @@
   display: block;
   margin-top: 45px;
 }
+
+.sg-grid-wrapper {
+  display: grid;
+  grid-template-columns: 20px repeat(8, 1fr) 20px;
+  gap: 10px;
+
+  @include mq($from: tablet) {
+    grid-template-columns: 20px repeat(24, 1fr) 20px;
+
+    &:before {
+      content: '';
+      width: 20px;
+    }
+  }
+
+  & > div {
+    height: 100px;
+    border: 1px solid #ccc;
+    grid-column: 2 / span 8;
+
+    @include mq($from: tablet) {
+      grid-column: span 8;
+    }
+  }
+}
+
+.sg-guide {
+  display: inline;
+}
+
+.sg-grid-1 {
+
+}
+.sg-grid-2 {}

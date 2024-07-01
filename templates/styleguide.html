@@ -28,10 +28,22 @@
   }
 }) %}
 
-
 <label for="">
   <span class="icon">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g id="menu"><rect x="5" y="12" width="90" height="13"></rect><rect x="5" y="46" width="90" height="13"></rect><rect x="5" y="80" width="90" height="13"></rect></g></svg>
   </span>
 </label>
+{% endcall %}
+
+{% call styleguideExample({
+  "title": "Example 3",
+  "description": {
+    "text": "Trying to define the grid"
+  }
+}) %}
+
+<div class="sg-grid-wrapper">
+  <div class="sg-grid-1 sg-guide"></div>
+  <div class="sg-grid-2 sg-guide"></div>
+</div>
 {% endcall %}

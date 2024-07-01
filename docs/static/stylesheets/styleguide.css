@@ -235,4 +235,33 @@ h1 {
   margin-top: 45px;
 }
 
+.sg-grid-wrapper {
+  display: grid;
+  grid-template-columns: 20px repeat(8, 1fr) 20px;
+  gap: 10px;
+}
+@media (min-width: 46.25em) {
+  .sg-grid-wrapper {
+    grid-template-columns: 20px repeat(24, 1fr) 20px;
+  }
+  .sg-grid-wrapper:before {
+    content: "";
+    width: 20px;
+  }
+}
+.sg-grid-wrapper > div {
+  height: 100px;
+  border: 1px solid #ccc;
+  grid-column: 2/span 8;
+}
+@media (min-width: 46.25em) {
+  .sg-grid-wrapper > div {
+    grid-column: span 8;
+  }
+}
+
+.sg-guide {
+  display: inline;
+}
+
 /*# sourceMappingURL=styleguide.css.map */
