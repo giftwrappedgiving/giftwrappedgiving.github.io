@@ -264,4 +264,23 @@ h1 {
   display: inline;
 }
 
+.sg-gift-grid-wrapper {
+  --gutter: 20px;
+  --gift-card-size: 200px;
+  display: grid;
+  grid-gap: calc(var(--gutter) / 2);
+  grid-template-rows: minmax(var(--gift-card-size), 1fr);
+  grid-template-columns: 10px repeat(4, var(--gift-card-size)) 10px;
+  grid-auto-flow: column;
+  overflow-x: scroll;
+}
+.sg-gift-grid-wrapper:before, .sg-gift-grid-wrapper:after {
+  content: "";
+  width: 10px;
+}
+
+.sg-gift {
+  border: 1px solid #ccc;
+}
+
 /*# sourceMappingURL=styleguide.css.map */

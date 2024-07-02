@@ -2,6 +2,7 @@
 
 @import "components/styleguide-example";
 
+
 .checkbox-label-2 {
   display: block;
   margin-top: 45px;
@@ -38,3 +39,28 @@
 
 .sg-grid-1 {}
 .sg-grid-2 {}
+
+.sg-gift-grid-wrapper {
+  --gutter: 20px;
+  --gift-card-size: 200px;
+  display: grid;
+  grid-gap: calc(var(--gutter) / 2);
+  //grid-template-columns: 10px;
+  grid-template-rows: minmax(var(--gift-card-size), 1fr);
+  grid-template-columns:
+  10px
+  repeat(4, var(--gift-card-size))
+  10px;
+  grid-auto-flow: column;
+  overflow-x: scroll;
+
+  &:before,
+  &:after {
+    content: '';
+    width: 10px;
+  }
+}
+
+.sg-gift {
+  border: 1px solid #ccc;
+}
