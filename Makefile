@@ -32,6 +32,9 @@ lint: black flake8 isort
 build::
 	npm run build
 
+watch::
+	npm run watch:scss
+
 render::
 	python render.py
 

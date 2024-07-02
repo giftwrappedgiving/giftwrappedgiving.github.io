@@ -8,7 +8,8 @@
   "scripts": {
     "build:stylesheets": "sass src/scss:docs/static/stylesheets",
     "lint:stylesheets": "sass-lint --config .sass-lint.yml 'colmjude_frontend/**/*.scss' --verbose --no-exit",
-    "build": "npm-run-all --serial lint:* build:*"
+    "build": "npm-run-all --serial lint:* build:*",
+    "watch:scss": "chokidar 'src/scss/**/*.scss' -c 'npm run build'"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,8 @@
   },
   "homepage": "https://github.com/giftwrappedgiving/giftwrappedgiving.github.io#readme",
   "devDependencies": {
+    "chokidar": "^3.6.0",
+    "chokidar-cli": "^3.0.0",
     "npm-run-all": "^4.1.5",
     "sass": "^1.77.6",
     "sass-lint": "^1.13.1"
