@@ -137,6 +137,12 @@ body:before {
   }
 }
 
+.gwg-footer {
+  --footer-background-colour: var(--highlight-background-color);
+  padding: var(--site-spacing);
+  background: var(--footer-background-colour);
+}
+
 :root {
   --main-nav-banner-height: 50px;
   --main-nav-mobile-width: 75%;
