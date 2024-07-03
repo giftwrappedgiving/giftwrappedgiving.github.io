@@ -2,6 +2,9 @@
 
 @import "components/styleguide-example";
 
+body {
+  padding: var(--site-spacing);
+}
 
 .checkbox-label-2 {
   display: block;
