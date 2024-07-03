@@ -1,0 +1,9 @@
+@import "../vendor/govuk-visually-hidden";
+
+.gwg-visually-hidden {
+  @include govuk-visually-hidden;
+}
+
+.gwg-visually-hidden-focusable {
+  @include govuk-visually-hidden-focusable;
+}

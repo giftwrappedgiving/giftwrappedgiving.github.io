@@ -92,6 +92,40 @@ body:before {
   --site-spacing: 20px;
 }
 
+.gwg-visually-hidden {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  clip: rect(0 0 0 0) !important;
+  clip-path: inset(50%) !important;
+  border: 0 !important;
+  white-space: nowrap !important;
+  user-select: none;
+}
+.gwg-visually-hidden::before {
+  content: " ";
+}
+.gwg-visually-hidden::after {
+  content: " ";
+}
+
+.gwg-visually-hidden-focusable:not(:active):not(:focus) {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  clip: rect(0 0 0 0) !important;
+  clip-path: inset(50%) !important;
+  border: 0 !important;
+  white-space: nowrap !important;
+  user-select: none;
+}
+
 .gwg-hero {
   --hero-background-colour: var(--highlight-background-color);
   background: var(--hero-background-colour);
