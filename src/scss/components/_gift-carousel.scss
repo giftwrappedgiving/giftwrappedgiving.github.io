@@ -1,0 +1,19 @@
+.gwg-gift-carousel {
+  --gift-card-width: 200px;
+  --grid-gap: calc(var(--site-spacing) / 2);
+  display: grid;
+  grid-gap: var(--grid-gap);
+  grid-template-rows: minmax(var(--gift-card-width), 1fr);
+  grid-template-columns:
+    10px
+    repeat(4, var(--gift-card-width))
+    10px;
+  grid-auto-flow: column;
+  overflow-x: scroll;
+
+  &:before,
+  &:after {
+    content: '';
+    width: var(--grid-gap);
+  }
+}
