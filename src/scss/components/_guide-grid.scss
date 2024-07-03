@@ -1,0 +1,28 @@
+.gwg-guide-grid {
+  display: grid;
+  grid-template-columns: var(--grid-gap) repeat(8, 1fr) var(--grid-gap);
+  gap: var(--grid-gap);
+
+  @include mq($from: tablet) {
+    grid-template-columns: var(--grid-gap) repeat(24, 1fr) var(--grid-gap);
+
+    &:before {
+      content: '';
+      width: var(--grid-gap);
+    }
+  }
+
+  & > div {
+    height: 100px;
+    grid-column: 2 / span 8;
+
+    @include mq($from: tablet) {
+      grid-column: span 8;
+    }
+  }
+}
+
+.gwg-guide {
+  display: inline;
+  border: 1px solid #ccc;
+}

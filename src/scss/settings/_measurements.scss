@@ -1,3 +1,6 @@
 :root {
   --site-spacing: 20px;
+
+  // grid measurements
+  --grid-gap: calc(var(--site-spacing) / 2);
 }

@@ -8,6 +8,7 @@
 // components
 @import "components/hero";
 @import "components/footer";
+@import "components/guide-grid";
 @import "components/site-nav";
 @import "components/gift-carousel";
 
@@ -19,6 +20,10 @@ h1 {
 .gwg-section {
   padding-top: calc(var(--site-spacing) * 2);
   padding-bottom: calc(var(--site-spacing) * 2);
+
+  &:last-of-type {
+    padding-bottom: calc(var(--site-spacing) * 4);
+  }
 }
 
 .gwg-section__header {
