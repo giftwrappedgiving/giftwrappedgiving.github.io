@@ -1,0 +1,15 @@
+{% extends 'layouts/base.html' %}
+
+{% block header %}
+{% include 'components/site-nav.html' %}
+{% endblock %}
+
+{% block content %}
+
+<div class="gwg-list">
+  {% block listHeader %}{% endblock %}
+  {% block listContent %}{% endblock %}
+</div>
+
+{% include 'components/footer.html' %}
+{% endblock %}

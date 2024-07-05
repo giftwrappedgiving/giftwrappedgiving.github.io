@@ -310,6 +310,11 @@ body:before {
   width: var(--grid-gap);
 }
 
+.gwg-list {
+  --top-padding: 100px;
+  padding-top: var(--top-padding);
+}
+
 h1 {
   color: grey;
 }
