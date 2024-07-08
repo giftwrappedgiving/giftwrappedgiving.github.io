@@ -1,10 +1,19 @@
+:root {
+  --main-hero-height: 75vh;
+  --gift-guide-hero-height: 55vh;
+}
+
 .gwg-hero {
   --hero-background-colour: var(--highlight-background-color);
   background: var(--hero-background-colour);
-  height: 75vh;
+  height: var(--main-hero-height);
 
   @include mq($from: tablet) {
     // color-mix would need a fallback
     background-color: color-mix(in srgb, var(--hero-background-colour) 75%, black);;
   }
+}
+
+.gwg-hero--guide {
+  height: var(--gift-guide-hero-height);
 }

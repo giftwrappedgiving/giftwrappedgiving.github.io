@@ -1,1 +1,5 @@
-<section class="gwg-hero"></section>
+{% macro gwgHero(params) %}
+<section class="gwg-hero{{ ' ' + params.classes if params.classes }}">
+  {{ params.content.html if params.content }}
+</section>
+{% endmacro %}

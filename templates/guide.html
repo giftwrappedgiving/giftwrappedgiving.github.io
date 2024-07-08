@@ -1,0 +1,15 @@
+{% extends 'layouts/base.html' %}
+
+{% block header %}
+{% include 'components/site-nav.html' %}
+{% endblock %}
+
+{% block content %}
+{{ gwgHero({
+  "classes": "gwg-hero--guide"
+}) }}
+
+<p>This is a gift guide</p>
+
+{% include 'components/footer.html' %}
+{% endblock %}

@@ -1,3 +1,4 @@
+{%- from 'components/hero.html' import gwgHero %}
 <!DOCTYPE html>
 <html lang="{{ htmlLang | default('en') }}" class="{%- if htmlClasses %} {{ htmlClasses }}{% endif %}">
   <head>
@@ -27,13 +28,13 @@
     {% block main %}
     <main>
       {%- block content %}
-      <h1>Welcome to {{ name }}</h1> 
-      {% endblock -%} 
+      <h1>Welcome to {{ name }}</h1>
+      {% endblock -%}
     </main>
     {% endblock %}
 
     {% block footer %}{% endblock %}
-    
+
     {% block bodyEnd %}
       {% block pageScripts %}
       <script src="index.js"></script>
