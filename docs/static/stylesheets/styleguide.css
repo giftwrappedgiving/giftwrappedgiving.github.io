@@ -84,8 +84,15 @@ body:before {
 }
 
 :root {
-  --page-background-colour: #ffffff;
-  --highlight-background-color: #f6be9a;
+  --monochrome-white: #fefefe;
+  --monochrome-1: #EBEBEB;
+  --monochrome-2: #ADADAD;
+  --monochrome-3: #858585;
+  --monochrome-4: #474747;
+  --monochrome-5: #141414;
+  --main-text-colour: var(--monochrome-5);
+  --page-background-colour: var(--monochrome-white);
+  --highlight-background-color: var(--monochrome-2);
 }
 
 :root {
@@ -127,15 +134,28 @@ body:before {
   user-select: none;
 }
 
+body {
+  color: var(--main-text-colour);
+}
+
+:root {
+  --main-hero-height: 75vh;
+  --gift-guide-hero-height: 55vh;
+}
+
 .gwg-hero {
   --hero-background-colour: var(--highlight-background-color);
   background: var(--hero-background-colour);
-  height: 75vh;
+  height: var(--main-hero-height);
 }
 @media (min-width: 46.25em) {
   .gwg-hero {
     background-color: color-mix(in srgb, var(--hero-background-colour) 75%, black);
   }
+}
+
+.gwg-hero--guide {
+  height: var(--gift-guide-hero-height);
 }
 
 .gwg-footer {

@@ -1,4 +1,14 @@
 :root {
-  --page-background-colour: #ffffff;
-  --highlight-background-color: #f6be9a;
+  // monochrome colours
+  --monochrome-white: #fefefe;
+  --monochrome-1: #EBEBEB;
+  --monochrome-2: #ADADAD;
+  --monochrome-3: #858585;
+  --monochrome-4: #474747;
+  --monochrome-5: #141414;
+
+  --main-text-colour: var(--monochrome-5);
+
+  --page-background-colour: var(--monochrome-white);
+  --highlight-background-color: var(--monochrome-2);
 }
