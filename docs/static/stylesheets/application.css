@@ -138,6 +138,10 @@ body {
   color: var(--main-text-colour);
 }
 
+a {
+  color: var(--main-text-colour);
+}
+
 :root {
   --main-hero-height: 75vh;
   --gift-guide-hero-height: 55vh;
