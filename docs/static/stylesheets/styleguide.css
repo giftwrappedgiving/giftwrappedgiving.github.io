@@ -160,6 +160,40 @@ a {
   color: var(--main-text-colour);
 }
 
+.gwg-gallery {
+  padding: var(--site-spacing);
+}
+
+.gwg-gallery > ul {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-auto-rows: minmax(200px, auto);
+  grid-gap: var(--grid-gap);
+  grid-auto-flow: dense;
+}
+
+.gwg-gallery__gift {
+  list-style: none;
+  padding: 0;
+  border: 1px solid var(--monochrome-4);
+  min-height: 200px;
+}
+
+@media (min-width: 30em) {
+  .gwg-gallery__gift--large {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+}
+
+@media (min-width: 30em) {
+  .gwg-gallery__gift--wide {
+    grid-column: span 2;
+  }
+}
+
 :root {
   --main-hero-height: 75vh;
   --gift-guide-hero-height: 55vh;
