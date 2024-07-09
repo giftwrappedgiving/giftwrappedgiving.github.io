@@ -1,5 +1,5 @@
-.gwg-list {
+.gwg-list__container {
   --top-padding: 100px;
 
-  padding-top: var(--top-padding);
+  padding: var(--top-padding) var(--site-spacing) var(--site-spacing);
 }

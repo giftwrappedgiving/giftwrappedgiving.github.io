@@ -1,6 +1,6 @@
 :root {
   --main-nav-banner-height: 50px;
-  --main-nav-mobile-width: 75%;
+  --main-nav-mobile-width: 85%;
   // do we want to set a global size for icons?
   --icon-width: 20px;
   --icon-width-half: calc(var(--icon-width) / 2);
@@ -43,6 +43,19 @@
       justify-content: space-between;
     }
   }
+}
+
+.site-nav__panel__nav {
+  padding: var(--site-spacing) 0;
+
+  li {
+    padding: var(--site-spacing) 0;
+  }
+}
+
+.site-nav__panel__footer {
+  padding-top: var(--site-spacing);
+  border-top: 1px solid var(--monochrome-2);
 }
 
 .site-nav__banner-btn {
