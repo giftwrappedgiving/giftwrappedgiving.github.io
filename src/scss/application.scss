@@ -41,3 +41,7 @@ h1 {
 .gwg-gift {
   border: 1px solid #ccc;
 }
+
+.gwg-gallery__gift {
+  @include centre;
+}

@@ -424,6 +424,12 @@ h1 {
   border: 1px solid #ccc;
 }
 
+.gwg-gallery__gift {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
 .sge-example {
   padding: 20px;
   border: 1px solid var(--gwg-border-colour, #cccccc);

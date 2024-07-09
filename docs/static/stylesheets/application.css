@@ -424,4 +424,10 @@ h1 {
   border: 1px solid #ccc;
 }
 
+.gwg-gallery__gift {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
 /*# sourceMappingURL=application.css.map */
