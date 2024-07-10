@@ -415,6 +415,10 @@ h1 {
   padding-bottom: calc(var(--site-spacing) * 4);
 }
 
+.gwg-content {
+  padding: var(--site-spacing);
+}
+
 .gwg-section__header {
   padding: 0 var(--site-spacing);
   margin-bottom: var(--site-spacing);
