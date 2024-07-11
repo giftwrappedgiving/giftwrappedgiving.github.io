@@ -1,4 +1,5 @@
 {% extends 'layouts/base.html' %}
+{% from 'components/gift.html' import gwgGift %}
 
 {% block header %}
 {% include 'components/site-nav.html' %}
@@ -6,22 +7,6 @@
 
 {% block content %}
 {{ gwgHero({}) }}
-
-{% macro gwgGift(params) %}
-<div class="gwg-gift">
-  <div class="gwg-gift__content">
-    <h3 class="gwg-gift__title">{{ params.title }}</h3>
-    <p class="gwg-gift__desc">{{ params.desc }}</p>
-  </div>
-  <div class="gwg-gift__image">
-    <img src="{{ params.img.url }}" alt="{{ params.img.alt }}">
-  </div>
-  <div class="gwg-gift__footer">
-    <span>{{ params.shop }}</span>
-    <a href="{{ params.btn.url }}">{{ params.btn.label }}</a>
-  </div>
-</div>
-{% endmacro %}
 
 <section class="gwg-section">
   <div class="gwg-section__header">
