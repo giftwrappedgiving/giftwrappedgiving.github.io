@@ -7,15 +7,81 @@
 {% block content %}
 {{ gwgHero({}) }}
 
+{% macro gwgGift(params) %}
+<div class="gwg-gift">
+  <div class="gwg-gift__content">
+    <h3 class="gwg-gift__title">{{ params.title }}</h3>
+    <p class="gwg-gift__desc">{{ params.desc }}</p>
+  </div>
+  <div class="gwg-gift__image">
+    <img src="{{ params.img.url }}" alt="{{ params.img.alt }}">
+  </div>
+  <div class="gwg-gift__footer">
+    <span>{{ params.shop }}</span>
+    <a href="{{ params.btn.url }}">{{ params.btn.label }}</a>
+  </div>
+</div>
+{% endmacro %}
+
 <section class="gwg-section">
   <div class="gwg-section__header">
     <h2>Editors' picks</h2>
   </div>
   <div class="gwg-gift-carousel">
-    <div class="gwg-gift"></div>
-    <div class="gwg-gift"></div>
-    <div class="gwg-gift"></div>
-    <div class="gwg-gift"></div>
+    <div class="gwg-gift">
+      <div class="gwg-gift__content">
+        <h3 class="gwg-gift__title">Test product</h3>
+        <p class="gwg-gift__desc">This is a short description of the product and why its a good one.</p>
+      </div>
+      <div class="gwg-gift__image">
+        <img src="/static/images/product-example-unsplash.jpg" alt="">
+      </div>
+      <div class="gwg-gift__footer">
+        <span>From Shop</span>
+        <a href="#">Go to gift</a>
+      </div>
+    </div>
+    {{ gwgGift({
+      "title": "Product 1",
+      "desc": "This is a short description of the product and why its a good one.",
+      "img": {
+        "url": "/static/images/product-example-unsplash.jpg",
+        "alt": ""
+      },
+      "shop": "Amazon",
+      "btn": {
+        "label": "Go to gift",
+        "url": "#"
+      }
+    }) }}
+
+    {{ gwgGift({
+      "title": "Product 2",
+      "desc": "This is a short description of the product and why its a good one.",
+      "img": {
+        "url": "/static/images/product-example-unsplash.jpg",
+        "alt": ""
+      },
+      "shop": "Amazon",
+      "btn": {
+        "label": "Go to gift",
+        "url": "#"
+      }
+    }) }}
+
+    {{ gwgGift({
+      "title": "Product 3",
+      "desc": "This is a short description of the product and why its a good one.",
+      "img": {
+        "url": "/static/images/product-example-unsplash.jpg",
+        "alt": ""
+      },
+      "shop": "Amazon",
+      "btn": {
+        "label": "Go to gift",
+        "url": "#"
+      }
+    }) }}
   </div>
 
   <div class="gwg-content">

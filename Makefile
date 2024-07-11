@@ -29,6 +29,9 @@ isort:
 lint: black flake8 isort
 
 
+copy-imgs:
+	cp -r src/images docs/static/
+
 build::
 	npm run build
 
@@ -38,7 +41,7 @@ watch::
 render::
 	python render.py
 
-gwg:: build render
+gwg:: copy-imgs build render
 
 serve:
 	python -m http.server 8080 --bind 127.0.0.1 --directory docs
