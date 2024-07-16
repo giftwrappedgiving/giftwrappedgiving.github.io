@@ -1,13 +1,29 @@
+:root {
+  --gwg-gift-card-width: 220px;
+  --gwg-gift-card-width-mobile: 200px;
+  --gwg-gift-card-width-large: 240px;
+}
+
 .gwg-gift-carousel {
-  --gift-card-width: 220px;
-  --grid-gap: calc(var(--site-spacing) / 2);
+  --gift-card-width: var(--gwg-gift-card-width-mobile);
+  --grid-gap: var(--site-spacing-half);
+
+  @include mq($from: tablet) {
+    --gift-card-width: var(--gwg-gift-card-width);
+  }
+
+  @include mq($from: desktop) {
+    --gift-card-width: var(--gwg-gift-card-width-large);
+    --grid-gap: var(--site-spacing-half-large);
+  }
+
   display: grid;
   grid-gap: var(--grid-gap);
-  grid-template-rows: minmax(var(--gift-card-width), 1fr);
+  //grid-template-rows: minmax(var(--gift-card-width), 1fr);
   grid-template-columns:
-    10px
-    repeat(4, var(--gift-card-width))
-    10px;
+    var(--grid-gap)
+    repeat(5, var(--gift-card-width))
+    var(--grid-gap);
   grid-auto-flow: column;
   overflow-x: scroll;
 

@@ -1,0 +1,23 @@
+.gwg-section {
+  --section-padding: var(--site-spacing);
+
+  @include mq($from: desktop) {
+    --section-padding: var(--site-spacing-large);
+  }
+
+  padding-top: calc(var(--section-padding) * 2);
+  padding-bottom: calc(var(--section-padding) * 2);
+
+  &:last-of-type {
+    padding-bottom: calc(var(--section-padding) * 4);
+  }
+
+  .gwg-section__content {
+    padding: var(--section-padding);
+  }
+
+  .gwg-section__header {
+    padding: 0 var(--section-padding);
+    margin-bottom: var(--section-padding);
+  }
+}

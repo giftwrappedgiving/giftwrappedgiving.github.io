@@ -1,0 +1,54 @@
+@mixin width-container($width: var(--gwg-page-width-large)) {
+  // By default, limit the width of the container to the page width
+  max-width: $width;
+
+  // On mobile, add half width gutters
+  margin-right: var(--site-spacing-half);
+  margin-left: var(--site-spacing-half);
+
+  // Respect 'display cutout' safe area (avoids notches and rounded corners)
+  @supports (margin: unquote("max(calc(0px))")) {
+    $gutter-safe-area-right: calc(var(--site-spacing-half) + env(safe-area-inset-right));
+    $gutter-safe-area-left: calc(var(--site-spacing-half) + env(safe-area-inset-left));
+
+    // Use max() to pick largest margin, default or with safe area
+    // Escaped due to Sass max() vs. CSS native max()
+    margin-right: unquote("max(var(--site-spacing-half), #{$gutter-safe-area-right})");
+    margin-left: unquote("max(var(--site-spacing-half), #{$gutter-safe-area-left})");
+  }
+
+  // On tablet, add full width gutters
+  @include mq($from: tablet) {
+    margin-right: var(--site-spacing);
+    margin-left: var(--site-spacing);
+
+    // Respect 'display cutout' safe area (avoids notches and rounded corners)
+    @supports (margin: unquote("max(calc(0px))")) {
+      $gutter-safe-area-right: calc(var(--site-spacing-half) + env(safe-area-inset-right));
+      $gutter-safe-area-left: calc(var(--site-spacing-half) + env(safe-area-inset-left));
+
+      // Use max() to pick largest margin, default or with safe area
+      // Escaped due to Sass max() vs. CSS native max()
+      margin-right: unquote("max(var(--site-spacing), #{$gutter-safe-area-right})");
+      margin-left: unquote("max(var(--site-spacing), #{$gutter-safe-area-left})");
+    }
+  }
+
+  // As soon as the viewport is greater than the width of the page plus the
+  // gutters, just centre the content instead of adding gutters.
+
+  $page-width: if(type-of($width) == string, $gwg-page-width-large, $width);
+  $calculated-min-width: $page-width + (2 * $gwg-site-spacing-large);
+  //@include mq($and: "(min-width: #{calculate-min-width($width, var(--site-spacing))})") {
+  @include mq($and: "(min-width: #{$calculated-min-width})") {
+    margin-right: auto;
+    margin-left: auto;
+
+    // Since a safe area may have previously been set above,
+    // we need to duplicate this margin that centers the page.
+    @supports (margin: unquote("max(calc(0px))")) {
+      margin-right: auto;
+      margin-left: auto;
+    }
+  }
+}

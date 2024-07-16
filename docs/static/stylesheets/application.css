@@ -97,7 +97,13 @@ body:before {
 
 :root {
   --site-spacing: 20px;
-  --grid-gap: calc(var(--site-spacing) / 2);
+  --site-spacing-large: 30px;
+  --site-spacing-half: calc(var(--site-spacing) / 2);
+  --site-spacing-half-large: calc(var(--site-spacing-large) / 2);
+  --gwg-page-width: 1200px;
+  --gwg-page-width-large: 1320px;
+  --gwg-grid-gap: calc(var(--site-spacing) / 2);
+  --gwg-grid-gap-large: calc(var(--site-spacing-large) / 2);
 }
 
 .gwg-visually-hidden {
@@ -134,6 +140,27 @@ body:before {
   user-select: none;
 }
 
+.gwg-section {
+  --section-padding: var(--site-spacing);
+  padding-top: calc(var(--section-padding) * 2);
+  padding-bottom: calc(var(--section-padding) * 2);
+}
+@media (min-width: 61.25em) {
+  .gwg-section {
+    --section-padding: var(--site-spacing-large);
+  }
+}
+.gwg-section:last-of-type {
+  padding-bottom: calc(var(--section-padding) * 4);
+}
+.gwg-section .gwg-section__content {
+  padding: var(--section-padding);
+}
+.gwg-section .gwg-section__header {
+  padding: 0 var(--section-padding);
+  margin-bottom: var(--section-padding);
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -165,6 +192,7 @@ a {
 }
 
 .gwg-gallery > ul {
+  --grid-gap: var(--gwg-grid-gap);
   margin: 0;
   padding: 0;
   display: grid;
@@ -172,6 +200,11 @@ a {
   grid-auto-rows: minmax(200px, auto);
   grid-gap: var(--grid-gap);
   grid-auto-flow: dense;
+}
+@media (min-width: 61.25em) {
+  .gwg-gallery > ul {
+    --grid-gap: var(--gwg-grid-gap-large);
+  }
 }
 
 .gwg-gallery__gift {
@@ -256,9 +289,15 @@ a {
 }
 
 .gwg-guide-grid {
+  --grid-gap: var(--gwg-grid-gap);
   display: grid;
   grid-template-columns: var(--grid-gap) repeat(8, 1fr) var(--grid-gap);
   gap: var(--grid-gap);
+}
+@media (min-width: 61.25em) {
+  .gwg-guide-grid {
+    --grid-gap: var(--gwg-grid-gap-large);
+  }
 }
 @media (min-width: 46.25em) {
   .gwg-guide-grid {
@@ -418,15 +457,31 @@ a {
   order: 3;
 }
 
+:root {
+  --gwg-gift-card-width: 220px;
+  --gwg-gift-card-width-mobile: 200px;
+  --gwg-gift-card-width-large: 240px;
+}
+
 .gwg-gift-carousel {
-  --gift-card-width: 220px;
-  --grid-gap: calc(var(--site-spacing) / 2);
+  --gift-card-width: var(--gwg-gift-card-width-mobile);
+  --grid-gap: var(--site-spacing-half);
   display: grid;
   grid-gap: var(--grid-gap);
-  grid-template-rows: minmax(var(--gift-card-width), 1fr);
-  grid-template-columns: 10px repeat(4, var(--gift-card-width)) 10px;
+  grid-template-columns: var(--grid-gap) repeat(5, var(--gift-card-width)) var(--grid-gap);
   grid-auto-flow: column;
   overflow-x: scroll;
+}
+@media (min-width: 46.25em) {
+  .gwg-gift-carousel {
+    --gift-card-width: var(--gwg-gift-card-width);
+  }
+}
+@media (min-width: 61.25em) {
+  .gwg-gift-carousel {
+    --gift-card-width: var(--gwg-gift-card-width-large);
+    --grid-gap: var(--site-spacing-half-large);
+  }
 }
 .gwg-gift-carousel:before, .gwg-gift-carousel:after {
   content: "";
@@ -442,21 +497,40 @@ h1 {
   color: grey;
 }
 
-.gwg-section {
-  padding-top: calc(var(--site-spacing) * 2);
-  padding-bottom: calc(var(--site-spacing) * 2);
+.gwg-width-container {
+  max-width: var(--gwg-page-width-large);
+  margin-right: var(--site-spacing-half);
+  margin-left: var(--site-spacing-half);
 }
-.gwg-section:last-of-type {
-  padding-bottom: calc(var(--site-spacing) * 4);
+@supports (margin: max(calc(0px))) {
+  .gwg-width-container {
+    margin-right: max(var(--site-spacing-half), calc(var(--site-spacing-half) + env(safe-area-inset-right)));
+    margin-left: max(var(--site-spacing-half), calc(var(--site-spacing-half) + env(safe-area-inset-left)));
+  }
 }
-
-.gwg-content {
-  padding: var(--site-spacing);
+@media (min-width: 46.25em) {
+  .gwg-width-container {
+    margin-right: var(--site-spacing);
+    margin-left: var(--site-spacing);
+  }
+  @supports (margin: max(calc(0px))) {
+    .gwg-width-container {
+      margin-right: max(var(--site-spacing), calc(var(--site-spacing-half) + env(safe-area-inset-right)));
+      margin-left: max(var(--site-spacing), calc(var(--site-spacing-half) + env(safe-area-inset-left)));
+    }
+  }
 }
-
-.gwg-section__header {
-  padding: 0 var(--site-spacing);
-  margin-bottom: var(--site-spacing);
+@media (min-width: 1380px) {
+  .gwg-width-container {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  @supports (margin: max(calc(0px))) {
+    .gwg-width-container {
+      margin-right: auto;
+      margin-left: auto;
+    }
+  }
 }
 
 .gwg-gift {

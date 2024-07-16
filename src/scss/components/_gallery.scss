@@ -3,6 +3,11 @@
 }
 
 .gwg-gallery > ul {
+  --grid-gap: var(--gwg-grid-gap);
+  @include mq($from: desktop) {
+    --grid-gap: var(--gwg-grid-gap-large);
+  }
+
   // resetting list styles
   margin: 0;
   padding: 0;

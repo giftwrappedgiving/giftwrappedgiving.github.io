@@ -1,4 +1,9 @@
 .gwg-guide-grid {
+  --grid-gap: var(--gwg-grid-gap);
+  @include mq($from: desktop) {
+    --grid-gap: var(--gwg-grid-gap-large);
+  }
+
   display: grid;
   grid-template-columns: var(--grid-gap) repeat(8, 1fr) var(--grid-gap);
   gap: var(--grid-gap);

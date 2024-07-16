@@ -1,6 +1,17 @@
+$gwg-site-spacing: 20px;
+$gwg-site-spacing-large: 30px;
+$gwg-page-width: 1200px;
+$gwg-page-width-large: 1320px;
+
 :root {
-  --site-spacing: 20px;
+  --site-spacing: #{$gwg-site-spacing};
+  --site-spacing-large: #{$gwg-site-spacing-large};
+  --site-spacing-half: calc(var(--site-spacing) / 2);
+  --site-spacing-half-large: calc(var(--site-spacing-large) / 2);
+  --gwg-page-width: #{$gwg-page-width};
+  --gwg-page-width-large: #{$gwg-page-width-large};
 
   // grid measurements
-  --grid-gap: calc(var(--site-spacing) / 2);
+  --gwg-grid-gap: calc(var(--site-spacing) / 2);
+  --gwg-grid-gap-large: calc(var(--site-spacing-large) / 2);
 }
