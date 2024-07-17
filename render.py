@@ -1,6 +1,9 @@
+from datetime import datetime
+
 from bin.jinja_setup import render, setup_jinja
 
 env = setup_jinja()
+env.globals["current_year"] = datetime.now().year
 
 
 def generate_pages():
