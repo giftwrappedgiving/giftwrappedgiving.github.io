@@ -333,7 +333,7 @@ a {
 }
 
 :root {
-  --main-nav-banner-height: 50px;
+  --main-nav-banner-height: 56px;
   --main-nav-mobile-width: 85%;
   --icon-width: 20px;
   --icon-width-half: calc(var(--icon-width) / 2);
@@ -417,7 +417,6 @@ a {
 }
 
 .site-nav__banner {
-  --nav-banner-height: var(--main-nav-banner-height);
   --nav-banner-spacing: var(--site-spacing);
   --nav-banner-spacing-half: var(--site-spacing-half);
   position: absolute;
@@ -427,7 +426,6 @@ a {
   flex-direction: row;
   margin: var(--nav-banner-spacing);
   background-color: var(--page-background-colour);
-  height: var(--nav-banner-height);
   top: 0;
   left: 0;
   width: calc(100% - 2 * var(--nav-banner-spacing));
@@ -454,6 +452,7 @@ a {
   }
 }
 .site-nav__banner .site-nav__title {
+  padding: var(--site-spacing-half) 0;
   order: 2;
 }
 @media (max-width: 29.99em) {
