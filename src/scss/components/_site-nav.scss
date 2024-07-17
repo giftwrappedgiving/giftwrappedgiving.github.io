@@ -4,7 +4,6 @@
   // do we want to set a global size for icons?
   --icon-width: 20px;
   --icon-width-half: calc(var(--icon-width) / 2);
-  --site-spacing: 20px;
 }
 
 // universal rule?
@@ -67,11 +66,6 @@
   @include mq($from: mobileLandscape) {
     display: none;
   }
-
-  // .icon {
-  //   display: inline-flex;
-  //   width: 1.2rem;
-  // }
 }
 
 .site-nav__panel-btn {
@@ -97,19 +91,25 @@
 }
 
 .site-nav__banner {
-  --site-nav-banner-height: var(--main-nav-banner-height);
+  --nav-banner-height: var(--main-nav-banner-height);
+  --nav-banner-spacing: var(--site-spacing);
+  --nav-banner-spacing-half: var(--site-spacing-half);
+  @include mq($from: tablet) {
+    --nav-banner-spacing: var(--site-spacing-large);
+    --nav-banner-spacing-half: var(--site-spacing-half-large);
+  }
+
   position: absolute;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  margin: var(--site-spacing);
+  margin: var(--nav-banner-spacing);
   background-color: var(--page-background-colour);
-  height: var(--site-nav-banner-height);
+  height: var(--nav-banner-height);
   top: 0;
   left: 0;
-  width: calc(100% - (2 * var(--site-spacing)));
-  padding: 0 5px;
+  width: calc(100% - (2 * var(--nav-banner-spacing)));
 
   .nav-links,
   .nav-link {
@@ -127,10 +127,6 @@
     }
   }
 
-  .nav-link {
-    padding: 0 5px;
-  }
-
   .site-nav__title {
     order: 2;
 
@@ -142,9 +138,19 @@
 
   .site-nav__sections {
     order: 1;
+    margin-left: var(--nav-banner-spacing-half);
+
+    li {
+      padding: 0 var(--nav-banner-spacing-half);
+    }
   }
 
   .site-nav__content-sections {
     order: 3;
+    margin-right: var(--nav-banner-spacing-half);
+
+    li {
+      padding: 0 var(--nav-banner-spacing-half);
+    }
   }
 }
