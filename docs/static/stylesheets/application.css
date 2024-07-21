@@ -140,6 +140,15 @@ body:before {
   user-select: none;
 }
 
+.gwg-article {
+  margin: calc(var(--site-spacing) * 8) 0;
+}
+
+.gwg-article__content {
+  margin: 0 auto;
+  max-width: min(40.25rem, 100vw - var(--site-spacing) * 2);
+}
+
 .gwg-section {
   --section-padding: var(--site-spacing);
   padding-top: calc(var(--section-padding) * 2);

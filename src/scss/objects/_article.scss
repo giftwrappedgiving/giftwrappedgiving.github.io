@@ -1,0 +1,8 @@
+.gwg-article {
+  margin: calc(var(--site-spacing) * 8) 0;
+}
+
+.gwg-article__content {
+  margin: 0 auto;
+  max-width: min(calc(20.625rem* 2 - 1rem), calc(100vw - (var(--site-spacing) * 2)));
+}

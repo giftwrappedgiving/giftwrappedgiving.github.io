@@ -1,0 +1,18 @@
+{% extends 'layouts/base.html' %}
+
+{% block header %}
+{% include 'components/site-nav.html' %}
+{% endblock %}
+
+{% block content %}
+
+<article class="gwg-article">
+  <div class="gwg-width-container">
+    {% block articleHead %}{% endblock articleHead %}
+    {% block articleBody %}{% endblock articleBody %}
+    {% block articleEnd %}{% endblock articleEnd %}
+  </div>
+</article>
+
+{% include 'components/footer.html' %}
+{% endblock %}
