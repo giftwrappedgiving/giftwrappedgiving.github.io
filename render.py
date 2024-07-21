@@ -36,11 +36,16 @@ def generate_posts_idx(posts, base_path="content/blog"):
             summary = metadata.get("summary", "No Summary")
             # Update the dictionary
             posts[key].update(
-                {"title": title, "created_date": created_date, "summary": summary}
+                {
+                    "title": title,
+                    "created_date": created_date,
+                    "summary": summary,
+                    "slug": key,
+                }
             )
         else:
             print(f"File {file_path} does not exist.")
-    return posts
+    return dict(sorted(posts.items(), key=lambda x: x[1]["created_date"]))
 
 
 def generate_blog_posts(path_to_post):

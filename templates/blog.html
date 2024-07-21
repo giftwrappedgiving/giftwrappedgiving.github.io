@@ -1,15 +1,30 @@
 {% extends 'layouts/list.html' %}
 
 {% block listHeader %}
-<div class="gwg-article__content">
-  <h1>Blog</h1>
+<div class="gwg-article__content gwg-blog_heading">
+  <h1 class="gwg-heading-xl">Blog</h1>
 </div>
 {% endblock %}
 
+{% macro blogItem(params) %}
+<li class="gwg-blog-item">
+  <h2><a href="/blog/{{ params.slug }}">{{ params.title }}</a></h2>
+  <p>{{ params.created_date }}</p>
+  <p>{{ params.summary }}</p>
+</li>
+{% endmacro %}
+
 {% block listContent %}
-<ul>
-  {% for slug, post in posts.items() %}
-  <li>{{ post.title }}</li>
-  {% endfor %}
-</ul>
+<div class="gwg-article__content">
+  <ul>
+    {%- for slug, post in posts.items() %}
+    {{ blogItem({
+      "title": post.title,
+      "created_date": post.created_date,
+      "slug": slug,
+      "summary": post.summary
+    }) }}
+    {% endfor -%}
+  </ul>
+</div>
 {% endblock %}

@@ -1,0 +1,18 @@
+.gwg-blog_heading {
+  --gwg-blog-heading-margin: var(--site-spacing);
+  margin-top: calc(var(--gwg-blog-heading-margin) * 2);
+  margin-bottom: calc(var(--gwg-blog-heading-margin) * 3);
+
+  @include mq($from: tablet) {
+    --gwg-blog-heading-margin: var(--site-spacing-large);
+  }
+}
+
+.gwg-blog-item {
+  --gwg-blog-item-bottom-margin: var(--site-spacing);
+  margin-bottom: calc(var(--gwg-blog-item-bottom-margin) * 2);
+
+  @include mq($from: tablet) {
+    --gwg-blog-item-bottom-margin: var(--site-spacing-large);
+  }
+}
