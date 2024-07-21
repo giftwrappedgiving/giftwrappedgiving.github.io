@@ -3,8 +3,63 @@ body {
   font-family: "Montserrat", sans-serif;
   font-family: "Nunito Sans", sans-serif;
   color: var(--main-text-colour);
+
+  font-family: var(--gwg-font-family);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 a {
   color: var(--main-text-colour);
+}
+
+// paragraphy "body" text
+
+%gwg-body-l {
+  max-width: var(--large-body-text-width);
+  color: var(--main-text-colour);
+  @include gwg-font($size: 25, $line-height: 1.5);
+
+  @include gwg-responsive-margin(6, "bottom");
+}
+
+.gwg-body-l {
+  @extend %gwg-body-l;
+}
+
+%gwg-body-m {
+  max-width: var(--body-text-width);
+  color: var(--main-text-colour);
+  @include gwg-font($size: 20, $line-height: 1.5);
+
+  @include gwg-responsive-margin(4, "bottom");
+}
+
+.gwg-body-m {
+  @extend %gwg-body-m;
+}
+
+%gwg-body-s {
+  max-width: var(--body-text-width);
+  color: var(--main-text-colour);
+  @include gwg-font($size: 16, $line-height: 1.5);
+
+  @include gwg-responsive-margin(4, "bottom");
+}
+
+.gwg-body-s {
+  @extend %gwg-body-s;
+}
+
+%gwg-body-xs {
+  color: var(--main-text-colour);
+  @include gwg-font($size: 14, $line-height: 1.5);
+
+  @include gwg-responsive-margin(4, "bottom");
+}
+
+// Usage aliases
+
+.gwg-body {
+  @extend %gwg-body-m;
 }

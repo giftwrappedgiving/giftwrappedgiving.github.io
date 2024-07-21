@@ -102,10 +102,12 @@ def generate_pages():
     guide_template = env.get_template("guide.html")
     about_template = env.get_template("about.html")
     styleguide_template = env.get_template("styleguide.html")
+    typography_template = env.get_template("typography.html")
     # render the homepage
     render("./docs/index.html", home_template, name="GWG")
     # render the styleguide
     render("./docs/styleguide.html", styleguide_template)
+    render("./docs/typography.html", typography_template)
     # render the list of guides
     render("./docs/guides.html", guides_template)
     # render a guide page

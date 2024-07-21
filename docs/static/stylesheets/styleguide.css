@@ -106,6 +106,12 @@ body:before {
   --gwg-grid-gap-large: calc(var(--site-spacing-large) / 2);
 }
 
+:root {
+  --gwg-font-family: "Nunito Sans", sans-serif;
+  --gwg-font-weight-regular: 400;
+  --gwg-font-weight-bold: 700;
+}
+
 .gwg-visually-hidden {
   position: absolute !important;
   width: 1px !important;
@@ -193,10 +199,73 @@ body {
   font-family: "Montserrat", sans-serif;
   font-family: "Nunito Sans", sans-serif;
   color: var(--main-text-colour);
+  font-family: var(--gwg-font-family);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 a {
   color: var(--main-text-colour);
+}
+
+.gwg-body-l {
+  max-width: var(--large-body-text-width);
+  color: var(--main-text-colour);
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+@media (min-width: 46.25em) {
+  .gwg-body-l {
+    font-size: 1.5625rem;
+    line-height: 1.5;
+  }
+}
+@media (min-width: 46.25em) {
+  .gwg-body-l {
+    margin-bottom: 30px;
+  }
+}
+
+.gwg-body, .gwg-body-m {
+  max-width: var(--body-text-width);
+  color: var(--main-text-colour);
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+@media (min-width: 46.25em) {
+  .gwg-body, .gwg-body-m {
+    font-size: 1.25rem;
+    line-height: 1.5;
+  }
+}
+@media (min-width: 46.25em) {
+  .gwg-body, .gwg-body-m {
+    margin-bottom: 20px;
+  }
+}
+
+.gwg-body-s {
+  max-width: var(--body-text-width);
+  color: var(--main-text-colour);
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+@media (min-width: 46.25em) {
+  .gwg-body-s {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+}
+@media (min-width: 46.25em) {
+  .gwg-body-s {
+    margin-bottom: 20px;
+  }
 }
 
 .gwg-blog_heading {

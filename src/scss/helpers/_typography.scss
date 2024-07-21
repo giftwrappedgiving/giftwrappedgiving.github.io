@@ -1,0 +1,122 @@
+/// Regular font weight helper
+///
+/// @param {Boolean} $important [false] - Whether to mark declarations as
+///   `!important`. Generally Used to create override classes.
+/// @access public
+
+@mixin gwg-typography-weight-regular($important: false) {
+  font-weight: $gwg-font-weight-regular if($important, !important, null);
+}
+
+/// Bold font weight helper
+///
+/// @param {Boolean} $important [false] - Whether to mark declarations as
+///   `!important`. Generally Used to create override classes.
+/// @access public
+
+@mixin gwg-typography-weight-bold($important: false) {
+  font-weight: $gwg-font-weight-bold if($important, !important, null);
+}
+
+/// Convert line-heights specified in pixels into a relative value, unless
+/// they are already unit-less (and thus already treated as relative values)
+/// or the units do not match the units used for the font size.
+///
+/// @param {Number} $line-height Line height
+/// @param {Number} $font-size Font size
+/// @return {Number} The line height as either a relative value or unmodified
+///
+/// @access private
+
+@function _gwg-line-height($line-height, $font-size) {
+  @if not unitless($line-height) and unit($line-height) == unit($font-size) {
+    $line-height: $line-height / $font-size;
+  }
+
+  @return $line-height;
+}
+
+
+@mixin gwg-font-size($size, $line-height: false, $important: false) {
+  // Check for a font map exactly matching the given size
+  $font-map: map-get($gwg-typography-scale, $size);
+
+  // No match? Try with string type (e.g. $size: "16" not 16)
+  @if not $font-map {
+    @each $font-size in map-keys($gwg-typography-scale) {
+      @if not $font-map and #{$font-size} == #{$size} {
+        $font-map: map-get($gwg-typography-scale, $font-size);
+      }
+    }
+  }
+
+  // Still no match? Throw error
+  @if not $font-map {
+    @error "Unknown font size `#{$size}` - expected a point from the type scale.";
+  }
+
+  @each $breakpoint, $breakpoint-map in $font-map {
+    $font-size: map-get($breakpoint-map, "font-size");
+    $font-size-rem: gwg-px-to-rem($font-size);
+
+    // $calculated-line-height is a separate variable from $line-height,
+    // as otherwise the value would get redefined with each loop and
+    // eventually break _govuk-line-height.
+    //
+    // We continue to call the param $line-height to stay consistent with the
+    // naming with govuk-font.
+    $calculated-line-height: _gwg-line-height(
+      $line-height: if($line-height, $line-height, map-get($breakpoint-map, "line-height")),
+      $font-size: $font-size
+    );
+
+    // Mark rules as !important if $important is true - this will result in
+    // these variables becoming strings, so this needs to happen *after* they
+    // are used in calculations
+    $font-size: $font-size if($important, !important, null);
+    $font-size-rem: $font-size-rem if($important, !important, null);
+    $calculated-line-height: $calculated-line-height if($important, !important, null);
+
+    @if not $breakpoint {
+      font-size: $font-size-rem;
+      line-height: $calculated-line-height;
+    } @else if $breakpoint == "print" {
+      @include mq($media-type: print) {
+        font-size: $font-size;
+        line-height: $calculated-line-height;
+      }
+    } @else {
+      @include mq($from: $breakpoint) {
+        font-size: $font-size-rem;
+        line-height: $calculated-line-height;
+      }
+    }
+  }
+}
+
+/// Font helper
+///
+/// @param {Number | Boolean | String} $size Point from the type scale (the
+///   size as it would appear on tablet and above). Use `false` to avoid setting
+///   a size.
+/// @param {String} $weight [regular] - Weight: `bold` or `regular`
+/// @param {Boolean} $tabular [false] - Whether to use tabular numbers or not
+/// @param {Number} $line-height [false] - Line-height, if overriding the
+///   default
+///
+/// @throw if `$size` is not a valid point from the type scale (or false)
+///
+/// @access public
+
+@mixin gwg-font($size, $weight: regular, $line-height: false) {
+
+  @if $weight == regular {
+    @include gwg-typography-weight-regular;
+  } @else if $weight == bold {
+    @include gwg-typography-weight-bold;
+  }
+
+  @if $size {
+    @include gwg-font-size($size, $line-height);
+  }
+}
