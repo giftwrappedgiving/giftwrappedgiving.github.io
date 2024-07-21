@@ -1,0 +1,15 @@
+{% extends 'layouts/list.html' %}
+
+{% block listHeader %}
+<div class="gwg-article__content">
+  <h1>Blog</h1>
+</div>
+{% endblock %}
+
+{% block listContent %}
+<ul>
+  {% for slug, post in posts.items() %}
+  <li>{{ post.title }}</li>
+  {% endfor %}
+</ul>
+{% endblock %}
