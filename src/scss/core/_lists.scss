@@ -3,10 +3,57 @@ ul {
   padding: 0;
 }
 
-li {
-  list-style: none;
+%gwg-list {
+  @include gwg-font($size: 20);
+  color: var(--main-text-colour);
+  margin-top: 0;
+  @include gwg-responsive-margin(4, "bottom");
+  padding-left: 0;
+  list-style-type: none;
+
+  // Add a top margin for nested lists
+  %gwg-list {
+    margin-top: gwg-spacing(2);
+    margin-bottom: gwg-spacing(2);
+  }
 }
 
+%gwg-list > li {
+  margin-bottom: gwg-spacing(1);
+}
+
+.gwg-list {
+  @extend %gwg-list;
+}
+
+%gwg-list--bullet {
+  padding-left: gwg-spacing(4);
+  list-style-type: disc;
+}
+
+%gwg-list--number {
+  padding-left: gwg-spacing(4);
+  list-style-type: decimal;
+}
+
+%gwg-list--bullet > li,
+%gwg-list--number > li {
+  margin-bottom: 0;
+
+  @include mq($from: tablet) {
+    margin-bottom: gwg-spacing(1);
+  }
+}
+
+.gwg-list--bullet {
+  @extend %gwg-list--bullet;
+}
+
+.gwg-list--number {
+  @extend %gwg-list--number;
+}
+
+// ----------------------------------------------------------------
 
 .gwg-list {
   li {
