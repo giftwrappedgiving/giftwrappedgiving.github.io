@@ -208,6 +208,111 @@ a {
   color: var(--main-text-colour);
 }
 
+.gwg-heading-xl {
+  color: var(--main-text-colour);
+  font-weight: 700;
+  font-size: 2.625rem;
+  line-height: 1.0952380952;
+  display: block;
+  max-width: var(--large-heading-text-width);
+  margin-bottom: 30px;
+}
+@media (min-width: 46.25em) {
+  .gwg-heading-xl {
+    font-size: 3.75rem;
+    line-height: 1.0666666667;
+  }
+}
+@media (min-width: 46.25em) {
+  .gwg-heading-xl {
+    margin-bottom: 50px;
+  }
+}
+
+.gwg-heading-l {
+  color: var(--main-text-colour);
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.09375;
+  display: block;
+  max-width: var(--medium-heading-text-width);
+  margin-bottom: 20px;
+}
+@media (min-width: 46.25em) {
+  .gwg-heading-l {
+    font-size: 2.625rem;
+    line-height: 1.0952380952;
+  }
+}
+@media (min-width: 46.25em) {
+  .gwg-heading-l {
+    margin-bottom: 30px;
+  }
+}
+
+.gwg-heading-m {
+  color: var(--main-text-colour);
+  font-weight: 700;
+  font-size: 1.5625rem;
+  line-height: 1.2;
+  display: block;
+  max-width: var(--medium-heading-text-width);
+  margin-bottom: 15px;
+}
+@media (min-width: 46.25em) {
+  .gwg-heading-m {
+    font-size: 2rem;
+    line-height: 1.09375;
+  }
+}
+@media (min-width: 46.25em) {
+  .gwg-heading-m {
+    margin-bottom: 20px;
+  }
+}
+
+.gwg-heading-s {
+  color: var(--main-text-colour);
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.2;
+  display: block;
+  max-width: var(--small-heading-text-width);
+  margin-bottom: 15px;
+}
+@media (min-width: 46.25em) {
+  .gwg-heading-s {
+    font-size: 1.5625rem;
+    line-height: 1.28;
+  }
+}
+@media (min-width: 46.25em) {
+  .gwg-heading-s {
+    margin-bottom: 20px;
+  }
+}
+
+.gwg-heading-xs {
+  color: var(--main-text-colour);
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.3125;
+  display: block;
+  max-width: var(--large-body-text-width);
+  margin-bottom: 10px;
+}
+@media (min-width: 46.25em) {
+  .gwg-heading-xs {
+    font-size: 1.25rem;
+    line-height: 1.35;
+  }
+}
+@media (min-width: 46.25em) {
+  .gwg-heading-xs {
+    margin-bottom: 10px;
+  }
+}
+
 .gwg-body-l {
   max-width: var(--large-body-text-width);
   color: var(--main-text-colour);

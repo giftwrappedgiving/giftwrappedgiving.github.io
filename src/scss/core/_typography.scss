@@ -13,7 +13,84 @@ a {
   color: var(--main-text-colour);
 }
 
-// paragraphy "body" text
+////////////////////////////////
+/// Headings
+////////////////////////////////
+
+%gwg-heading-xl {
+  color: var(--main-text-colour);
+  @include gwg-font($size: 60, $weight: bold);
+
+  display: block;
+  max-width: var(--large-heading-text-width);
+
+  @include gwg-responsive-margin(8, "bottom");
+}
+
+.gwg-heading-xl {
+  @extend %gwg-heading-xl;
+}
+
+%gwg-heading-l {
+  color: var(--main-text-colour);
+  @include gwg-font($size: 42, $weight: bold);
+
+  display: block;
+  max-width: var(--medium-heading-text-width);
+
+  @include gwg-responsive-margin(6, "bottom");
+}
+
+.gwg-heading-l {
+  @extend %gwg-heading-l;
+}
+
+%gwg-heading-m {
+  color: var(--main-text-colour);
+  @include gwg-font($size: 32, $weight: bold);
+
+  display: block;
+  max-width: var(--medium-heading-text-width);
+
+  @include gwg-responsive-margin(4, "bottom");
+}
+
+.gwg-heading-m {
+  @extend %gwg-heading-m;
+}
+
+%gwg-heading-s {
+  color: var(--main-text-colour);
+  @include gwg-font($size: 25, $weight: bold);
+
+  display: block;
+  max-width: var(--small-heading-text-width);
+
+  @include gwg-responsive-margin(4, "bottom");
+}
+
+.gwg-heading-s {
+  @extend %gwg-heading-s;
+}
+
+%gwg-heading-xs {
+  color: var(--main-text-colour);
+  @include gwg-font($size: 20, $weight: bold);
+
+  display: block;
+  max-width: var(--large-body-text-width);
+
+  @include gwg-responsive-margin(2, "bottom");
+}
+
+.gwg-heading-xs {
+  @extend %gwg-heading-xs;
+}
+
+
+////////////////////////////////
+/// paragraphy "body" text
+////////////////////////////////
 
 %gwg-body-l {
   max-width: var(--large-body-text-width);
