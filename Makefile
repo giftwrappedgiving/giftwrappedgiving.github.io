@@ -9,6 +9,7 @@ init::
 
 
 sync-reqs::
+	python -m pip install --upgrade pip
 	python -m piptools compile requirements/dev-requirements.in
 	python -m piptools compile requirements/requirements.in
 	python -m piptools sync requirements/requirements.txt requirements/dev-requirements.txt
