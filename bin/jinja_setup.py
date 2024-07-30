@@ -1,5 +1,8 @@
 import os
+
 import jinja2
+
+from bin.jinja_filters import render_markdown_filter
 
 
 def setup_jinja():
@@ -9,7 +12,13 @@ def setup_jinja():
             jinja2.FileSystemLoader(searchpath=["./templates"]),
         ]
     )
-    return jinja2.Environment(loader=multi_loader)
+    env = jinja2.Environment(loader=multi_loader)
+    return register_filters(env)
+
+
+def register_filters(env):
+    env.filters["render_markdown"] = render_markdown_filter
+    return env
 
 
 def render(path, template, **kwargs):

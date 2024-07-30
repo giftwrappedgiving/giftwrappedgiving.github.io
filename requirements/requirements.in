@@ -1,3 +1,5 @@
 Jinja2
 Markdown
 python-frontmatter
+python-slugify
+beautifulsoup4

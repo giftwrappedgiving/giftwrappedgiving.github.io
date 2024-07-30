@@ -8,8 +8,12 @@
 
 <article class="gwg-article">
   <div class="gwg-width-container">
-    {% block articleHead %}{% endblock articleHead %}
-    {% block articleBody %}{% endblock articleBody %}
+    {% block articleHead %}
+    <h1 class="gwg-heading-xl">{{ fm.title }}</h1>
+    {% endblock articleHead %}
+    {% block articleBody %}
+    {{ content.main|render_markdown }}
+    {% endblock articleBody %}
     {% block articleEnd %}{% endblock articleEnd %}
   </div>
 </article>
