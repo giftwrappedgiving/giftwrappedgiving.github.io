@@ -140,3 +140,35 @@ a {
 .gwg-body {
   @extend %gwg-body-m;
 }
+
+// =========================================================================
+// Contextual adjustments
+// Add top padding to headings that appear directly after paragraphs.
+// =========================================================================
+
+%gwg-body-l + %gwg-heading-l {
+  padding-top: gwg-spacing(2);
+
+  @include mq($from: tablet) {
+    padding-top: gwg-spacing(3);
+  }
+}
+
+%gwg-body-m + %gwg-heading-l,
+%gwg-body-s + %gwg-heading-l,
+%gwg-list + %gwg-heading-l {
+  @include gwg-responsive-padding(6, "top");
+}
+
+%gwg-body-m + %gwg-heading-m,
+%gwg-body-s + %gwg-heading-m,
+%gwg-list + %gwg-heading-m,
+%gwg-body-m + %gwg-heading-s,
+%gwg-body-s + %gwg-heading-s,
+%gwg-list + %gwg-heading-s {
+  padding-top: gwg-spacing(2);
+
+  @include mq($from: tablet) {
+    padding-top: gwg-spacing(3);
+  }
+}
