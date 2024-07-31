@@ -45,7 +45,7 @@ def generate_posts_idx(posts, base_path="content/blog"):
             )
         else:
             print(f"File {file_path} does not exist.")
-    return dict(sorted(posts.items(), key=lambda x: x[1]["created_date"]))
+    return dict(sorted(posts.items(), key=lambda x: x[1]["created_date"], reverse=True))
 
 
 def generate_blog_posts(path_to_post):

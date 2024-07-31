@@ -9,6 +9,7 @@
 }
 
 .gwg-blog-item {
+  list-style: none;
   --gwg-blog-item-bottom-margin: var(--site-spacing);
   margin-bottom: calc(var(--gwg-blog-item-bottom-margin) * 2);
 
