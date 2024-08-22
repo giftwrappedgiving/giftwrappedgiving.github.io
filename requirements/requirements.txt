@@ -12,6 +12,8 @@ markdown==3.6
     # via -r requirements/requirements.in
 markupsafe==2.1.5
     # via jinja2
+python-box==7.2.0
+    # via -r requirements/requirements.in
 python-frontmatter==1.1.0
     # via -r requirements/requirements.in
 python-slugify==8.0.4

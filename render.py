@@ -4,6 +4,7 @@ from datetime import datetime
 import frontmatter
 from markdown import markdown
 
+from bin.data_helpers import read_json_as_dict
 from bin.jinja_setup import render, setup_jinja
 from bin.markdown_files import get_front_matter
 
@@ -96,6 +97,13 @@ def generate_blog():
     print(posts_idx)
 
 
+def generate_guides():
+    editors = read_json_as_dict("data/guides/editors.json", raw=False)
+    guide_template = env.get_template("guide-layout.html")
+    render("./docs/guide/editors-picks/index.html", guide_template, gifts=editors.gifts)
+    print(editors)
+
+
 def generate_pages():
     home_template = env.get_template("home.html")
     guides_template = env.get_template("guides.html")
@@ -119,3 +127,4 @@ def generate_pages():
 
 if __name__ == "__main__":
     generate_pages()
+    generate_guides()

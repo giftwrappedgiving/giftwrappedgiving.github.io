@@ -1,0 +1,36 @@
+{% extends 'layouts/base.html' %}
+{% from 'components/gift.html' import gwgGift %}
+
+{% block header %}
+{% include 'components/site-nav.html' %}
+{% endblock %}
+
+{% block content %}
+{{ gwgHero({
+  "classes": "gwg-hero--guide"
+}) }}
+
+<section class="gwg-gallery">
+  <ul>
+    {% for gift in gifts %}
+    <li class="gwg-gallery__gift">
+    {{ gwgGift({
+      "title": gift.name,
+      "desc": gift.description,
+      "img": {
+        "url": gift.image.url if gift.image,
+        "alt": ""
+      },
+      "shop": gift.shop,
+      "btn": {
+        "label": "Go to gift",
+        "url": gift.gift_url
+      }
+    }) }}
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+
+{% include 'components/footer.html' %}
+{% endblock %}
