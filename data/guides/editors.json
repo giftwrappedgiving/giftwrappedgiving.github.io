@@ -1,0 +1,155 @@
+{
+  "name": "Editors' picks",
+  "gifts": [
+    {
+      "name": "Ember mug 2",
+      "shop": "Ember",
+      "gift_url": "https://uk.ember.com/products/ember-mug-2?variant=41744754573482",
+      "description": "The mug you didn't know you need but absolutely do",
+      "image": {
+        "url": "/static/images/gifts/ember-mug-emerald-green.jpeg",
+        "alt_text": ""
+      }
+    },
+    {
+      "name": "SURI Sustainable Electric Toothbrush",
+      "shop": "SURI",
+      "gift_url": "https://amzn.to/4dpDyd8",
+      "description": "",
+      "image": {
+        "url": "/static/images/gifts/suri_toothbrish_green-no-background.png",
+        "alt_text": "Image of SURI Sustainable Electric Toothbrush. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "RAINS Classic Jacket",
+      "shop": "RAINS",
+      "gift_url": "https://www.uk.rains.com/collections/jacket/products/jacket-female?variant=39580159213651",
+      "description": "",
+      "image": {
+        "url": "/static/images/gifts/rains-jacket-classic-mid-length.jpeg",
+        "alt_text": "Image of RAINS Classic Jacket. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "FOREO Luna mini facial cleansing brush",
+      "shop": "FOREO",
+      "gift_url": "https://amzn.to/3SWSMhr",
+      "description": "A great facial cleanser that you can travel with.",
+      "image": {
+        "url": "/static/images/gifts/foreo-luna-facial-cleanser.jpg",
+        "alt_text": "Image of FOREO Luna mini facial cleansing brush. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Marshall travel speaker (mini)",
+      "shop": "Marshall",
+      "gift_url": "https://www.marshall.com/gb/en/product/willen-ii?pid=1006714",
+      "description": "Stylish and portable with a great sound. This is the ideal speaker to take away with you.",
+      "image": {
+        "url": "/static/images/gifts/willen-ii-travel-speaker-marshall.jpeg",
+        "alt_text": "Image of Marshall travel speaker (mini). A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Votch Watch Gift Set",
+      "shop": "Votch",
+      "gift_url": "https://votch.co.uk/collections/gift-sets/products/rose-gold-slate-grey-moment-gift-set",
+      "description": "",
+      "image": {
+        "url": "/static/images/gifts/Votch_GiftBox_watch.jpg",
+        "alt_text": "Image of Votch Watch Gift Set. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Kitchen aid classic mixer",
+      "shop": "KitchenAid",
+      "gift_url": "https://amzn.to/3yXSUqd",
+      "description": "The mixer we all want but struggle to justify. Do it, you know you want to.",
+      "image": {
+        "url": "/static/images/gifts/kitchen-aid-classic-mixer.jpg",
+        "alt_text": "Image of Kitchen aid classic mixer. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Away carry on luggage",
+      "shop": "Away",
+      "gift_url": "https://www.awaytravel.com/uk/en/luggage/carry-on/navy",
+      "description": "Travel in style with the perfect carry-on suitcase from Away. Feeling cool? Opt for the suitcase with built-in battery for all your charging needs.",
+      "image": {
+        "url": "/static/images/gifts/away_carry_on_luggage.jpg",
+        "alt_text": "Image of Away carry on luggage. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Opinel Bread Knife",
+      "shop": "Amazon",
+      "gift_url": "https://amzn.to/46ZUpkj",
+      "description": "",
+      "image": {
+        "url": "/static/images/gifts/opinel-bread-knife-2.jpg",
+        "alt_text": "Image of Opinel Bread Knife. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Family sleep spray duo",
+      "shop": "thisworks",
+      "gift_url": "https://www.thisworks.com/products/parent-baby-sleep-duo",
+      "description": "Want to sleep well? Want the whole family to sleep well? This pair of sprays is the your answer",
+      "image": {
+        "url": "/static/images/gifts/family-sleep-spray-pair.jpeg",
+        "alt_text": "Image of Family sleep spray duo. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "MEATER meat thermometer",
+      "shop": "MEATER",
+      "gift_url": "https://store-uk.meater.com/products/meater-2-plus",
+      "description": "Cook to perfection every time with the best smart thermometer there is",
+      "image": {
+        "url": "/static/images/gifts/meater-meat-thermometer.jpeg",
+        "alt_text": "Image of MEATER meat thermometer. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Foldable Bike Helmet",
+      "shop": "Freddie Grubb",
+      "gift_url": "https://amzn.to/4fRDqVs",
+      "description": "",
+      "image": {
+        "url": "/static/images/gifts/Closca-Helmet-Loop-Graphite-Black.jpg",
+        "alt_text": "Image of Foldable Bike Helmet. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Allbirds Tree runners",
+      "shop": "Allbirds",
+      "gift_url": "https://www.allbirds.co.uk/products/womens-tree-runners-kaikoura-white",
+      "description": "",
+      "image": {
+        "url": "/static/images/gifts/all-birds-tree-runner.jpeg",
+        "alt_text": "Image of Allbirds Tree runners. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Fujifilm Instax mini evo instant camera",
+      "shop": "John Lewis",
+      "gift_url": "https://www.johnlewis.com/fujifilm-instax-mini-evo-instant-camera-with-built-in-flash/brown/p6058439?srsltid=AfmBOoqYA_aJb8wN12oMeEK5-RQhLLkJPxSU5QVLepd2RWc0hL5YseuaBZs",
+      "description": "",
+      "image": {
+        "url": "/static/images/gifts/fujifilm-instax-min-evo-camera.webp",
+        "alt_text": "Image of Fujifilm Instax mini evo instant camera. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Slip silk eye mask",
+      "shop": "Slip",
+      "gift_url": "https://www.slipsilkpillowcase.co.uk/products/sleep-mask-pink",
+      "description": "Treat your eyes with the luxurious slip eye mask. Soft, delicate and a joy to sleep in.",
+      "image": {
+        "url": "/static/images/gifts/slip-slik-eye-mack-classic.jpeg",
+        "alt_text": "Image of Slip silk eye mask. A great gift to give someone special."
+      }
+    }
+  ]
+}
