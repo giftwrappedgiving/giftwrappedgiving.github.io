@@ -42,6 +42,8 @@ watch::
 render::
 	python render.py
 
+guides::	copy-imgs render
+
 gwg:: copy-imgs build render
 
 serve:
