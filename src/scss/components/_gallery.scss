@@ -1,8 +1,10 @@
 .gwg-gallery__container {
   padding: var(--site-spacing);
+  padding-bottom: calc(2 * var(--site-spacing));
 
   @include mq($from: tablet) {
     padding: var(--site-spacing-large);
+    padding-bottom: calc(2 * var(--site-spacing-large))
   }
 }
 
