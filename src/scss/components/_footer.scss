@@ -1,8 +1,12 @@
 .gwg-footer {
   --footer-background-colour: var(--highlight-background-color);
 
-  padding: var(--site-spacing);
+  padding: calc(2 * var(--site-spacing)) var(--site-spacing);
   background: var(--footer-background-colour);
+
+  @include mq($from: tablet) {
+    padding: calc(2 * var(--site-spacing-large)) var(--site-spacing-large) ;
+  }
 }
 
 .gwg-footer__title {
