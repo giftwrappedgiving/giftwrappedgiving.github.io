@@ -98,6 +98,11 @@ def generate_blog():
     print(posts_idx)
 
 
+def create_html_path(filename):
+    slug = strip_extension(filename)
+    return f"./docs/{slug.replace('data/', '')}/index.html"
+
+
 def generate_guides():
     guide_template = env.get_template("guide-layout.html")
     guides_template = env.get_template("guides.html")
@@ -108,9 +113,10 @@ def generate_guides():
     for guide_filename in json_files:
 
         guide = read_json_as_dict(guide_filename, raw=False)
-        html_path = f"./docs/guide/{strip_extension(guide_filename)}/index.html"
+        html_path = create_html_path(guide_filename)
+        guide_slug = html_path.replace("./docs", "", 1).replace("index.html", "")
         render(html_path, guide_template, guide=guide)
-        guides.append((guide.name, html_path.replace("./docs", "", 1)))
+        guides.append((guide.name, guide_slug))
         print(f"Created guide: {html_path}")
 
     # To do: order by something other than alphabetical
