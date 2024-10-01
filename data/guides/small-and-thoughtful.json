@@ -1,0 +1,76 @@
+{
+  "name": "Small and thoughtful",
+  "tagline": "A collection of gifts that are small on price but big on thoughtful. Perfect when you just need to get a little something.",
+  "gifts": [
+    {
+      "name": "Halen Mon sea salt in ceramic jar",
+      "shop": "Sous chef",
+      "gift_url": "https://www.souschef.co.uk/products/halen-mon-pure-sea-salt-in-watercolour-ceramic-jar-100g",
+      "description": "Any budding chiefs in the house? Get them the salt of choice for chefs around the world. A perfect little helper.",
+      "image": {
+        "url": "/static/images/gifts/HalenMon-pure-sea-salt-ceramic-jar.jpeg",
+        "alt_text": "Image of Halen Mon sea salt in ceramic jar. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Peace out puffy eyes",
+      "shop": "Cult beauty",
+      "gift_url": "https://www.cultbeauty.co.uk/p/peace-out-peace-out-puffy-eyes/13312609/",
+      "description": "Lets be honest we could all do with a little pick me up from time to time. These are the remedy. 15 mins and tiredness be gone.",
+      "image": {
+        "url": "/static/images/gifts/peace-out-puffy-eyes.jpeg",
+        "alt_text": "Image of Peace out puffy eyes. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Coco Drinking Chocolate",
+      "shop": "Coco Chocolatier",
+      "gift_url": "https://cocochocolatier.com/products/colombian-plain-drinking-chocolate",
+      "description": "Smooth, rich, luxurious! A real treat!",
+      "image": {
+        "url": "/static/images/gifts/COCO_DC_Colombian_1000x1000_crop_center.jpg",
+        "alt_text": "Image of Coco Drinking Chocolate. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Black coffee scoop clip",
+      "shop": "Peace with the wild",
+      "gift_url": "https://www.peacewiththewild.co.uk/product/black-coffee-scoop-clip/",
+      "description": "A classic item for a homemaker, coffee lover or just about anyone. Also available in gold, silver and rose gold.",
+      "image": {
+        "url": "/static/images/gifts/green-island-coffee-scoop-black-03.jpg",
+        "alt_text": "Image of Black coffee scoop clip. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Tunnock's mug",
+      "shop": "Gillian Kyle",
+      "gift_url": "https://www.gilliankyle.com/products/caramel-wafer-repeat-chunky-mug",
+      "description": "Who doesn't love a Tunnocks right? Exactly, so why not get them a matching mug for their accompanying brew.",
+      "image": {
+        "url": "/static/images/gifts/love_tunnocks_mug.jpg",
+        "alt_text": "Image of Tunnock's mug. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Lip Balm by Le Labo",
+      "shop": "John Lewis",
+      "gift_url": "https://www.johnlewis.com/le-labo-lip-balm-15ml/p3763684",
+      "description": "A high quality, plant-based lip balm perfect for a handbag, pocket or kitbag.",
+      "image": {
+        "url": "/static/images/gifts/lip_balm_by_le_labo.jpeg",
+        "alt_text": "Image of Lip Balm by Le Labo. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Seedball Mini-Meadow",
+      "shop": "Peace with the wild",
+      "gift_url": "https://www.peacewiththewild.co.uk/product/seedball-mini-meadow-bamboo-pots-garden-meadow/",
+      "description": "A great little kit for the green and non-green-fingered alike. Bamboo pots, wildflower seedballs and a promise of bloom. Lovely stuff.",
+      "image": {
+        "url": "/static/images/gifts/seedball-mini-meadow-bamboo-pots-garden-meadow.jpg",
+        "alt_text": "Image of Seedball Mini-Meadow. A great gift to give someone special."
+      }
+    }
+  ]
+}

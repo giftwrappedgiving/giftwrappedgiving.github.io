@@ -5,6 +5,7 @@ import frontmatter
 from markdown import markdown
 
 from bin.data_helpers import read_json_as_dict
+from bin.file_helpers import get_json_files, strip_extension
 from bin.jinja_setup import render, setup_jinja
 from bin.markdown_files import get_front_matter
 
@@ -98,10 +99,15 @@ def generate_blog():
 
 
 def generate_guides():
-    editors = read_json_as_dict("data/guides/editors.json", raw=False)
     guide_template = env.get_template("guide-layout.html")
-    render("./docs/guide/editors-picks/index.html", guide_template, guide=editors)
-    print(editors)
+    json_files = get_json_files("data/guides/")
+
+    for guide_filename in json_files:
+
+        guide = read_json_as_dict(guide_filename, raw=False)
+        html_path = f"./docs/guide/{strip_extension(guide_filename)}/index.html"
+        render(html_path, guide_template, guide=guide)
+        print(f"Created guide: {html_path}")
 
 
 def generate_pages():
