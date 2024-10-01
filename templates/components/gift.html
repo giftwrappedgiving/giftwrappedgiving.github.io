@@ -1,13 +1,13 @@
 {% macro gwgGift(params) %}
-<div class="gwg-gift">
-  <div class="gwg-gift__content">
-    <h3 class="gwg-gift__title">{{ params.title }}</h3>
-    <p class="gwg-gift__desc">{{ params.desc }}</p>
+<div class="{{ params.class_prefix if params.class_prefix else 'gwg-gift' }}">
+  <div class="{{ params.class_prefix if params.class_prefix else 'gwg-gift' }}__content">
+    <h3 class="{{ params.class_prefix if params.class_prefix else 'gwg-gift' }}__title">{{ params.title }}</h3>
+    <p class="{{ params.class_prefix if params.class_prefix else 'gwg-gift' }}__desc">{{ params.desc }}</p>
   </div>
-  <div class="gwg-gift__image">
+  <div class="{{ params.class_prefix if params.class_prefix else 'gwg-gift' }}__image">
     <img src="{{ params.img.url }}" alt="{{ params.img.alt }}">
   </div>
-  <div class="gwg-gift__footer">
+  <div class="{{ params.class_prefix if params.class_prefix else 'gwg-gift' }}__footer">
     <span>{{ params.shop }}</span>
     <a href="{{ params.btn.url }}">{{ params.btn.label }}</a>
   </div>

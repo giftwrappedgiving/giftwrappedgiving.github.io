@@ -10,11 +10,11 @@
   "classes": "gwg-hero--guide"
 }) }}
 
-<section class="gwg-gallery">
-  <ul>
+<section class="gwg-gallery__container">
+  <div class="gwg-gallery">
     {% for gift in gifts %}
-    <li class="gwg-gallery__gift">
     {{ gwgGift({
+      "class_prefix": "gwg-gallery__gift",
       "title": gift.name,
       "desc": gift.description,
       "img": {
@@ -27,9 +27,8 @@
         "url": gift.gift_url
       }
     }) }}
-    </li>
     {% endfor %}
-  </ul>
+  </div>
 </section>
 
 {% include 'components/footer.html' %}
