@@ -100,6 +100,9 @@ def generate_blog():
 
 def generate_guides():
     guide_template = env.get_template("guide-layout.html")
+    guides_template = env.get_template("guides.html")
+    guides = []
+
     json_files = get_json_files("data/guides/")
 
     for guide_filename in json_files:
@@ -107,12 +110,18 @@ def generate_guides():
         guide = read_json_as_dict(guide_filename, raw=False)
         html_path = f"./docs/guide/{strip_extension(guide_filename)}/index.html"
         render(html_path, guide_template, guide=guide)
+        guides.append((guide.name, html_path.replace("./docs", "", 1)))
         print(f"Created guide: {html_path}")
+
+    # To do: order by something other than alphabetical
+    # render the list of guides
+    render("./docs/guides.html", guides_template, guides=guides)
+    print("Generate guide list page")
 
 
 def generate_pages():
     home_template = env.get_template("home.html")
-    guides_template = env.get_template("guides.html")
+
     guide_template = env.get_template("guide.html")
     about_template = env.get_template("about.html")
     styleguide_template = env.get_template("styleguide.html")
@@ -122,8 +131,6 @@ def generate_pages():
     # render the styleguide
     render("./docs/styleguide.html", styleguide_template)
     render("./docs/typography.html", typography_template)
-    # render the list of guides
-    render("./docs/guides.html", guides_template)
     # render a guide page
     render("./docs/guide.html", guide_template)
     # render a about page

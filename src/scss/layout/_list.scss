@@ -1,5 +1,21 @@
 .gwg-list__container {
-  --top-padding: 100px;
+  --top-offset: calc(50px + var(--site-spacing)); // height of bar (50ish) + site spacing
+  --list-vertical-extents-padding: 65px;
+  --list-side-padding: var(--site-spacing);
 
-  padding: var(--top-padding) var(--site-spacing) var(--site-spacing);
+  padding: var(--top-offset) var(--list-side-padding) var(--list-vertical-extents-padding);
+
+  @include mq($from: tablet) {
+    --top-offset: calc(50px + var(--site-spacing-large));
+    --list-vertical-extents-padding: 85px;
+    --list-side-padding: var(--site-spacing-large);
+  }
+}
+
+.gwg-list__header {
+  margin: var(--list-vertical-extents-padding) 0;
+
+  h1 {
+    @include gwg-font($size: 60, $weight: bold);
+  }
 }
