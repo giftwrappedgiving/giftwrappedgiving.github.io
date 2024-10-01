@@ -1,5 +1,14 @@
 {% macro gwgHero(params) %}
 <section class="gwg-hero{{ ' ' + params.classes if params.classes }}">
-  {{ params.content.html if params.content }}
+  {% if params.content %}
+  {{- params.content.html -}}
+  {% else %}
+  <div class="gwg-hero__container">
+    <h1 class="gwg-hero__title">{{ params.title if params.title }}</h1>
+    {%- if params.tagline %}
+    <p class="gwg-hero__tagline">{{ params.tagline }}</p>
+    {% endif -%}
+  </div>
+  {% endif %}
 </section>
 {% endmacro %}

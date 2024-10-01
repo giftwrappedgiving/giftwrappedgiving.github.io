@@ -100,7 +100,7 @@ def generate_blog():
 def generate_guides():
     editors = read_json_as_dict("data/guides/editors.json", raw=False)
     guide_template = env.get_template("guide-layout.html")
-    render("./docs/guide/editors-picks/index.html", guide_template, gifts=editors.gifts)
+    render("./docs/guide/editors-picks/index.html", guide_template, guide=editors)
     print(editors)
 
 

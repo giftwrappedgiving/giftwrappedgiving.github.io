@@ -1,14 +1,17 @@
 :root {
   --main-hero-height: 75vh;
-  --gift-guide-hero-height: 55vh;
+  --gift-guide-hero-height: 60vh;
 }
 
 .gwg-hero {
   --hero-background-colour: var(--highlight-background-color);
   background: var(--hero-background-colour);
   height: var(--main-hero-height);
+  // height of bar (50ish) + site spacing
+  padding-top: calc(50px + var(--site-spacing));
 
   @include mq($from: tablet) {
+    padding-top: calc(50px + var(--site-spacing-large));
     // color-mix would need a fallback
     background-color: color-mix(in srgb, var(--hero-background-colour) 75%, black);;
   }
@@ -16,4 +19,40 @@
 
 .gwg-hero--guide {
   height: var(--gift-guide-hero-height);
+}
+
+
+.gwg-hero__container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  padding: var(--site-spacing);
+  justify-content: center;
+  flex-direction: column;
+
+  @include mq($from: tablet) {
+    padding: var(--site-spacing-large);
+    align-items: center;
+  }
+}
+
+
+.gwg-hero__title {
+  @include gwg-font($size: 85, $weight: bold);
+  color: var(--main-text-colour);
+  letter-spacing: 2px;
+}
+
+.gwg-hero__tagline {
+  display: block;
+  @include gwg-font($size: 25);
+  margin-top: var(--site-spacing-half);
+  // feels like a guess
+  // To do: improve this
+  max-width: 29em;
+  line-height: 1.4;
+
+  @include mq($from: tablet) {
+    text-align: center;
+  }
 }

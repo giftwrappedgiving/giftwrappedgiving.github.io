@@ -7,12 +7,14 @@
 
 {% block content %}
 {{ gwgHero({
-  "classes": "gwg-hero--guide"
+  "classes": "gwg-hero--guide",
+  "title": guide.name,
+  "tagline": guide.tagline
 }) }}
 
 <section class="gwg-gallery__container">
   <div class="gwg-gallery">
-    {% for gift in gifts %}
+    {% for gift in guide.gifts %}
     {{ gwgGift({
       "class_prefix": "gwg-gallery__gift",
       "title": gift.name,
