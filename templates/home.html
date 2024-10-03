@@ -15,78 +15,25 @@
       <h2>Editors' picks</h2>
     </div>
     <div class="gwg-gift-carousel">
-      <div class="gwg-gift">
-        <div class="gwg-gift__content">
-          <h3 class="gwg-gift__title">Test product</h3>
-          <p class="gwg-gift__desc">This is a short description of the product and why its a good one.</p>
-        </div>
-        <div class="gwg-gift__image">
-          <img src="/static/images/product-example-unsplash.jpg" alt="">
-        </div>
-        <div class="gwg-gift__footer">
-          <span>From Shop</span>
-          <a href="#">Go to gift</a>
-        </div>
-      </div>
+      {%- for gift in gifts %}
       {{ gwgGift({
-        "title": "Product 1",
-        "desc": "This is a short description of the product and why its a good one. Extra, extra description content.",
+        "title": gift.name,
+        "desc": gift.description,
         "img": {
-          "url": "/static/images/product-example-unsplash.jpg",
+          "url": gift.image.url if gift.image,
           "alt": ""
         },
-        "shop": "Amazon",
+        "shop": gift.shop,
         "btn": {
           "label": "Go to gift",
-          "url": "#"
+          "url": gift.gift_url
         }
       }) }}
-
-      {{ gwgGift({
-        "title": "Product 2",
-        "desc": "This is a short description of the product and why its a good one.",
-        "img": {
-          "url": "/static/images/product-example-unsplash.jpg",
-          "alt": ""
-        },
-        "shop": "Amazon",
-        "btn": {
-          "label": "Go to gift",
-          "url": "#"
-        }
-      }) }}
-
-      {{ gwgGift({
-        "title": "Product 3",
-        "desc": "This is a short description of the product and why its a good one.",
-        "img": {
-          "url": "/static/images/product-example-unsplash.jpg",
-          "alt": ""
-        },
-        "shop": "Amazon",
-        "btn": {
-          "label": "Go to gift",
-          "url": "#"
-        }
-      }) }}
-
-      {{ gwgGift({
-        "title": "Product 4",
-        "desc": "This is a short description of the product and why its a good one.",
-        "img": {
-          "url": "/static/images/product-example-unsplash.jpg",
-          "alt": ""
-        },
-        "shop": "Amazon",
-        "btn": {
-          "label": "Go to gift",
-          "url": "#"
-        }
-      }) }}
+      {% endfor -%}
     </div>
 
     <div class="gwg-section__content">
-      <a href="guide.html">View all gifts</a>
+      <a href="guides/editors-picks">View all gifts</a>
     </div>
   </div>
 </section>

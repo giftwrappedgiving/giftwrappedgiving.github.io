@@ -125,15 +125,22 @@ def generate_guides():
     print("Generate guide list page")
 
 
-def generate_pages():
+def generate_homepage():
     home_template = env.get_template("home.html")
+    editorspicks = read_json_as_dict("data/guides/editors-picks.json", raw=False)
+    # gifts for homepage
+    gifts = [gift for gift in editorspicks.gifts if hasattr(gift, "homepage")]
+    # render the homepage
+    render("./docs/index.html", home_template, name="GWG", gifts=gifts)
 
+
+def generate_pages():
+    generate_homepage()
     guide_template = env.get_template("guide.html")
     about_template = env.get_template("about.html")
     styleguide_template = env.get_template("styleguide.html")
     typography_template = env.get_template("typography.html")
-    # render the homepage
-    render("./docs/index.html", home_template, name="GWG")
+
     # render the styleguide
     render("./docs/styleguide.html", styleguide_template)
     render("./docs/typography.html", typography_template)

@@ -1,6 +1,8 @@
 {
   "name": "Editors' picks",
   "tagline": "A collection of our absolute favourite gifts. There is a guaranteed winner in here.",
+  "entry-date": "2024-09-30",
+  "update-date": "2024-10-03",
   "gifts": [
     {
       "name": "Ember mug 2",
@@ -10,7 +12,8 @@
       "image": {
         "url": "/static/images/gifts/ember-mug-emerald-green.jpeg",
         "alt_text": ""
-      }
+      },
+      "homepage": true
     },
     {
       "name": "SURI Sustainable Electric Toothbrush",
@@ -50,7 +53,8 @@
       "image": {
         "url": "/static/images/gifts/willen-ii-travel-speaker-marshall.jpeg",
         "alt_text": "Image of Marshall travel speaker (mini). A great gift to give someone special."
-      }
+      },
+      "homepage": true
     },
     {
       "name": "Votch Watch Gift Set",
@@ -60,7 +64,8 @@
       "image": {
         "url": "/static/images/gifts/Votch_GiftBox_watch.jpg",
         "alt_text": "Image of Votch Watch Gift Set. A great gift to give someone special."
-      }
+      },
+      "homepage": true
     },
     {
       "name": "Kitchen aid classic mixer",
@@ -140,7 +145,8 @@
       "image": {
         "url": "/static/images/gifts/fujifilm-instax-min-evo-camera.webp",
         "alt_text": "Image of Fujifilm Instax mini evo instant camera. A great gift to give someone special."
-      }
+      },
+      "homepage": true
     },
     {
       "name": "Slip silk eye mask",
@@ -150,7 +156,8 @@
       "image": {
         "url": "/static/images/gifts/slip-slik-eye-mack-classic.jpeg",
         "alt_text": "Image of Slip silk eye mask. A great gift to give someone special."
-      }
+      },
+      "homepage": true
     }
   ]
 }
