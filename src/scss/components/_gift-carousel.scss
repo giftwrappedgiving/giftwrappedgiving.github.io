@@ -25,11 +25,16 @@
     repeat(5, var(--gift-card-width))
     var(--grid-gap);
   grid-auto-flow: column;
-  overflow-x: scroll;
 
   &:before,
   &:after {
     content: '';
     width: var(--grid-gap);
   }
+}
+
+.gwg-gift-carousel__container {
+  // making room for scroll bar
+  padding-bottom: var(--site-spacing-half-large);
+  overflow-x: scroll;
 }

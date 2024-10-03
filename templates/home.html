@@ -14,22 +14,25 @@
     <div class="gwg-section__header">
       <h2>Editors' picks</h2>
     </div>
-    <div class="gwg-gift-carousel">
-      {%- for gift in gifts %}
-      {{ gwgGift({
-        "title": gift.name,
-        "desc": gift.description,
-        "img": {
-          "url": gift.image.url if gift.image,
-          "alt": ""
-        },
-        "shop": gift.shop,
-        "btn": {
-          "label": "Go to gift",
-          "url": gift.gift_url
-        }
-      }) }}
-      {% endfor -%}
+
+    <div class="gwg-gift-carousel__container">
+      <div class="gwg-gift-carousel">
+        {%- for gift in gifts %}
+        {{ gwgGift({
+          "title": gift.name,
+          "desc": gift.description,
+          "img": {
+            "url": gift.image.url if gift.image,
+            "alt": ""
+          },
+          "shop": gift.shop,
+          "btn": {
+            "label": "Go to gift",
+            "url": gift.gift_url
+          }
+        }) }}
+        {% endfor -%}
+      </div>
     </div>
 
     <div class="gwg-section__content">
