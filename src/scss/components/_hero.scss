@@ -57,3 +57,9 @@
     text-align: center;
   }
 }
+
+.gwg-hero--home {
+  .gwg-hero__title {
+    @include gwg-font($size: 120, $weight: bold);
+  }
+}

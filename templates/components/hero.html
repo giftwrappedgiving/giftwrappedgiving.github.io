@@ -4,7 +4,11 @@
   {{- params.content.html -}}
   {% else %}
   <div class="gwg-hero__container">
-    <h1 class="gwg-hero__title">{{ params.title if params.title }}</h1>
+    {%- if params.title and params.title.html %}
+    {{ params.title.html }}
+    {% else -%}
+    <h1 class="gwg-hero__title">{{ params.title.content if params.title }}</h1>
+    {%- endif %}
     {%- if params.tagline %}
     <p class="gwg-hero__tagline">{{ params.tagline }}</p>
     {% endif -%}

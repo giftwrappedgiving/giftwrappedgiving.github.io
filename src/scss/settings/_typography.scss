@@ -36,6 +36,16 @@ $gwg-root-font-size: 16px !default;
 /// @type Map
 ///
 $gwg-typography-scale: (
+  120: (
+    null: (
+      font-size: 85px,
+      line-height: 85px
+    ),
+    tablet: (
+      font-size: 120px,
+      line-height: 120px
+    )
+  ),
   85: (
     null: (
       font-size: 60px,

@@ -8,7 +8,9 @@
 {% block content %}
 {{ gwgHero({
   "classes": "gwg-hero--guide",
-  "title": guide.name,
+  "title": {
+    "content": guide.name
+  },
   "tagline": guide.tagline
 }) }}
 
