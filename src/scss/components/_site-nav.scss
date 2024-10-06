@@ -54,6 +54,8 @@
 
   li {
     padding: var(--site-spacing) 0;
+    @include gwg-font($size: 20);
+    list-style: none;
   }
 }
 
