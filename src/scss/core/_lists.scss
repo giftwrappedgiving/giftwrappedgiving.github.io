@@ -61,6 +61,14 @@ ul {
   }
 }
 
+.gwg-list--guide {
+  padding: 0 var(--site-spacing);
+
+  @include mq($from: desktop) {
+    padding: 0 var(--site-spacing-large);
+  }
+}
+
 .gwg-list__item--guide {
   position: relative;
 }
