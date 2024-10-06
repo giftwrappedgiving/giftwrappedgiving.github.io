@@ -1,0 +1,89 @@
+{
+  "name": "Gifts for the happy traveller",
+  "tagline": "A collection of gifts for anyone in your life who travels. Help them travel in style and comfort.",
+  "entry-date": "2024-10-06",
+  "update-date": "2024-10-06",
+  "homepage-order": 3,
+  "gifts": [
+    {
+      "name": "Peace out puffy eyes",
+      "shop": "Cult beauty",
+      "gift_url": "https://www.cultbeauty.co.uk/p/peace-out-peace-out-puffy-eyes/13312609/",
+      "description": "These soothing under-eye patches will brighten up tired-looking eyes in 15 minutes. Perfect for the sleep-deprived and frequent travellers.",
+      "image": {
+        "url": "/static/images/gifts/peace-out-puffy-eyes.jpeg",
+        "alt_text": "Image of Peace out puffy eyes. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "SURI Sustainable Electric Toothbrush",
+      "shop": "SURI",
+      "gift_url": "https://amzn.to/4dpDyd8",
+      "description": "Small, sustainable and the battery lasts for ages - whats not to love!",
+      "image": {
+        "url": "/static/images/gifts/suri_toothbrish_green-no-background.png",
+        "alt_text": "Image of SURI Sustainable Electric Toothbrush. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Marshall travel speaker (mini)",
+      "shop": "Marshall",
+      "gift_url": "https://www.marshall.com/gb/en/product/willen-ii?pid=1006714",
+      "description": "Stylish and portable with a great sound. This is the ideal speaker to take away with you.",
+      "image": {
+        "url": "/static/images/gifts/willen-ii-travel-speaker-marshall.jpeg",
+        "alt_text": "Image of Marshall travel speaker (mini). A great gift to give someone special."
+      }
+    },
+    {
+      "name": "AirPods Max",
+      "shop": "Apple",
+      "gift_url": "https://www.apple.com/uk/airpods-max/",
+      "description": "Who doesn't need a pair of top quality headphones? These are the ones.",
+      "image": {
+        "url": "/static/images/gifts/airpods-max-apple.jpg",
+        "alt_text": "Image of AirPods Max. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Unicorn trunki",
+      "shop": "Trunki",
+      "gift_url": "https://www.trunki.co.uk/products/una-the-unicorn-trunki",
+      "description": "",
+      "image": {
+        "url": "/static/images/gifts/unicorn_trunki.jpg",
+        "alt_text": "Image of Unicorn trunki. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Away carry on luggage",
+      "shop": "Away",
+      "gift_url": "https://www.awaytravel.com/uk/en/luggage/carry-on/navy",
+      "description": "Travel in style with the perfect carry-on suitcase from Away. Feeling cool? Opt for the suitcase with built-in battery for all your charging needs.",
+      "image": {
+        "url": "/static/images/gifts/away_carry_on_luggage.jpg",
+        "alt_text": "Image of Away carry on luggage. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Slip silk eye mask",
+      "shop": "Slip",
+      "gift_url": "https://www.slipsilkpillowcase.co.uk/products/sleep-mask-pink",
+      "description": "Treat your eyes with the luxurious slip eye mask. Soft, delicate and a joy to sleep in.",
+      "image": {
+        "url": "/static/images/gifts/slip-slik-eye-mack-classic.jpeg",
+        "alt_text": "Image of Slip silk eye mask. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "FOREO Luna mini facial cleansing brush",
+      "shop": "FOREO",
+      "gift_url": "https://amzn.to/3SWSMhr",
+      "description": "A great facial cleanser that you can travel with.",
+      "image": {
+        "url": "/static/images/gifts/foreo-luna-facial-cleanser.jpg",
+        "alt_text": "Image of FOREO Luna mini facial cleansing brush. A great gift to give someone special."
+      }
+    }
+  ]
+}
