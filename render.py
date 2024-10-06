@@ -116,26 +116,31 @@ def generate_guides():
         html_path = create_html_path(guide_filename)
         guide_slug = html_path.replace("./docs", "", 1).replace("index.html", "")
         render(html_path, guide_template, guide=guide)
-        guides.append((guide.name, guide_slug))
+        guides.append((guide.name, guide_slug, getattr(guide, "homepage-order", 0)))
         print(f"Created guide: {html_path}")
 
     # To do: order by something other than alphabetical
     # render the list of guides
     render("./docs/guides.html", guides_template, guides=guides)
     print("Generate guide list page")
+    return guides
 
 
-def generate_homepage():
+def generate_homepage(guides):
     home_template = env.get_template("home.html")
     editorspicks = read_json_as_dict("data/guides/editors-picks.json", raw=False)
     # gifts for homepage
     gifts = [gift for gift in editorspicks.gifts if hasattr(gift, "homepage")]
     # render the homepage
-    render("./docs/index.html", home_template, name="GWG", gifts=gifts)
+    render("./docs/index.html", home_template, name="GWG", gifts=gifts, guides=guides)
 
 
 def generate_pages():
-    generate_homepage()
+    all_guides = generate_guides()
+    homepage_guides = sorted(
+        [guide for guide in all_guides if guide[2]], key=lambda x: x[2]
+    )
+    generate_homepage(guides=homepage_guides)
     guide_template = env.get_template("guide.html")
     about_template = env.get_template("about.html")
     styleguide_template = env.get_template("styleguide.html")
@@ -153,4 +158,3 @@ def generate_pages():
 
 if __name__ == "__main__":
     generate_pages()
-    generate_guides()

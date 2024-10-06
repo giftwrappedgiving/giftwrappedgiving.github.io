@@ -3,6 +3,7 @@
   "tagline": "A collection of our absolute favourite gifts. There is a guaranteed winner in here.",
   "entry-date": "2024-09-30",
   "update-date": "2024-10-03",
+  "homepage-order": 1,
   "gifts": [
     {
       "name": "Ember mug 2",

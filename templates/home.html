@@ -46,11 +46,15 @@
     <div class="gwg-section__header">
       <h2>Top guides</h2>
     </div>
-    <div class="gwg-guide-grid">
-      <div class="gwg-guide"></div>
-      <div class="gwg-guide"></div>
-      <div class="gwg-guide"></div>
-    </div>
+
+    <ul class="gwg-list">
+      {% for guide in guides %}
+      <li class="gwg-list__item gwg-list__item--guide">
+        <a class="gwg-list__item__link" href="{{ guide[1] }}">{{ guide[0] }}</a>
+        <i class="gwg-guide-list-item">{% include 'components/icons/arrow-right.html' %}</i>
+      </li>
+      {% endfor %}
+    </ul>
 
     <div class="gwg-section__content">
       <a href="guides.html">View all guides</a>
