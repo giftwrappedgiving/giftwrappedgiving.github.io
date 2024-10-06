@@ -9,7 +9,11 @@
 {% block listContent %}
 <ul class="gwg-list">
   {% for guide in guides %}
-  <li><a class="gwg-list__item__link" href="{{ guide[1] }}">{{ guide[0] }}</a></li>
+  <li class="gwg-list__item gwg-list__item--guide">
+    <a class="gwg-list__item__link" href="{{ guide[1] }}">{{ guide[0] }}</a>
+
+    <i class="gwg-guide-list-item">{% include 'components/icons/arrow-right.html' %}</i>
+  </li>
   {% endfor %}
 </ul>
 {% endblock %}

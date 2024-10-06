@@ -61,7 +61,33 @@ ul {
   }
 }
 
+.gwg-list__item--guide {
+  position: relative;
+}
+
+// this is arrow icon
+.gwg-guide-list-item {
+  position: absolute;
+  display: block;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+
+  svg {
+    height: var(--site-spacing);
+  }
+
+  path {
+    fill: var(--main-text-colour);
+  }
+}
+
 .gwg-list__item__link {
   display: block;
-  padding: var(--site-spacing) 0;
+  padding: var(--site-spacing) 5px;
+  text-decoration: none;
+
+  &:hover {
+    background: var(--monochrome-1);
+  }
 }
