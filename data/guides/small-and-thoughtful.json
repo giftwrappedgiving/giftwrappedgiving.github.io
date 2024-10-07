@@ -2,7 +2,7 @@
   "name": "Small and thoughtful",
   "tagline": "A collection of gifts that are small on price but big on thoughtful. Perfect when you just need to get a little something.",
   "entry-date": "2024-09-15",
-  "update-date": "2024-10-01",
+  "update-date": "2024-10-07",
   "homepage-order": 2,
   "gifts": [
     {
@@ -73,6 +73,86 @@
       "image": {
         "url": "/static/images/gifts/seedball-mini-meadow-bamboo-pots-garden-meadow.jpg",
         "alt_text": "Image of Seedball Mini-Meadow. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Aesop Aromatique Hand Balm",
+      "shop": "Cult Beauty",
+      "gift_url": "https://www.cultbeauty.co.uk/p/aesop-resurrection-aromatique-hand-balm-75ml/10363825/",
+      "description": "",
+      "image": {
+        "url": "/static/images/gifts/aesop-hand-balm.jpeg",
+        "alt_text": "Image of Aesop Aromatique Hand Balm. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "A safe travel adapter plug",
+      "shop": "Amazon",
+      "gift_url": "https://amzn.to/3TZbmGd",
+      "description": "Not sexy, but universally needed and therefore appreciated.",
+      "image": {
+        "url": "/static/images/gifts/travel-plug-adapter.jpg",
+        "alt_text": "Image of A safe travel adapter plug. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Sushi starter kit",
+      "shop": "Kelly loves",
+      "gift_url": "https://kellyloves.com/products/complete-sushi-kit",
+      "description": "Everything someone needs - except the fish - to have fun making sushi",
+      "image": {
+        "url": "/static/images/gifts/kelly-loves-complete-kit.jpg.webp",
+        "alt_text": "Image of Sushi starter kit. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Cazcabel Tequila coffee liqueur",
+      "shop": "Masters of malt",
+      "gift_url": "https://www.masterofmalt.com/liqueurs/cazcabel/cazcabel-coffee-liqueur/",
+      "description": "",
+      "image": {
+        "url": "/static/images/gifts/cazcabel-coffee-liqueur.jpeg",
+        "alt_text": "Image of Cazcabel Tequila coffee liqueur. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Aromatique incense gift",
+      "shop": "Aesop",
+      "gift_url": "https://www.aesop.com/uk/p/home/incense/kagerou-aromatique-incense/",
+      "description": "Perfect for any home",
+      "image": {
+        "url": "/static/images/gifts/Aesop_Home_Kagerou_Aromatique_Incense.png",
+        "alt_text": "Image of Aromatique incense gift. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Chocolate mini brownie box",
+      "shop": "Cutter & Squidge",
+      "gift_url": "https://cutterandsquidge.com/products/classic-chocolate-brownie-bite",
+      "description": "A delicious chocolate-y treat through the post. Yep.",
+      "image": {
+        "url": "/static/images/gifts/cutter-and-squidge-brownie.jpeg",
+        "alt_text": "Image of Chocolate mini brownie box. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Luxury Tennis Themed Socks",
+      "shop": "Not on the highstreet",
+      "gift_url": "https://www.notonthehighstreet.com/thelondonsockexchange/product/the-ace-lawn-edition-luxury-tennis-themed-socks",
+      "description": "Stylish socks to wear on your next trip to Wimbledon or anywhere really.",
+      "image": {
+        "url": "/static/images/gifts/original_the-ace-lawn-edition-luxury-tennis-themed-socks.jpg",
+        "alt_text": "Image of Luxury Tennis Themed Socks. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Botanic Garden Harmony Cup & Saucer",
+      "shop": "Portmeirion",
+      "gift_url": "https://www.portmeirion.co.uk/portmeirion-botanic-garden-harmony-breakfast-cup-saucer-amber",
+      "description": "A cute little cup and saucer that's the perfect gift for a new home.",
+      "image": {
+        "url": "/static/images/gifts/botanic-garden-cup-saucer.jpeg",
+        "alt_text": "Image of Botanic Garden Harmony Cup & Saucer. A great gift to give someone special."
       }
     }
   ]

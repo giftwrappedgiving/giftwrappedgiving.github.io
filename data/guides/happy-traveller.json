@@ -2,7 +2,7 @@
   "name": "Gifts for the happy traveller",
   "tagline": "A collection of gifts for anyone in your life who travels. Help them travel in style and comfort.",
   "entry-date": "2024-10-06",
-  "update-date": "2024-10-06",
+  "update-date": "2024-10-07",
   "homepage-order": 3,
   "gifts": [
     {
@@ -83,6 +83,76 @@
       "image": {
         "url": "/static/images/gifts/foreo-luna-facial-cleanser.jpg",
         "alt_text": "Image of FOREO Luna mini facial cleansing brush. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Aesop Aromatique Hand Balm",
+      "shop": "Cult Beauty",
+      "gift_url": "https://www.cultbeauty.co.uk/p/aesop-resurrection-aromatique-hand-balm-75ml/10363825/",
+      "description": "",
+      "image": {
+        "url": "/static/images/gifts/aesop-hand-balm.jpeg",
+        "alt_text": "Image of Aesop Aromatique Hand Balm. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "AirTags",
+      "shop": "Amazon",
+      "gift_url": "https://amzn.to/3TZA3Tb",
+      "description": "Has your luggage arrived? Use these airtags for that piece of mind.",
+      "image": {
+        "url": "/static/images/gifts/air-tag-4-pack.jpg",
+        "alt_text": "Image of AirTags. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "NordVPN",
+      "shop": "NordVPN",
+      "gift_url": "https://amzn.to/3zPk6Ib",
+      "description": "We should all take the odd precaution when we travel. And this one means you can also download that next episode on Netflix",
+      "image": {
+        "url": "/static/images/gifts/nord-vpn-yellow.jpeg",
+        "alt_text": "Image of NordVPN. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Kindle Paperwhite",
+      "shop": "Amazon",
+      "gift_url": "https://amzn.to/3A0Rn38",
+      "description": "Why take 5 books when a kindle will do? An essential.",
+      "image": {
+        "url": "/static/images/gifts/amazon-kindle-paperwhite.jpg",
+        "alt_text": "Image of Kindle Paperwhite. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "DJI Mini 3 drone",
+      "shop": "Amazon",
+      "gift_url": "https://amzn.to/3ZVKMl7",
+      "description": "Know a keen photographer? Or a big kid? This is a great addition to the packing list.",
+      "image": {
+        "url": "/static/images/gifts/dji-mini-3-drone.jpg",
+        "alt_text": "Image of DJI Mini 3 drone. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "A safe travel adapter plug",
+      "shop": "Amazon",
+      "gift_url": "https://amzn.to/3TZbmGd",
+      "description": "Not sexy, but universally needed.",
+      "image": {
+        "url": "/static/images/gifts/travel-plug-adapter.jpg",
+        "alt_text": "Image of A safe travel adapter plug. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Gorilla griptight tripod",
+      "shop": "Joey",
+      "gift_url": "https://joby.com/uk-en/griptight-gorillapod-for-magsafe-jb01753-bww/",
+      "description": "For the creator in your life - help them upgrade their travel pictures!",
+      "image": {
+        "url": "/static/images/gifts/gorilla-pod-griptight.png",
+        "alt_text": "Image of Gorilla griptight tripod. A great gift to give someone special."
       }
     }
   ]
