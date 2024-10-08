@@ -29,6 +29,8 @@ isort:
 
 lint: black flake8 isort
 
+clean::
+	rm -r docs/*
 
 copy-imgs:
 	cp -r src/images docs/static/
