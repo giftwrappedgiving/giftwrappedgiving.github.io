@@ -159,6 +159,16 @@
         "alt_text": "Image of Slip silk eye mask. A great gift to give someone special."
       },
       "homepage": true
+    },
+    {
+      "name": "Marcato pasta maker",
+      "shop": "Kitchentime",
+      "gift_url": "https://www.kitchentime.com/brands/marcato/marcato-pasta-machine-atlas-150-design/?variantId=515929-01",
+      "description": "A classic italian design. In a ferrari red.",
+      "image": {
+        "url": "/static/images/gifts/marcato-pasta-machine-red.jpeg",
+        "alt_text": "Image of Marcato pasta maker. A great gift to give someone special."
+      }
     }
   ]
 }
