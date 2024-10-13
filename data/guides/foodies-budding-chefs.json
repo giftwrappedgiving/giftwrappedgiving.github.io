@@ -1,0 +1,18 @@
+{
+  "name": "For foodies and budding chiefs",
+  "tagline": "A collection of gifts that are perfect for foodies and budding chiefs.",
+  "entry-date": "2024-10-13",
+  "update-date": "2024-10-13",
+  "gifts": [
+    {
+      "name": "Marcato pasta maker",
+      "shop": "Kitchentime",
+      "gift_url": "https://www.kitchentime.com/brands/marcato/marcato-pasta-machine-atlas-150-design/?variantId=515929-01",
+      "description": "Help them raise their pasta game with this all time classic. Looks pretty cool on the kitchen island too.",
+      "image": {
+        "url": "/static/images/gifts/marcato-pasta-machine-red.jpeg",
+        "alt_text": "Image of Marcato pasta maker. A great gift to give someone special."
+      }
+    }
+  ]
+}
