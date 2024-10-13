@@ -41,5 +41,9 @@ jobs:
     - name: Build gwg
       run: make gwg
 
+    - name: Run pre-commit
+      run: |
+        pre-commit run --all-files || true
+
     - name: Commit package
       run: make commit-package
