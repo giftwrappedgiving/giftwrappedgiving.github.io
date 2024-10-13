@@ -2,7 +2,7 @@
   "name": "Gifts for the happy traveller",
   "tagline": "A collection of gifts for anyone in your life who travels. Help them travel in style and comfort.",
   "entry-date": "2024-10-06",
-  "update-date": "2024-10-07",
+  "update-date": "2024-10-13",
   "homepage-order": 3,
   "gifts": [
     {
@@ -153,6 +153,16 @@
       "image": {
         "url": "/static/images/gifts/gorilla-pod-griptight.png",
         "alt_text": "Image of Gorilla griptight tripod. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Luxury eye mask",
+      "shop": "Masters of Mayfair",
+      "gift_url": "https://mastersofmayfair.com/products/luxury-sleeping-mask?sku=18063954229261794110490455",
+      "description": "A bit of luxury for your eyes. Its larger than most eye mask brands so ideal for the man that needs some better shut eye.",
+      "image": {
+        "url": "/static/images/gifts/luxury-eye-mask-men.jpeg",
+        "alt_text": "Image of Luxury eye mask. A great gift to give someone special."
       }
     }
   ]

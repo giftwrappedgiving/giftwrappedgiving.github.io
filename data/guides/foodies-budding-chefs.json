@@ -53,6 +53,66 @@
         "url": "/static/images/gifts/kelly-loves-complete-kit.jpg.webp",
         "alt_text": "Image of Sushi starter kit. A great gift to give someone special."
       }
+    },
+    {
+      "name": "Ravioli cutter gift set",
+      "shop": "John Lewis",
+      "gift_url": "https://www.johnlewis.com/marcato-round-square-ravioli-stampsgift-set/p112131951",
+      "description": "Encourage the chief in your life to give ravioli ago... and test it with you.",
+      "image": {
+        "url": "/static/images/gifts/ravioli-gift-set.jpeg",
+        "alt_text": "Image of Ravioli cutter gift set. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Chocolate mini brownie box",
+      "shop": "Cutter & Squidge",
+      "gift_url": "https://cutterandsquidge.com/products/classic-chocolate-brownie-bite",
+      "description": "A delicious chocolate-y treat through the post. Yep.",
+      "image": {
+        "url": "/static/images/gifts/cutter-and-squidge-brownie.jpeg",
+        "alt_text": "Image of Chocolate mini brownie box. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Sous chef gift vouchers",
+      "shop": "Sous chef",
+      "gift_url": "https://www.souschef.co.uk/products/sous-chef-gift-voucher",
+      "description": "",
+      "image": {
+        "url": "/static/images/gifts/souschef-gift-voucher.jpeg",
+        "alt_text": "Image of Sous chef gift vouchers. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "The Lionel - Just Cheese",
+      "shop": "The Cheese Geek",
+      "gift_url": "https://www.thecheesegeek.com/products/the-lionel",
+      "description": "A selection of cheese geeks most popular cheeses. A great starter for anyone new to cheesegeeks.",
+      "image": {
+        "url": "/static/images/gifts/cheesegeek-the-lionel-just-cheese.jpg",
+        "alt_text": "Image of The Lionel - Just Cheese. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Handmade Ceramic Taco Truck",
+      "shop": "Uncommon goods",
+      "gift_url": "https://www.uncommongoods.com/product/handmade-ceramic-taco-truck",
+      "description": "",
+      "image": {
+        "url": "/static/images/gifts/taco-truck-uncommon-goods.jpeg",
+        "alt_text": "Image of Handmade Ceramic Taco Truck. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Ninja CREAMi Ice Cream & Frozen Dessert Maker",
+      "shop": "Ninja Kitchen",
+      "gift_url": "https://ninjakitchen.co.uk/product/ninja-creami-ice-cream-frozen-dessert-maker-nc300uk-zidNC300UK",
+      "description": "",
+      "image": {
+        "url": "/static/images/gifts/Ninja-NC301-Hero-Front-OuterBowlPint-Filled.jpeg",
+        "alt_text": "Image of Ninja CREAMi Ice Cream & Frozen Dessert Maker. A great gift to give someone special."
+      }
     }
   ]
 }

@@ -2,7 +2,7 @@
   "name": "Small and thoughtful",
   "tagline": "A collection of gifts that are small on price but big on thoughtful. Perfect when you just need to get a little something.",
   "entry-date": "2024-09-15",
-  "update-date": "2024-10-07",
+  "update-date": "2024-10-13",
   "homepage-order": 2,
   "gifts": [
     {
@@ -153,6 +153,26 @@
       "image": {
         "url": "/static/images/gifts/botanic-garden-cup-saucer.jpeg",
         "alt_text": "Image of Botanic Garden Harmony Cup & Saucer. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Cosy nights scented candle",
+      "shop": "NEOM",
+      "gift_url": "https://neomwellbeing.com/products/cosy-nights-scented-candle-travel",
+      "description": "Give the gift of frankincense, sandalwood and nutmeg, and help them reset and recharge. At home or on the go (apparently)",
+      "image": {
+        "url": "/static/images/gifts/Cosy_ights_Travel_-_Product_Box.jpg",
+        "alt_text": "Image of Cosy nights scented candle. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Handmade Ceramic Taco Truck",
+      "shop": "Uncommon goods",
+      "gift_url": "https://www.uncommongoods.com/product/handmade-ceramic-taco-truck",
+      "description": "",
+      "image": {
+        "url": "/static/images/gifts/taco-truck-uncommon-goods.jpeg",
+        "alt_text": "Image of Handmade Ceramic Taco Truck. A great gift to give someone special."
       }
     }
   ]
