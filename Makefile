@@ -1,3 +1,6 @@
+# current git branch
+BRANCH := $(shell git rev-parse --abbrev-ref HEAD)
+
 init::
 	python -m pip install --upgrade pip
 	python -m pip install pip-tools
@@ -50,3 +53,8 @@ gwg:: copy-imgs build render
 
 serve:
 	python -m http.server 8080 --bind 127.0.0.1 --directory docs
+
+
+commit-package::
+	git add docs/
+	git diff --quiet && git diff --staged --quiet || (git commit -m "Rebuilt gwg $(shell date +%F)"; git push origin $(BRANCH))
