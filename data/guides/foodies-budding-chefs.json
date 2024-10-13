@@ -13,6 +13,46 @@
         "url": "/static/images/gifts/marcato-pasta-machine-red.jpeg",
         "alt_text": "Image of Marcato pasta maker. A great gift to give someone special."
       }
+    },
+    {
+      "name": "MEATER meat thermometer",
+      "shop": "MEATER",
+      "gift_url": "https://store-uk.meater.com/products/meater-2-plus",
+      "description": "Cook to perfection every time with the best smart thermometer there is",
+      "image": {
+        "url": "/static/images/gifts/meater-meat-thermometer.jpeg",
+        "alt_text": "Image of MEATER meat thermometer. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Halen Mon sea salt in ceramic jar",
+      "shop": "Sous chef",
+      "gift_url": "https://www.souschef.co.uk/products/halen-mon-pure-sea-salt-in-watercolour-ceramic-jar-100g",
+      "description": "The salt of choice for chefs around the world. And in a beautiful ceramic jar too. Perfect.",
+      "image": {
+        "url": "/static/images/gifts/HalenMon-pure-sea-salt-ceramic-jar.jpeg",
+        "alt_text": "Image of Halen Mon sea salt in ceramic jar. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Indigo Drop Ceramic Stand",
+      "shop": "Nkuku",
+      "gift_url": "https://www.nkuku.com/products/indigo-drop-ceramic-stand-is39",
+      "description": "",
+      "image": {
+        "url": "/static/images/gifts/nkuku-IndigoDropCeramicStand-Cream_Indigo.jpeg",
+        "alt_text": "Image of Indigo Drop Ceramic Stand. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Sushi starter kit",
+      "shop": "Kelly loves",
+      "gift_url": "https://kellyloves.com/products/complete-sushi-kit",
+      "description": "Everything someone needs - except the fish - to have fun making sushi",
+      "image": {
+        "url": "/static/images/gifts/kelly-loves-complete-kit.jpg.webp",
+        "alt_text": "Image of Sushi starter kit. A great gift to give someone special."
+      }
     }
   ]
 }
