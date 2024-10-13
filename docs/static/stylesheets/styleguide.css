@@ -632,6 +632,7 @@ a {
 :root {
   --main-hero-height: 75vh;
   --gift-guide-hero-height: 60vh;
+  --title-ch-max: 25ch;
 }
 
 .gwg-hero {
@@ -669,15 +670,27 @@ a {
 
 .gwg-hero__title {
   font-weight: 700;
-  font-size: 3.75rem;
-  line-height: 1.0666666667;
+  font-size: 2.625rem;
+  line-height: 1.0952380952;
+  max-width: var(--title-ch-max);
   color: var(--main-text-colour);
   letter-spacing: 2px;
+}
+@media (min-width: 30em) {
+  .gwg-hero__title {
+    font-size: 3.75rem;
+    line-height: 1.0666666667;
+  }
 }
 @media (min-width: 46.25em) {
   .gwg-hero__title {
     font-size: 5.3125rem;
     line-height: 1;
+  }
+}
+@media (min-width: 46.25em) {
+  .gwg-hero__title {
+    text-align: center;
   }
 }
 
