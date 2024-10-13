@@ -1,6 +1,7 @@
 :root {
   --main-hero-height: 75vh;
   --gift-guide-hero-height: 60vh;
+  --title-ch-max: 25ch;
 }
 
 .gwg-hero {
@@ -40,8 +41,13 @@
 
 .gwg-hero__title {
   @include gwg-font($size: 85, $weight: bold);
+  max-width: var(--title-ch-max);
   color: var(--main-text-colour);
   letter-spacing: 2px;
+
+  @include mq($from: tablet) {
+    text-align: center;
+  }
 }
 
 .gwg-hero__tagline {
