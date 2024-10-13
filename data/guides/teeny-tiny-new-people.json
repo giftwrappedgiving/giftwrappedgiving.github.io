@@ -1,0 +1,78 @@
+{
+  "name": "Gifts for teeny tiny new people",
+  "tagline": "Welcome those new mini-people into the world with a thought gift just for them",
+  "entry-date": "2024-10-13",
+  "update-date": "2024-10-13",
+  "gifts": [
+    {
+      "name": "Balloon Mobile",
+      "shop": "Search and Rescue",
+      "gift_url": "https://www.searchandrescuelondon.co.uk/shopall/p/balloons-mobile",
+      "description": "",
+      "image": {
+        "url": "/static/images/gifts/hot-air-balloon-mobile.png",
+        "alt_text": "Image of Balloon Mobile. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Star blanket for newborn",
+      "shop": "Not on the highstreet",
+      "gift_url": "https://www.notonthehighstreet.com/tuppenceandcrumble/product/fleece-baby-star-wrap",
+      "description": "Super soft. Super cute. Super gift for a new baby.",
+      "image": {
+        "url": "/static/images/gifts/star-blanket-newborn.jpg",
+        "alt_text": "Image of Star blanket for newborn. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Wee teacake bib",
+      "shop": "Gillian Kyle",
+      "gift_url": "https://www.gilliankyle.com/products/wee-teacake-bib",
+      "description": "Know a newborn with Scottish roots? Well, gift done.",
+      "image": {
+        "url": "/static/images/gifts/baby-bib-weetck-2.jpg",
+        "alt_text": "Image of Wee teacake bib. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Rocket stacking toy",
+      "shop": "Amazon",
+      "gift_url": "https://amzn.to/4dMh1Xe",
+      "description": "Sustainable, chemical-free wooden stacking toy in subtle colours. Perfect for newborns",
+      "image": {
+        "url": "/static/images/gifts/plantoys-rocket-stacking-toy.jpg",
+        "alt_text": "Image of Rocket stacking toy. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Little dutch baby gym",
+      "shop": "Little Dutch",
+      "gift_url": "https://www.little-dutch.com/en/play-time-babygyms-baby-gym-sailors-bay",
+      "description": "",
+      "image": {
+        "url": "/static/images/gifts/little-dutch-baby-gym-ocean-blue-blue-0_1064x1064.jpg",
+        "alt_text": "Image of Little dutch baby gym. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "OYOY Rainbow Bib",
+      "shop": "Cottage Toys",
+      "gift_url": "https://www.cottage-toys.co.uk/collections/toys/products/oyoy-rainbow-bib-blue",
+      "description": "",
+      "image": {
+        "url": "/static/images/gifts/rainbow-bib.jpg",
+        "alt_text": "Image of OYOY Rainbow Bib. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Whaly balancing game",
+      "shop": "Smallable",
+      "gift_url": "https://www.smallable.com/en/product/whaly-balancing-game-green-vilac-106505",
+      "description": "This cute looking whaly is a great addition to the nursery and then great to play with when they get going.",
+      "image": {
+        "url": "/static/images/gifts/whaly-balancing-game.jpeg",
+        "alt_text": "Image of Whaly balancing game. A great gift to give someone special."
+      }
+    }
+  ]
+}
