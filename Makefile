@@ -36,6 +36,7 @@ clean::
 	rm -r docs/*
 
 copy-imgs:
+	mkdir -p docs/static
 	cp -r src/images docs/static/
 
 build::
