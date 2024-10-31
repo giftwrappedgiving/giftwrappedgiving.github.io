@@ -1,0 +1,198 @@
+{
+  "name": "Thoughtfully green gifts",
+  "tagline": "Explore a curated collection of meaningful, sustainable gifts that make a little bit of difference — one thoughtful choice at a time.",
+  "entry-date": "2024-10-30",
+  "update-date": "2024-10-31",
+  "gifts": [
+    {
+      "name": "LOMI kitchen composter",
+      "shop": "Amazon",
+      "gift_url": "https://amzn.to/4f2mHy0",
+      "description": "Turn food waste into compost in as little as 4 hours... pretty impressive right",
+      "image": {
+        "url": "/static/images/gifts/lomi-kitchen-composter.jpg",
+        "alt_text": "Image of LOMI kitchen composter. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Dashel ReCycle helmet",
+      "shop": "Dashel",
+      "gift_url": "https://dashel.co.uk/products/dashel-recycle-helmet?variant=44143238643961",
+      "description": "Sustainably made helmets. Safety for you and safety for the environment.",
+      "image": {
+        "url": "/static/images/gifts/dashel-recycle-helmet.jpg",
+        "alt_text": "Image of Dashel ReCycle helmet. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Votch solar watch",
+      "shop": "Votch",
+      "gift_url": "https://votch.co.uk/collections/solar-classic-collection/products/gold-forest-tan-watch-solar-classic",
+      "description": "All the great bits of a Votch watch but without the battery. These timeless wonders are now solar-powered 🔥",
+      "image": {
+        "url": "/static/images/gifts/votch-solar-watch.jpg",
+        "alt_text": "Image of Votch solar watch. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "ROKA Backpack",
+      "shop": "Amazon",
+      "gift_url": "https://amzn.to/4eZm73Z",
+      "description": "Stylish-looking backpacks made from recycled plastic bottles",
+      "image": {
+        "url": "/static/images/gifts/roka-backpack.jpg",
+        "alt_text": "Image of ROKA Backpack. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Forged Nakiri",
+      "shop": "Allday Goods",
+      "gift_url": "https://www.alldaygoods.co.uk/products/forged-nakiri-maldon",
+      "description": "A delightful hand-forged knife from Joe and Jimmy in Somerset. A fine blade with a handle made from recycled plastic.",
+      "image": {
+        "url": "/static/images/gifts/allday-goods-knife.jpg",
+        "alt_text": "Image of Forged Nakiri. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Renata round basket",
+      "shop": "Lola & Mawu",
+      "gift_url": "https://lolaandmawu.com/collections/all-baskets/products/round-basket-l-renata-1",
+      "description": "A pretty stylish basket for the home",
+      "image": {
+        "url": "/static/images/gifts/Renataaa_round-basket.jpg",
+        "alt_text": "Image of Renata round basket. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Cosmic acorn vase",
+      "shop": "Design museum",
+      "gift_url": "https://designmuseumshop.com/collections/christmas-gifting-decorations/products/acorn-vase-in-clear-cosmic",
+      "description": "Bring the magic of nature into a home and watch a simple acorn grow into a magnificent oak tree",
+      "image": {
+        "url": "/static/images/gifts/cosmic-acorn-vase.jpeg",
+        "alt_text": "Image of Cosmic acorn vase. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Eco iPhone case",
+      "shop": "wavecase",
+      "gift_url": "https://www.wavecase.co.uk/products/iphone-16-plus-magsafe-compatible",
+      "description": "",
+      "image": {
+        "url": "/static/images/gifts/eco-wave-case-iphone-case.jpg",
+        "alt_text": "Image of Eco iPhone case. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Large Flower Reed Diffuser",
+      "shop": "Etsy",
+      "gift_url": "https://www.etsy.com/uk/listing/1721915099/black-plum-rhubarb-large-flower-reed",
+      "description": "Reed diffusers smell great but look fine. Not anymore, this diffuser is shaped like a lovely flower.",
+      "image": {
+        "url": "/static/images/gifts/large-flower-reed-diffuser.jpg",
+        "alt_text": "Image of Large Flower Reed Diffuser. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "RAINS Classic Jacket",
+      "shop": "RAINS",
+      "gift_url": "https://www.uk.rains.com/collections/jacket/products/jacket-female?variant=39580159213651",
+      "description": "",
+      "image": {
+        "url": "/static/images/gifts/rains-jacket-classic-mid-length.jpeg",
+        "alt_text": "Image of RAINS Classic Jacket. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Roasted Coffee Soy Candle",
+      "shop": "Etsy",
+      "gift_url": "https://www.etsy.com/uk/listing/1589732906/roasted-coffee-candle-coffee-gifts-for",
+      "description": "Hand-poured. UK based. Vegan friendly. Sustainable. And 5% profit to solar projects.",
+      "image": {
+        "url": "/static/images/gifts/roast-coffee-soy-candle.jpg",
+        "alt_text": "Image of Roasted Coffee Soy Candle. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Organic cotton reusable face clothes",
+      "shop": "Cloud cloth",
+      "gift_url": "https://cloudcloth.co.uk/collections/sustainable-skincare-essentials-organic-cotton-cleansing-cloths-by-cloudcloth-british-made-sewn/products/cloudcloth-organic-cotton-reusable-face-cloth",
+      "description": "Gentle on your skin. Gentle on the environment.",
+      "image": {
+        "url": "/static/images/gifts/organic-cotton-face-clothes.jpeg",
+        "alt_text": "Image of Organic cotton reusable face clothes. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Ocean bottle - water bottle",
+      "shop": "Amazon",
+      "gift_url": "https://amzn.to/4eXasSE",
+      "description": "Do your bit for the environment and for your hydration with the fancy-looking water bottle.",
+      "image": {
+        "url": "/static/images/gifts/ocean-bottle-water-bottle.jpg",
+        "alt_text": "Image of Ocean bottle - water bottle. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "SURI Sustainable Electric Toothbrush",
+      "shop": "SURI",
+      "gift_url": "https://amzn.to/4dpDyd8",
+      "description": "Small, sustainable and the battery lasts for ages - whats not to love!",
+      "image": {
+        "url": "/static/images/gifts/suri_toothbrish_green-no-background.png",
+        "alt_text": "Image of SURI Sustainable Electric Toothbrush. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Beepot Mini",
+      "shop": "Green&Blue",
+      "gift_url": "https://www.greenandblue.co.uk/collections/shop-bee-houses/products/beepot-mini",
+      "description": "",
+      "image": {
+        "url": "/static/images/gifts/beepot_mini_stylish_concrete_planter_and_bee_hotel_by_green_and_blue_1200x.jpg",
+        "alt_text": "Image of Beepot Mini. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Cork Keepcup",
+      "shop": "Keepcup",
+      "gift_url": "https://uk.keepcup.com/shop/almond",
+      "description": "Almond is a personal favourite of ours but there are more colours to choose from.",
+      "image": {
+        "url": "/static/images/gifts/cork_keepcup.png",
+        "alt_text": "Image of Cork Keepcup. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Mango wood breakfast tray",
+      "shop": "Nkuku",
+      "gift_url": "https://www.nkuku.com/products/pawi-mango-wood-breakfast-tray-pt05",
+      "description": "Give the gift of an extra relaxing breakfast in bed served on a perfectly crafted, mango wood tray",
+      "image": {
+        "url": "/static/images/gifts/nkuku-pawi-mango-wood-breakfast-tray-5055672420095-32810284318896.jpg",
+        "alt_text": "Image of Mango wood breakfast tray. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Liforme yoga mat",
+      "shop": "Healf",
+      "gift_url": "https://healf.com/products/liforme-liforme-classic-travel-mat-grey?variant=45193331081455",
+      "description": "Made from fully bio-degradable materials and one of the best yoga mats out there. ",
+      "image": {
+        "url": "/static/images/gifts/Liforme-Classic-Travel-Yoga-Mat.jpeg",
+        "alt_text": "Image of Liforme yoga mat. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Allbirds Tree runners",
+      "shop": "Allbirds",
+      "gift_url": "https://www.allbirds.co.uk/products/womens-tree-runners-kaikoura-white",
+      "description": "",
+      "image": {
+        "url": "/static/images/gifts/all-birds-tree-runner.jpeg",
+        "alt_text": "Image of Allbirds Tree runners. A great gift to give someone special."
+      }
+    }
+  ]
+}
