@@ -7,6 +7,6 @@ $breakpoints: (
   mobileLandscape: 480px,
 );
 
-$show-breakpoints: (mobile, mobileLandscape, tablet, desktop, wide);
+// $show-breakpoints: (mobile, mobileLandscape, tablet, desktop, wide);
 
 @import "../vendor/mq";
