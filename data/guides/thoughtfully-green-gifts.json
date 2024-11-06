@@ -50,7 +50,7 @@
       "gift_url": "https://www.alldaygoods.co.uk/products/forged-nakiri-maldon",
       "description": "A delightful hand-forged knife from Joe and Jimmy in Somerset. A fine blade with a handle made from recycled plastic.",
       "image": {
-        "url": "/static/images/gifts/allday-goods-knife.jpg",
+        "url": "/static/images/gifts/allday-goods-knife.jpeg",
         "alt_text": "Image of Forged Nakiri. A great gift to give someone special."
       }
     },
@@ -130,7 +130,7 @@
       "gift_url": "https://amzn.to/4eXasSE",
       "description": "Do your bit for the environment and for your hydration with the fancy-looking water bottle.",
       "image": {
-        "url": "/static/images/gifts/ocean-bottle-water-bottle.jpg",
+        "url": "/static/images/gifts/ocean-blue-bottle-tweaked.png",
         "alt_text": "Image of Ocean bottle - water bottle. A great gift to give someone special."
       }
     },
