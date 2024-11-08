@@ -184,6 +184,16 @@
         "url": "/static/images/gifts/jerez-garlic-crusher.jpeg",
         "alt_text": "Image of Jerez garlic crusher. A great gift to give someone special."
       }
+    },
+    {
+      "name": "Raspberry jelly sweets",
+      "shop": "Labour and wait",
+      "gift_url": "https://labourandwait.co.uk/collections/gifts/products/dutch-raspberry-jelly-sweets",
+      "description": "This little gems are a recreation of a sweet produced since 1873 - so have that old school, cool retro vibe going on. They are also delicious and big enough to share.",
+      "image": {
+        "url": "/static/images/gifts/SweetsRaspberryRemmelt.jpg",
+        "alt_text": "Image of Raspberry jelly sweets. A great gift to give someone special."
+      }
     }
   ]
 }
