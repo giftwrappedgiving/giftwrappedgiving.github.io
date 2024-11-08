@@ -1,0 +1,108 @@
+{
+  "name": "Gifts to help you stay active",
+  "tagline": "A collection of gifts that will help you and your loved ones stay active, stay healthy and stay stylish whilst doing it.",
+  "entry-date": "2024-11-08",
+  "update-date": "2024-11-08",
+  "gifts": [
+    {
+      "name": "Oura smart ring",
+      "shop": "Oura",
+      "gift_url": "https://ouraring.com/product/rings",
+      "description": "Next fitness tracker tech. Monitor sleep, activity, and all-round health with this great gift",
+      "image": {
+        "url": "/static/images/gifts/oura-smart-ring.jpeg",
+        "alt_text": "Image of Oura smart ring. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Foldable Bike Helmet",
+      "shop": "Amazon",
+      "gift_url": "https://amzn.to/4fRDqVs",
+      "description": "",
+      "image": {
+        "url": "/static/images/gifts/Closca-Helmet-Loop-Graphite-Black.jpg",
+        "alt_text": "Image of Foldable Bike Helmet. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Alo Yoga leggings",
+      "shop": "net-a-porter",
+      "gift_url": "https://www.net-a-porter.com/en-gb/shop/product/alo-yoga/sport/leggings/suit-up-airlift-leggings/1647597341678646",
+      "description": "Grab a pair of the yoga brand of the moment's leggings - look the part - feel the part",
+      "image": {
+        "url": "/static/images/gifts/alo-yoga-leggings.jpg",
+        "alt_text": "Image of Alo Yoga leggings. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Fittle box",
+      "shop": "Fittle",
+      "gift_url": "https://fittle.fit/products/fittle-box",
+      "description": "An all-in-one weights bench, housing everything you need for an at-home workout",
+      "image": {
+        "url": "/static/images/gifts/fittle-box.jpg",
+        "alt_text": "Image of Fittle box. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Football mundial astro boots",
+      "shop": "Sports direct",
+      "gift_url": "https://www.sportsdirect.com/adidas-mundial-team-astro-turf-football-boots-263016",
+      "description": "Look sharp without looking like a fancy dan. ",
+      "image": {
+        "url": "/static/images/gifts/football-mundial-boots.jpg",
+        "alt_text": "Image of Football mundial astro boots. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Liforme yoga mat",
+      "shop": "Healf",
+      "gift_url": "https://healf.com/products/liforme-liforme-classic-travel-mat-grey?variant=45193331081455",
+      "description": "Made from fully bio-degradable materials and one of the best yoga mats out there. ",
+      "image": {
+        "url": "/static/images/gifts/Liforme-Classic-Travel-Yoga-Mat.jpeg",
+        "alt_text": "Image of Liforme yoga mat. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "NordicTrack adjustable dumbbell",
+      "shop": "John Lewis",
+      "gift_url": "https://www.johnlewis.com/nordictrack-25kg-select-a-weight-adjustable-dumbbell-set/p111568852",
+      "description": "Great for the keen fitness fan who wants to keep things tidy.",
+      "image": {
+        "url": "/static/images/gifts/nordictrack-adjustable-dumbbells.jpeg",
+        "alt_text": "Image of NordicTrack adjustable dumbbell. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Oura smart ring",
+      "shop": "Oura",
+      "gift_url": "https://ouraring.com/product/rings",
+      "description": "Next fitness tracker tech. Monitor sleep, activity, and all-round health with this great gift",
+      "image": {
+        "url": "/static/images/gifts/oura-smart-ring.jpeg",
+        "alt_text": "Image of Oura smart ring. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Theragun prime",
+      "shop": "Theragun",
+      "gift_url": "https://www.theragun.com/uk/en-gb/prime-uk.html",
+      "description": "",
+      "image": {
+        "url": "/static/images/gifts/theragun-prime.jpg",
+        "alt_text": "Image of Theragun prime. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Sweaty Betty Resistance Bands",
+      "shop": "John Lewis",
+      "gift_url": "https://www.johnlewis.com/sweaty-betty-resistance-training-bands-pack-of-3-navy-pink-green/p109765609",
+      "description": "More stylish than you average resistance bands, these bands are a perfect edition to your home workout or workout bag.",
+      "image": {
+        "url": "/static/images/gifts/sweaty-betty-resistance-bands.jpg",
+        "alt_text": "Image of Sweaty Betty Resistance Bands. A great gift to give someone special."
+      }
+    }
+  ]
+}
