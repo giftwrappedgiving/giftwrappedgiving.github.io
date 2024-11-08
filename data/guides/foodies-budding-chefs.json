@@ -2,7 +2,7 @@
   "name": "For foodies and budding chiefs",
   "tagline": "A collection of gifts that are perfect for foodies and budding chiefs.",
   "entry-date": "2024-10-13",
-  "update-date": "2024-10-13",
+  "update-date": "2024-11-08",
   "gifts": [
     {
       "name": "Marcato pasta maker",
@@ -52,6 +52,16 @@
       "image": {
         "url": "/static/images/gifts/kelly-loves-complete-kit.jpg.webp",
         "alt_text": "Image of Sushi starter kit. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Rosewood cook's knife",
+      "shop": "David Mellor",
+      "gift_url": "https://www.davidmellordesign.com/david-mellor-rosewood-cook-s-knife-12cm",
+      "description": "A top, do it all knife that is perfect for any cook - pro, novice and everything in-between",
+      "image": {
+        "url": "/static/images/gifts/12cm-cooks-knife.jpg",
+        "alt_text": "Image of Rosewood cook's knife. A great gift to give someone special."
       }
     },
     {
@@ -112,6 +122,56 @@
       "image": {
         "url": "/static/images/gifts/Ninja-NC301-Hero-Front-OuterBowlPint-Filled.jpeg",
         "alt_text": "Image of Ninja CREAMi Ice Cream & Frozen Dessert Maker. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Salt, Fat, Acid, Heat",
+      "shop": "Amazon",
+      "gift_url": "https://amzn.to/3UH3SYM",
+      "description": "Mastering the 4 essentials of cooking is the magic trick of top chefs. Help the budding chef in your life hit those levels. And feed you?",
+      "image": {
+        "url": "/static/images/gifts/salt-fat-acid-heat.jpg",
+        "alt_text": "Image of Salt, Fat, Acid, Heat. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "HexClad frying pan",
+      "shop": "Amazon",
+      "gift_url": "https://amzn.to/4fD2QoV",
+      "description": "The professional grade gear used by the professionals (Andi Oliver). A next level gift.",
+      "image": {
+        "url": "/static/images/gifts/hexclad-frying-pan.jpg",
+        "alt_text": "Image of HexClad frying pan. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Enamel Roasting Dish",
+      "shop": "Sous chef",
+      "gift_url": "https://www.souschef.co.uk/products/splatter-fest-enamel-roasting-and-serving-dish-cobalt-blue-21cm",
+      "description": "Who said a roasting dish had to be boring? Well KAPKA certainly didn't. Brighten up any kitchen with this gem",
+      "image": {
+        "url": "/static/images/gifts/SplatterFestEnamelRoastingandServingDishCobaltBlue.jpg",
+        "alt_text": "Image of Enamel Roasting Dish. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Wonder oven",
+      "shop": "Our Place",
+      "gift_url": "https://fromourplace.co.uk/products/wonder-oven?variant=44168898642097",
+      "description": "A fantastic looking and functioning countertop appliance. Airfry, roast, bake, grill. It does it all.",
+      "image": {
+        "url": "/static/images/gifts/Wonder_Oven.jpeg",
+        "alt_text": "Image of Wonder oven. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Jerez garlic crusher",
+      "shop": "Sous chef",
+      "gift_url": "https://www.souschef.co.uk/products/jerez-garlic-crusher",
+      "description": "Chopping garlic into tiny pieces can be a real pain. So use this fancy-looking plate to create a paste instead.",
+      "image": {
+        "url": "/static/images/gifts/jerez-garlic-crusher.jpeg",
+        "alt_text": "Image of Jerez garlic crusher. A great gift to give someone special."
       }
     }
   ]

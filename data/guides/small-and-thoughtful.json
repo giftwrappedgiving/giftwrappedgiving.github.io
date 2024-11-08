@@ -2,7 +2,7 @@
   "name": "Small and thoughtful",
   "tagline": "A collection of gifts that are small on price but big on thoughtful. Perfect when you just need to get a little something.",
   "entry-date": "2024-09-15",
-  "update-date": "2024-10-13",
+  "update-date": "2024-11-08",
   "homepage-order": 2,
   "gifts": [
     {
@@ -173,6 +173,16 @@
       "image": {
         "url": "/static/images/gifts/taco-truck-uncommon-goods.jpeg",
         "alt_text": "Image of Handmade Ceramic Taco Truck. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Jerez garlic crusher",
+      "shop": "Sous chef",
+      "gift_url": "https://www.souschef.co.uk/products/jerez-garlic-crusher",
+      "description": "Chopping garlic into tiny pieces can be a real pain. So use this fancy-looking plate to create a paste instead.",
+      "image": {
+        "url": "/static/images/gifts/jerez-garlic-crusher.jpeg",
+        "alt_text": "Image of Jerez garlic crusher. A great gift to give someone special."
       }
     }
   ]
