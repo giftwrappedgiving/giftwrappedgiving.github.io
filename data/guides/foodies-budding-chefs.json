@@ -173,6 +173,66 @@
         "url": "/static/images/gifts/jerez-garlic-crusher.jpeg",
         "alt_text": "Image of Jerez garlic crusher. A great gift to give someone special."
       }
+    },
+    {
+      "name": "Cookies through the post",
+      "shop": "Creme London",
+      "gift_url": "https://cremelondon.com/tools/bundle-builder/9zWm/new",
+      "description": "Who wouldn't want a delicious treat through the letterbox?!",
+      "image": {
+        "url": "/static/images/gifts/creme-cookies-london.jpg",
+        "alt_text": "Image of Cookies through the post. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Raspberry jelly sweets",
+      "shop": "Labour and wait",
+      "gift_url": "https://labourandwait.co.uk/collections/gifts/products/dutch-raspberry-jelly-sweets",
+      "description": "These little gems are a recreation of a sweet produced since 1873 - so have that old school, cool retro vibe going on. They are also delicious and big enough to share.",
+      "image": {
+        "url": "/static/images/gifts/SweetsRaspberryRemmelt.jpg",
+        "alt_text": "Image of Raspberry jelly sweets. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Salt, Fat, Acid, Heat",
+      "shop": "Amazon",
+      "gift_url": "https://amzn.to/3UH3SYM",
+      "description": "Mastering the 4 essentials of cooking is the magic trick of top chefs. Help the budding chef in your life hit those levels. And feed you?",
+      "image": {
+        "url": "/static/images/gifts/salt-fat-acid-heat.jpg",
+        "alt_text": "Image of Salt, Fat, Acid, Heat. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Pizza Rocker",
+      "shop": "Gozney",
+      "gift_url": "http://Gozney Pizza Rocker",
+      "description": "Is this a necessity? No. But is it a pretty cool addition to the kitchen? Yes. Well there you go then.",
+      "image": {
+        "url": "/static/images/gifts/pizza-rocker.jpg",
+        "alt_text": "Image of Pizza Rocker. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Round himalayan salt block",
+      "shop": "Not on the highstreet",
+      "gift_url": "https://www.notonthehighstreet.com/salthousepeppermongers/product/medium-circle-salt-block",
+      "description": "Looks good. Makes things taste good. A great edition to any kitchen.",
+      "image": {
+        "url": "/static/images/gifts/round-himalayan-salt-block.jpg",
+        "alt_text": "Image of Round himalayan salt block. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "The Velvetiser",
+      "shop": "Hotel Chocolat",
+      "gift_url": "https://www.hotelchocolat.com/uk/velvetiser-hot-chocolate-machine.html",
+      "description": "The must-have gift of 2023 is still a must-have gift of 2024. Go on you know you want to.",
+      "image": {
+        "url": "/static/images/gifts/velvetiser-copper-edition.jpg",
+        "alt_text": "Image of The Velvetiser. A great gift to give someone special."
+      }
     }
   ]
 }
