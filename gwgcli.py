@@ -5,6 +5,7 @@ import os
 import click
 
 from bin.data_helpers import read_json_as_dict
+from bin.file_helpers import get_json_files
 from bin.terminal_helpers import execute_commands
 
 
@@ -44,6 +45,34 @@ def extract_image_paths(guide, dry_run):
         commands.append(command)
 
     execute_commands(commands)
+
+
+def print_guide_view(guide):
+    print(f'Name: {guide["name"]}')
+    print(f'Tagline: {guide["tagline"]}')
+    print("\nGifts\n===\n")
+    for gift in guide["gifts"]:
+        print(f"{gift['name']} from {gift['shop']}")
+        print(gift["description"])
+        print("---")
+
+
+@cli.command(name="guide-view")
+@click.option(
+    "--name",
+    type=str,
+    help="Name of guide",
+)
+def guide_view(name):
+    guides = get_json_files("data/guides")
+    if name:
+        guides = [guide for guide in guides if name in guide]
+
+    if len(guides):
+        guide_data = read_json_as_dict(guides[0])
+        print_guide_view(guide_data)
+    else:
+        print(f"Not guide called: {name}")
 
 
 if __name__ == "__main__":
