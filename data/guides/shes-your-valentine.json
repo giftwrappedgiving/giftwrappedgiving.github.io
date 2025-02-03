@@ -1,0 +1,139 @@
+{
+  "name": "She's your valentine",
+  "tagline": "A collection of gifts for the special lady in your life. Spoil her this Valentine's.",
+  "entry-date": "2025-01-31",
+  "update-date": "2025-02-03",
+  "homepage-order": 3,
+  "gifts": [
+    {
+      "name": "Classic zip up hoodie",
+      "shop": "SKIMS",
+      "gift_url": "https://skims.com/en-gb/products/cotton-fleece-classic-zip-up-hoodie-barely-pink",
+      "description": "Dreamy. Comfortable. Stylish. A sure winner",
+      "image": {
+        "url": "/static/images/gifts/classic-zip-up-hoodie.jpg",
+        "alt_text": "Image of Classic zip up hoodie. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Oh so fine (pearl) bracelet",
+      "shop": "Olivia & Pearl",
+      "gift_url": "https://oliviaandpearl.com/collections/best-selling-pearls/products/oh-so-fine-bracelet",
+      "description": "Delicate jewellery for the delicate one in your life",
+      "image": {
+        "url": "/static/images/gifts/OhSoFineBraceletYG_2000x.jpg",
+        "alt_text": "Image of Oh so fine (pearl) bracelet. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Votch solar watch",
+      "shop": "Votch",
+      "gift_url": "https://votch.co.uk/collections/solar-classic-collection/products/gold-forest-tan-watch-solar-classic",
+      "description": "This is a classic. And, it'll help your loved get to dinner with you on time.",
+      "image": {
+        "url": "/static/images/gifts/votch-solar-watch.jpg",
+        "alt_text": "Image of Votch solar watch. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Estella Bartlett Mini Jewellery Box",
+      "shop": "Estella Bartlett",
+      "gift_url": "https://estellabartlett.com/collections/jewellery-boxes/products/pink-colour-block-mini-jewellery-box-ebp6265",
+      "description": "An adorable box for your loved one's jewellery. Just expect them to want you to fill it with sparkly things.",
+      "image": {
+        "url": "/static/images/gifts/estella-bartlett-mini-jewellery-box.webp",
+        "alt_text": "Image of Estella Bartlett Mini Jewellery Box. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "SILKE London Frida Hair Ties",
+      "shop": "Cult beauty",
+      "gift_url": "https://www.cultbeauty.co.uk/p/silke-london-frida-hair-ties/11960054/",
+      "description": "Keep it small and thoughtful this Valentine's with these silk hair ties.",
+      "image": {
+        "url": "/static/images/gifts/silke-london-frida-hair-ties.jpg",
+        "alt_text": "Image of SILKE London Frida Hair Ties. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "FOREO Luna mini facial cleansing brush",
+      "shop": "FOREO",
+      "gift_url": "https://amzn.to/3SWSMhr",
+      "description": "Give your loved one this facial cleanser.",
+      "image": {
+        "url": "/static/images/gifts/foreo-luna-facial-cleanser.jpg",
+        "alt_text": "Image of FOREO Luna mini facial cleansing brush. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Luxury silk pyjamas",
+      "shop": "Gilda & Pearl",
+      "gift_url": "https://gildapearl.co.uk/products/dressing-room-pj-blush-just-for-farfetch",
+      "description": "A true bit of luxury to make your loved one feel special. Extra special.",
+      "image": {
+        "url": "/static/images/gifts/luxury-silk-pyjamas.jpg",
+        "alt_text": "Image of Luxury silk pyjamas. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "At-home lash lift kit",
+      "shop": "Sassy Saint",
+      "gift_url": "https://www.sassysaints.com/products/lash-lift-kit",
+      "description": "A great gift for that special someone this Valentine's",
+      "image": {
+        "url": "/static/images/gifts/at-home-lash-lift.jpg",
+        "alt_text": "Image of At-home lash lift kit. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Gold fine chain necklace",
+      "shop": "Monica Vinader",
+      "gift_url": "https://www.monicavinader.com/fine-chain-necklace-adjustable-43cm-17/gold-vermeil-fine-chain-necklace-adjustable-43cm-17",
+      "description": "A beautiful, fine chain necklace that will become a staple for your loved one for years to come.",
+      "image": {
+        "url": "/static/images/gifts/monica-vinader-fine-chain-necklace.jpg",
+        "alt_text": "Image of Gold fine chain necklace. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Heart chocolate selection box",
+      "shop": "Fortnum & Mason",
+      "gift_url": "https://www.fortnumandmason.com/heart-chocolate-selection-box",
+      "description": "Is a box of top quality chocolates ever a bad idea? We don't think so.",
+      "image": {
+        "url": "/static/images/gifts/heart-selection-fortnum-choc.jpg",
+        "alt_text": "Image of Heart chocolate selection box. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Loving candle",
+      "shop": "Bella Freud",
+      "gift_url": "https://bellafreud.com/collections/home-view-all/products/loving-candle",
+      "description": "A loved one with feel spoilt with this candle designed by fashion and interior designer Bella Freud.",
+      "image": {
+        "url": "/static/images/gifts/bella_freud_loving_candle_red_valentinesday_flat_1.jpg",
+        "alt_text": "Image of Loving candle. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Renpho Eye Massager",
+      "shop": "Amazon",
+      "gift_url": "https://amzn.to/48ppUoM",
+      "description": "Life is tiring. Your loved one deserves this.",
+      "image": {
+        "url": "/static/images/gifts/renpho-eye-massager.jpg",
+        "alt_text": "Image of Renpho Eye Massager. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Augustinus Bader Eye Patches",
+      "shop": "Cult Beauty",
+      "gift_url": "https://www.cultbeauty.co.uk/p/augustinus-bader-the-eye-patches-single-sachet/14759546/",
+      "description": "Give your loved one that little pick me up with these energising eye patches.",
+      "image": {
+        "url": "/static/images/gifts/augustinus-bader-eye-patches.jpg",
+        "alt_text": "Image of Augustinus Bader Eye Patches. A great gift to give someone special."
+      }
+    }
+  ]
+}
