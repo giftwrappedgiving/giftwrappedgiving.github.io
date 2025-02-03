@@ -1,0 +1,99 @@
+{
+  "name": "You are each other's Valentine",
+  "tagline": "A collection of gifts to make things special this Valentine's.",
+  "entry-date": "2025-01-31",
+  "update-date": "2025-02-03",
+  "homepage-order": 4,
+  "gifts": [
+    {
+      "name": "Luxury smoked fish and champagne hamper",
+      "shop": "Wright Brothers",
+      "gift_url": "https://thewrightbrothers.co.uk/products/smoked-fish-hamper-with-champagne",
+      "description": "Champagne. Smoked fish. A real breakfast treat for you and a loved one this valentine's",
+      "image": {
+        "url": "/static/images/gifts/Hampers_KipperChampagne1.jpg",
+        "alt_text": "Image of Luxury smoked fish and champagne hamper. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Beaumont cocktail shaker",
+      "shop": "SOHO HOME",
+      "gift_url": "https://www.sohohome.com/products/beaumont-cocktail-shaker/79922538",
+      "description": "Upgrade your cocktail game with this shaker that will keep on giving long after Valentine's has passed.",
+      "image": {
+        "url": "/static/images/gifts/beaumont-cocktail-shaker.jpg",
+        "alt_text": "Image of Beaumont cocktail shaker. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Get closer conversation game for couples",
+      "shop": "Intelligent change",
+      "gift_url": "https://www.intelligentchange.com/collections/play/products/get-closer-couples-edition",
+      "description": "Build even stronger relationships, deeper connections and enhanced intimacy with this game designed to spark conversation with your loved one",
+      "image": {
+        "url": "/static/images/gifts/intelligent-change-get-closer-game.jpg",
+        "alt_text": "Image of Get closer conversation game for couples. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Heart chocolate selection box",
+      "shop": "Fortnum & Mason",
+      "gift_url": "https://www.fortnumandmason.com/heart-chocolate-selection-box",
+      "description": "A wonderful sharer to keep both of you happy",
+      "image": {
+        "url": "/static/images/gifts/heart-selection-fortnum-choc.jpg",
+        "alt_text": "Image of Heart chocolate selection box. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Pin pong set",
+      "shop": "Not another bill",
+      "gift_url": "https://www.notanotherbill.com/collections/outdoor-games/products/neon-ping-pong-bats",
+      "description": "Neon colours with personalisable touches. Could be the perfect couple's gift. The competitive beware.",
+      "image": {
+        "url": "/static/images/gifts/Ping-Pong-personalisable.jpg",
+        "alt_text": "Image of Pin pong set. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Moonbird relaxation aid",
+      "shop": "Healf",
+      "gift_url": "https://healf.com/en-uk/products/moonbird",
+      "description": "Moonbird is your companion for relaxation and inner peace, guiding you through calming breathing exercises to alleviate stress, anxiety, and sleep issues. As a one or a two.",
+      "image": {
+        "url": "/static/images/gifts/moonbird-relaxation-aid.jpg",
+        "alt_text": "Image of Moonbird relaxation aid. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Where should we begin game of stories",
+      "shop": "Amazon",
+      "gift_url": "https://amzn.to/4e6wMsv",
+      "description": "A deck of conversation prompts - for building intimacy and relationships with those close to you",
+      "image": {
+        "url": "/static/images/gifts/where-should-we-begin.jpg",
+        "alt_text": "Image of Where should we begin game of stories. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Sushi starter kit",
+      "shop": "Kelly loves",
+      "gift_url": "https://kellyloves.com/products/complete-sushi-kit",
+      "description": "Everything you need for a fun date night in.",
+      "image": {
+        "url": "/static/images/gifts/kelly-loves-complete-kit.jpg.webp",
+        "alt_text": "Image of Sushi starter kit. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "The Lionel - Just Cheese",
+      "shop": "The Cheese Geek",
+      "gift_url": "https://www.thecheesegeek.com/products/the-lionel",
+      "description": "A selection of cheese geeks most popular cheeses. Pair with a good wine for perfect night in.",
+      "image": {
+        "url": "/static/images/gifts/cheesegeek-the-lionel-just-cheese.jpg",
+        "alt_text": "Image of The Lionel - Just Cheese. A great gift to give someone special."
+      }
+    }
+  ]
+}
