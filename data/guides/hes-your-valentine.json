@@ -1,0 +1,139 @@
+{
+  "name": "He's your valentine",
+  "tagline": "A collection of gifts for the special man in your life. Spoil him this Valentine's.",
+  "entry-date": "2025-01-31",
+  "update-date": "2025-02-03",
+  "homepage-order": 3,
+  "gifts": [
+    {
+      "name": "Anti-fatigue under eye patches",
+      "shop": "Horace",
+      "gift_url": "https://horace.com/en/product/anti-fatigue-under-eye-patches",
+      "description": "Has your man been working hard, or playing hard? Help him look his best with these under eye patches.",
+      "image": {
+        "url": "/static/images/gifts/horace-anti-fatigue-eye-oatches.jpg",
+        "alt_text": "Image of Anti-fatigue under eye patches. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Hibiki whisky",
+      "shop": "The Whisky Exchange",
+      "gift_url": "https://www.thewhiskyexchange.com/p/29388/hibiki-harmony",
+      "description": "Delicious whisky in a delicious keepsake of a bottle. He'll know he has been spoilt.",
+      "image": {
+        "url": "/static/images/gifts/hibiki-harmony-whisky.jpg",
+        "alt_text": "Image of Hibiki whisky. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "I love you pie",
+      "shop": "Fortnum & Mason",
+      "gift_url": "https://www.fortnumandmason.com/valentines-i-love-you-pie-1-36kg",
+      "description": "How would this giant pork pie go down this Valentine's? If it works it works.",
+      "image": {
+        "url": "/static/images/gifts/i-love-you-pie-fortnum.jpg",
+        "alt_text": "Image of I love you pie. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Roasted Coffee Soy Candle",
+      "shop": "Etsy",
+      "gift_url": "https://www.etsy.com/uk/listing/1589732906/roasted-coffee-candle-coffee-gifts-for",
+      "description": "You want his place to smell good? Why not try this roasted coffee spy candle.",
+      "image": {
+        "url": "/static/images/gifts/roast-coffee-soy-candle.jpg",
+        "alt_text": "Image of Roasted Coffee Soy Candle. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Sock Collection",
+      "shop": "London Sock Company",
+      "gift_url": "https://londonsockcompany.com/products/simply-seasonal-6-pair?variant=40802921709631",
+      "description": "Your man is sure to love these socks of the luxurious kind.",
+      "image": {
+        "url": "/static/images/gifts/6PAIR-TOUCHOFCLASS.jpg",
+        "alt_text": "Image of Sock Collection. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Luxury eye mask",
+      "shop": "Masters of Mayfair",
+      "gift_url": "https://mastersofmayfair.com/products/luxury-sleeping-mask?sku=18063954229261794110490455",
+      "description": "He might not be willing to buy these himself but trust us, he'll appreciate them.",
+      "image": {
+        "url": "/static/images/gifts/luxury-eye-mask-men.jpeg",
+        "alt_text": "Image of Luxury eye mask. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Push card wallet from Hardgraft",
+      "shop": "Hardgraft",
+      "gift_url": "https://www.hardgraft.com/products/pushcardclassic",
+      "description": "Level up what's in your man's pocket with this perfectly designed leather card wallet",
+      "image": {
+        "url": "/static/images/gifts/hardgraft-Push_Card_Case-classic.jpg",
+        "alt_text": "Image of Push card wallet from Hardgraft. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Beaumont cocktail shaker",
+      "shop": "SOHO HOME",
+      "gift_url": "https://www.sohohome.com/products/beaumont-cocktail-shaker/79922538",
+      "description": "Give your man no excuse to make you the perfect drink.",
+      "image": {
+        "url": "/static/images/gifts/beaumont-cocktail-shaker.jpg",
+        "alt_text": "Image of Beaumont cocktail shaker. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Craft beer bundle",
+      "shop": "Beavertown brewery",
+      "gift_url": "https://beavertownbrewery.co.uk/products/beavertown-core-craft-beer-bundle",
+      "description": "A bit of variety for the beer lover in your life",
+      "image": {
+        "url": "/static/images/gifts/beavertown-brewery-core-bundle-tumbler.jpeg",
+        "alt_text": "Image of Craft beer bundle. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Face kit for men",
+      "shop": "Horace",
+      "gift_url": "https://horace.com/en/product/face-kit",
+      "description": "Level up his face care regime. He'll appreciate and so will you.",
+      "image": {
+        "url": "/static/images/gifts/face-kit-horace.jpg",
+        "alt_text": "Image of Face kit for men. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Apple AirPods pro 2",
+      "shop": "Apple",
+      "gift_url": "https://www.apple.com/uk/airpods-pro/",
+      "description": "What a gift to get the special someone in your life.",
+      "image": {
+        "url": "/static/images/gifts/apple-airpods-2.jpg",
+        "alt_text": "Image of Apple AirPods pro 2. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Theragun prime",
+      "shop": "Theragun",
+      "gift_url": "https://www.theragun.com/uk/en-gb/prime-uk.html",
+      "description": "Help him recover from his work outs with the ultimate Theragun.",
+      "image": {
+        "url": "/static/images/gifts/theragun-prime.jpg",
+        "alt_text": "Image of Theragun prime. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Niwaki Bento Box",
+      "shop": "Niwaki",
+      "gift_url": "https://www.niwaki.com/bento-box/#P00677-1",
+      "description": "If you also make lunch to go in this stylish lunchbox, he is sure to owe you big time.",
+      "image": {
+        "url": "/static/images/gifts/niwaki-bento-oblong-box.png",
+        "alt_text": "Image of Niwaki Bento Box. A great gift to give someone special."
+      }
+    }
+  ]
+}
