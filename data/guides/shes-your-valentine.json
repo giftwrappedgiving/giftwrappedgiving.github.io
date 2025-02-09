@@ -2,7 +2,7 @@
   "name": "She's your valentine",
   "tagline": "A collection of gifts for the special lady in your life. Spoil her this Valentine's.",
   "entry-date": "2025-01-31",
-  "update-date": "2025-02-03",
+  "update-date": "2025-02-09",
   "homepage-order": 2,
   "gifts": [
     {
@@ -133,6 +133,26 @@
       "image": {
         "url": "/static/images/gifts/augustinus-bader-eye-patches.jpg",
         "alt_text": "Image of Augustinus Bader Eye Patches. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Big love mug",
+      "shop": "Oliver Bonas",
+      "gift_url": "https://www.oliverbonas.com/homeware/big-love-splatter-ceramic-mug-372945",
+      "description": "Say I love you with the Big Love mug!",
+      "image": {
+        "url": "/static/images/gifts/big-love-mug-ob.jpg",
+        "alt_text": "Image of Big love mug. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "SURI Sustainable Electric Toothbrush",
+      "shop": "SURI",
+      "gift_url": "https://amzn.to/4dpDyd8",
+      "description": "A beautiful and sustainable toothbrush that'll be sure to make her smile.",
+      "image": {
+        "url": "/static/images/gifts/suri_toothbrish_green-no-background.png",
+        "alt_text": "Image of SURI Sustainable Electric Toothbrush. A great gift to give someone special."
       }
     }
   ]

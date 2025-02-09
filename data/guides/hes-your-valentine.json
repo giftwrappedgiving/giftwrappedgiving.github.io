@@ -2,7 +2,7 @@
   "name": "He's your valentine",
   "tagline": "A collection of gifts for the special man in your life. Spoil him this Valentine's.",
   "entry-date": "2025-01-31",
-  "update-date": "2025-02-03",
+  "update-date": "2025-02-09",
   "homepage-order": 3,
   "gifts": [
     {
@@ -133,6 +133,16 @@
       "image": {
         "url": "/static/images/gifts/niwaki-bento-oblong-box-copy.png",
         "alt_text": "Image of Niwaki Bento Box. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "SURI Sustainable Electric Toothbrush",
+      "shop": "SURI",
+      "gift_url": "https://amzn.to/4dpDyd8",
+      "description": "Stylish and sure to keep his smile sparkling!",
+      "image": {
+        "url": "/static/images/gifts/suri_toothbrish_green-no-background.png",
+        "alt_text": "Image of SURI Sustainable Electric Toothbrush. A great gift to give someone special."
       }
     }
   ]
