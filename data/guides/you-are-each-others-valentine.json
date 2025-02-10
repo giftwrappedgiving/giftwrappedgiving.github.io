@@ -104,6 +104,16 @@
         "url": "/static/images/gifts/CouplesEdition-TheAdventureChallenge-MAINLG-optimized_720x.jpg",
         "alt_text": "Image of The Adventure Challenge - Couples Edition. A great gift to give someone special."
       }
+    },
+    {
+      "name": "Ramen Set with Ramen Forever Cook Book",
+      "shop": "The wasabi company",
+      "gift_url": "https://www.thewasabicompany.co.uk/products/ramen-set-with-ramen-forever-cook-book",
+      "description": "All you need for your night in - comes with the excellent Ramen Forever cookbook",
+      "image": {
+        "url": "/static/images/gifts/ramen-set-with-forever-cookbook-2024-clear-soy.jpg",
+        "alt_text": "Image of Ramen Set with Ramen Forever Cook Book. A great gift to give someone special."
+      }
     }
   ]
 }

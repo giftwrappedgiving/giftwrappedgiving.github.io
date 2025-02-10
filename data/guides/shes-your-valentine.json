@@ -154,6 +154,26 @@
         "url": "/static/images/gifts/suri_toothbrish_green-no-background.png",
         "alt_text": "Image of SURI Sustainable Electric Toothbrush. A great gift to give someone special."
       }
+    },
+    {
+      "name": "Dream journal",
+      "shop": "Etsy",
+      "gift_url": "https://www.etsy.com/uk/listing/1291423253/dream-journal-for-recording-dreams-a5",
+      "description": "A beautiful journal for all her dreams, hopefully starring a certain you!",
+      "image": {
+        "url": "/static/images/gifts/dream-journal.jpg",
+        "alt_text": "Image of Dream journal. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Love cushion",
+      "shop": "Oliver Bonas",
+      "gift_url": "https://www.oliverbonas.com/homeware/love-blue-cream-patchwork-cushion-cover-375778",
+      "description": "A little patchwork, a lot of love – the perfect cosy Valentine’s gift.",
+      "image": {
+        "url": "/static/images/gifts/love-cushion.jpg",
+        "alt_text": "Image of Love cushion. A great gift to give someone special."
+      }
     }
   ]
 }
