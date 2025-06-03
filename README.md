@@ -33,6 +33,11 @@ summary: Discover thoughtfully curated gift guides that make every occasion spec
 ---
 ```
 
+Or, use the command
+```
+python gwgcli.py blog --name "Apple AirPod Pros - oh how we've missed you"
+```
+
 ### How to fetch images for a guide
 
 For any guide we need to fetch the images. Run this command with `--dry-run` to test it'll work. Replace `editors-picks.json` with name of your guide.

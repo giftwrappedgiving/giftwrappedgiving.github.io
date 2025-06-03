@@ -4,6 +4,7 @@
 
 This are things that have been promoted to the to do level.
 
+[] - set up github action to download analytics stats each month
 [x] - add analytics so we can track which gifts are clicked on (added simpleAnalytics)
 
 ### Ideas
