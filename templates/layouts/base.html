@@ -43,6 +43,10 @@
       {% block pageScripts %}
       <script src="index.js"></script>
       {% endblock %}
+      {% block analyticsScript -%}
+      <!-- 100% privacy-first analytics -->
+      <script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+      {%- endblock analyticsScript %}
     {% endblock %}
   </body>
 </html>

@@ -4,7 +4,7 @@
 
 This are things that have been promoted to the to do level.
 
-[] - add analytics so we can track which gifts are clicked on
+[x] - add analytics so we can track which gifts are clicked on (added simpleAnalytics)
 
 ### Ideas
 
