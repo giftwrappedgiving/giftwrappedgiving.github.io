@@ -1,8 +1,8 @@
 ---
 layout: article
-title: Apple AirPod Pros - oh how we've missed you
+title: "Apple AirPod Pros - oh how we've missed you"
 created_date: "2025-06-03"
-summary: "Back in love with the AirPods Pro: a secure fit, seamless Apple magic, great sound, and the perfect gift for anyone with ears.
+summary: "Back in love with the AirPods Pro: a secure fit, seamless Apple magic, great sound, and the perfect gift for anyone with ears."
 ---
 
 Lets be honest, I've been on a bit of a headphone journey.
