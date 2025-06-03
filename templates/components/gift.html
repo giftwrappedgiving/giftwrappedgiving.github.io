@@ -9,7 +9,7 @@
   </div>
   <div class="{{ params.class_prefix if params.class_prefix else 'gwg-gift' }}__footer">
     <span>{{ params.shop }}</span>
-    <a href="{{ params.btn.url }}">{{ params.btn.label }}</a>
+    <a href="{{ params.btn.url }}" data-simple-event="go_to_gift">{{ params.btn.label }}</a>
   </div>
 </div>
 {% endmacro %}
