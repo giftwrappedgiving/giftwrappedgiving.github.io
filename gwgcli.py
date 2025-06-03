@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 
 import os
+import re
+from datetime import date
 
 import click
 
@@ -73,6 +75,37 @@ def guide_view(name):
         print_guide_view(guide_data)
     else:
         print(f"Not guide called: {name}")
+
+
+def slugify(title):
+    slug = title.lower()
+    slug = re.sub(r"[^a-z0-9\s-]", "", slug)
+    slug = re.sub(r"[\s_-]+", "-", slug)
+    slug = slug.strip("-")
+    return slug
+
+
+@cli.command(name="blog")
+@click.option(
+    "--name",
+    required=True,
+    type=str,
+    help="Title of the blog post",
+)
+def blog(name):
+    """Set up files for a new blog post."""
+    slug = slugify(name)
+    blog_dir = os.path.join("content", "blog", slug)
+    os.makedirs(blog_dir, exist_ok=True)
+    md_path = os.path.join(blog_dir, "index.md")
+    today = date.today().strftime("%Y-%m-%d")
+    frontmatter = f"""---\nlayout: article\ntitle: {name}\ncreated_date: \"{today}\"\nsummary: \n---\n\n"""
+    if not os.path.exists(md_path):
+        with open(md_path, "w") as f:
+            f.write(frontmatter)
+        print(f"Created {md_path}")
+    else:
+        print(f"{md_path} already exists")
 
 
 if __name__ == "__main__":
