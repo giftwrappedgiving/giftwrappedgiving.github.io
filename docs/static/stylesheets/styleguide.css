@@ -54,6 +54,7 @@ h6 {
   --main-text-colour: var(--monochrome-5);
   --page-background-colour: var(--monochrome-white);
   --highlight-background-color: var(--monochrome-2);
+  --hero-img-cream: #EEE9E0;
 }
 
 :root {
@@ -514,14 +515,14 @@ a {
   min-height: 200px;
 }
 
-@media (min-width: 30em) {
+@media (min-width: 32.5em) {
   .gwg-gallery__gift--large {
     grid-column: span 2;
     grid-row: span 2;
   }
 }
 
-@media (min-width: 30em) {
+@media (min-width: 32.5em) {
   .gwg-gallery__gift--wide {
     grid-column: span 2;
   }
@@ -600,9 +601,13 @@ a {
 .gwg-hero {
   --hero-background-colour: var(--highlight-background-color);
   --top-offset: calc(50px + var(--site-spacing));
+  --hero-text-colour: var(--main-text-colour);
   background: var(--hero-background-colour);
-  height: var(--main-hero-height);
   padding-top: var(--top-offset);
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16/9;
+  overflow: hidden;
 }
 @media (min-width: 46.25em) {
   .gwg-hero {
@@ -610,12 +615,40 @@ a {
     background-color: color-mix(in srgb, var(--hero-background-colour) 75%, black);
   }
 }
+@media (max-width: 61.24em) and (orientation: portrait) {
+  .gwg-hero {
+    aspect-ratio: 4/5;
+  }
+}
+
+.gwg-hero--main {
+  --hero-text-colour: var(--hero-img-cream);
+}
+
+.gwg-hero__img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.gwg-hero__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
 
 .gwg-hero--guide {
   height: var(--gift-guide-hero-height);
 }
 
 .gwg-hero__container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
   display: flex;
   height: 100%;
   width: 100%;
@@ -631,24 +664,11 @@ a {
 }
 
 .gwg-hero__title {
-  font-weight: 700;
-  font-size: 2.625rem;
-  line-height: 1.0952380952;
+  font-size: clamp(32px, 5.8vw, 85px);
   max-width: var(--title-ch-max);
-  color: var(--main-text-colour);
+  padding-top: var(--site-spacing-large);
+  color: var(--hero-text-colour);
   letter-spacing: 2px;
-}
-@media (min-width: 30em) {
-  .gwg-hero__title {
-    font-size: 3.75rem;
-    line-height: 1.0666666667;
-  }
-}
-@media (min-width: 46.25em) {
-  .gwg-hero__title {
-    font-size: 5.3125rem;
-    line-height: 1;
-  }
 }
 @media (min-width: 46.25em) {
   .gwg-hero__title {
@@ -783,9 +803,9 @@ a {
   padding: 5vw;
   background-color: var(--page-background-colour);
   border-right: 2px solid black;
-  z-index: 3;
+  z-index: 4;
 }
-@media (max-width: 29.99em) {
+@media (max-width: 32.49em) {
   .site-nav__checkbox:checked ~ .site-nav__panel {
     display: flex;
     flex-direction: column;
@@ -819,9 +839,9 @@ a {
   position: absolute;
   top: calc(20px + var(--main-nav-banner-height) / 2 - var(--icon-width-half));
   left: calc(var(--site-spacing) * 1.5);
-  z-index: 2;
+  z-index: 4;
 }
-@media (min-width: 30em) {
+@media (min-width: 32.5em) {
   .site-nav__banner-btn {
     display: none;
   }
@@ -833,7 +853,7 @@ a {
   position: absolute;
   top: 20px;
   left: calc(var(--main-nav-mobile-width) - 5vw - var(--close-btn-width));
-  z-index: 4;
+  z-index: 5;
 }
 
 .site-nav__checkbox {
@@ -860,8 +880,9 @@ a {
   background-color: var(--page-background-colour);
   top: 0;
   left: 0;
-  width: calc(100% - 2 * var(--nav-banner-spacing));
   height: 45px;
+  z-index: 3;
+  width: calc(100% - var(--nav-banner-spacing) * 2);
 }
 @media (min-width: 46.25em) {
   .site-nav__banner {
@@ -889,7 +910,7 @@ a {
   display: none;
   padding: 0;
 }
-@media (min-width: 30em) {
+@media (min-width: 32.5em) {
   .site-nav__banner .nav-links {
     display: flex;
   }
@@ -900,7 +921,7 @@ a {
   top: 50%;
   transform: translateX(-50%) translateY(-50%);
 }
-@media (max-width: 29.99em) {
+@media (max-width: 32.49em) {
   .site-nav__banner .site-nav__title {
     width: 100%;
     text-align: center;
@@ -922,6 +943,11 @@ a {
 }
 .site-nav__banner .site-nav__content-sections li {
   padding: 0 var(--nav-banner-spacing-half);
+}
+
+.site-nav__container {
+  position: relative;
+  z-index: 3;
 }
 
 :root {
@@ -1112,14 +1138,14 @@ body {
   min-height: 200px;
 }
 
-@media (min-width: 30em) {
+@media (min-width: 32.5em) {
   .sg-gallery__gift--large {
     grid-column: span 2;
     grid-row: span 2;
   }
 }
 
-@media (min-width: 30em) {
+@media (min-width: 32.5em) {
   .sg-gallery__gift--wide {
     grid-column: span 2;
   }
