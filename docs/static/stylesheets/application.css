@@ -615,7 +615,7 @@ a {
     background-color: color-mix(in srgb, var(--hero-background-colour) 75%, black);
   }
 }
-@media (max-width: 61.24em) and (orientation: portrait) {
+@media (max-width: 46.24em) and (orientation: portrait) {
   .gwg-hero {
     aspect-ratio: 4/5;
   }
