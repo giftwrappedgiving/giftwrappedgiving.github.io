@@ -7,9 +7,20 @@
 
 {% block content %}
 {{ gwgHero({
+  "classes": "gwg-hero--main",
   "title": {
     "content": "Discover thoughtfully curated gifts that make every occasion special"
-  }
+  },
+  "image": {
+    "src": "/static/images/hero-landscape.svg",
+    "alt": "A selection of gifts",
+    "sources": [
+      {
+        "srcset": "/static/images/hero-portrait.svg",
+        "media": "(max-width: 768px) and (orientation: portrait)"
+      }
+    ]
+  },
 }) }}
 
 <section class="gwg-section">

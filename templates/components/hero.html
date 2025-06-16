@@ -3,6 +3,20 @@
   {% if params.content %}
   {{- params.content.html -}}
   {% else %}
+  {%- if params.image %}
+  <div class="gwg-hero__img">
+    {% if params.image.sources %}
+    <picture>
+      {% for source in params.image.sources %}
+      <source srcset="{{ source.srcset }}" media="{{ source.media }}">
+      {% endfor %}
+      <img src="{{ params.image.src }}" alt="{{ params.image.alt if params.image.alt }}" loading="lazy">
+    </picture>
+    {% else %}
+    <img src="{{ params.image.src }}" alt="{{ params.image.alt if params.image.alt }}" loading="lazy">
+    {% endif %}
+  </div>
+  {% endif %}
   <div class="gwg-hero__container">
     {%- if params.title and params.title.html %}
     {{ params.title.html }}

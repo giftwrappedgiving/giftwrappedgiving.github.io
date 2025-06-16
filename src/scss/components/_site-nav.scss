@@ -38,7 +38,7 @@
   background-color: var(--page-background-colour);
   border-right: 2px solid black;
 
-  z-index: 3;
+  z-index: 4;
 
   .site-nav__checkbox:checked ~ & {
     @include mq($until: mobileLandscape) {
@@ -68,7 +68,7 @@
   position: absolute;
   top: calc(20px + (var(--main-nav-banner-height) / 2) - var(--icon-width-half));
   left: calc(var(--site-spacing) * 1.5);
-  z-index: 2;
+  z-index: 4;
 
   @include mq($from: mobileLandscape) {
     display: none;
@@ -81,7 +81,7 @@
   position: absolute;
   top: 20px;
   left: calc(var(--main-nav-mobile-width) - 5vw - var(--close-btn-width));
-  z-index: 4;
+  z-index: 5;
 }
 
 .site-nav__checkbox {
@@ -115,8 +115,9 @@
   background-color: var(--page-background-colour);
   top: 0;
   left: 0;
-  width: calc(100% - (2 * var(--nav-banner-spacing)));
   height: 45px;
+  z-index: 3; // Higher than hero's z-index
+  width: calc(100% - (var(--nav-banner-spacing) * 2)); // Account for margins
 
   .nav-links,
   .nav-link {
@@ -168,4 +169,9 @@
       padding: 0 var(--nav-banner-spacing-half);
     }
   }
+}
+
+.site-nav__container {
+  position: relative;
+  z-index: 3; // Higher than hero's z-index
 }
