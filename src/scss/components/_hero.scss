@@ -23,7 +23,7 @@
     background-color: color-mix(in srgb, var(--hero-background-colour) 75%, black);;
   }
 
-  @include mq($until: desktop, $and: '(orientation: portrait)') {
+  @include mq($until: tablet, $and: '(orientation: portrait)') {
     aspect-ratio: 4 / 5;
   }
 }
