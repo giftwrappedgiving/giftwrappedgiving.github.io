@@ -24,7 +24,7 @@
       "name": "Foldable Bike Helmet",
       "shop": "Amazon",
       "gift_url": "https://amzn.to/4fRDqVs",
-      "description": "",
+      "description": "Helmet when you need it, stash it when you don't. This folding helmet makes safety as portable as your summer commute.",
       "image": {
         "url": "/static/images/gifts/Closca-Helmet-Loop-Graphite-Black.jpg",
         "alt_text": "Image of Foldable Bike Helmet. A great gift to give someone special."
@@ -98,6 +98,46 @@
       "image": {
         "url": "/static/images/gifts/sweaty-betty-resistance-bands.jpg",
         "alt_text": "Image of Sweaty Betty Resistance Bands. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Technogym Bench",
+      "shop": "Technogym",
+      "gift_url": "https://www.technogym.com/en-GB/product/technogym-bench_DGY100.html",
+      "description": "All the tools for a complete workout enclosed in a sleek and versatile home gym bench.",
+      "image": {
+        "url": "/static/images/gifts/technogym_bench_gallery_001.jpg",
+        "alt_text": "Image of Technogym Bench. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Apple Watch - series 10",
+      "shop": "John Lewis",
+      "gift_url": "https://www.johnlewis.com/apple-watch-series-10-gps-42mm-aluminium-case-sport-band/black/p112608936",
+      "description": "The go-to Apple Watch for most folks: slim, light on the wrist and available in two sizes. Get those movement goals done!",
+      "image": {
+        "url": "/static/images/gifts/apple-watch-series-10.jpg",
+        "alt_text": "Image of Apple Watch - series 10. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Pin pong set",
+      "shop": "Not another bill",
+      "gift_url": "https://www.notanotherbill.com/collections/outdoor-games/products/neon-ping-pong-bats",
+      "description": "Neon colours perfect for the summer. Could be the perfect couple's gift. The competitive beware.",
+      "image": {
+        "url": "/static/images/gifts/Ping-Pong-personalisable.jpg",
+        "alt_text": "Image of Pin pong set. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Zero 2 Cable Pulley",
+      "shop": "Bulldog gear",
+      "gift_url": "https://bulldoggear.com/products/zero-2-dual-adjustable-pulley-machine",
+      "description": "Expensive, yes but an absolute must for the professional-level home gym. It is such a space saver.",
+      "image": {
+        "url": "/static/images/gifts/bulldog-Zero2-Overlays.jpg",
+        "alt_text": "Image of Zero 2 Cable Pulley. A great gift to give someone special."
       }
     }
   ]
