@@ -1,8 +1,10 @@
 .gwg-footer {
-  --footer-background-colour: var(--highlight-background-color);
+  --footer-background-colour: var(--gwg-footer-background-colour);
+  --footer-text-colour: var(--gwg-footer-text-colour);
 
   padding: calc(2 * var(--site-spacing)) var(--site-spacing);
   background: var(--footer-background-colour);
+  color: var(--gwg-footer-text-colour);
 
   @include mq($from: tablet) {
     padding: calc(2 * var(--site-spacing-large)) var(--site-spacing-large) ;
