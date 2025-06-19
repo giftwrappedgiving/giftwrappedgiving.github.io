@@ -1,18 +1,34 @@
 {% extends 'layouts/base.html' %}
 {% from 'components/gift.html' import gwgGift %}
 
+{% set bodyClasses = guide.class %}
+
 {% block header %}
 {% include 'components/site-nav.html' %}
 {% endblock %}
 
 {% block content %}
-{{ gwgHero({
-  "classes": "gwg-hero--guide",
-  "title": {
-    "content": guide.name
-  },
-  "tagline": guide.tagline
-}) }}
+{% if guide.hero_image %}
+  {{ gwgHero({
+    "classes": "gwg-hero--guide",
+    "title": {
+      "content": guide.name
+    },
+    "tagline": guide.tagline,
+    "image": {
+      "src": guide.hero_image.url,
+      "alt": guide.hero_image.alt if guide.hero_image.alt else ""
+    }
+  }) }}
+{% else %}
+  {{ gwgHero({
+    "classes": "gwg-hero--guide",
+    "title": {
+      "content": guide.name
+    },
+    "tagline": guide.tagline
+  }) }}
+{% endif %}
 
 <section class="gwg-gallery__container">
   <div class="gwg-gallery">

@@ -53,6 +53,24 @@
 }
 
 
+%highlight-text {
+  --highlight-text-colour: var(--hero-text-colour);
+  --highlight-background-color: transparent;
+  display: inline;
+  background-color: var(--highlight-background-color);
+  padding: 0.2em 0.4em;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  color: var(--highlight-text-colour);
+  line-height: 1.5;
+}
+
+
+.gwg-hero--fitness {
+
+}
+
+
 .gwg-hero__container {
   position: absolute;
   top: 0;
@@ -96,6 +114,10 @@
 
   @include mq($from: tablet) {
     text-align: center;
+  }
+
+  span {
+    @extend %highlight-text;
   }
 }
 

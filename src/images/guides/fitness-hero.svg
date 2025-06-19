@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="fitness-hero" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 620">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #df8827;
+      }
+
+      .cls-2 {
+        fill: #3d3d3d;
+      }
+
+      .cls-3 {
+        fill: #eee9e0;
+      }
+    </style>
+  </defs>
+  <rect class="cls-3" width="1920" height="620"/>
+  <rect class="cls-1" y="338" width="1920" height="75"/>
+  <rect class="cls-2" x="720" y="597" width="480" height="5"/>
+  <rect class="cls-1" y="449" width="1920" height="75"/>
+</svg>

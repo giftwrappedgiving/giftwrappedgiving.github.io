@@ -3,6 +3,12 @@
   "tagline": "A collection of gifts that will help you and your loved ones stay active, stay healthy and stay stylish whilst doing it.",
   "entry-date": "2024-11-08",
   "update-date": "2024-11-08",
+  "class": "gwg-guide--fitness",
+  "hero_image": {
+    "name": "Stay Active",
+    "url": "/static/images/guides/fitness-hero.svg",
+    "alt_text": "A banner in the style of common fitness brands"
+  },
   "gifts": [
     {
       "name": "Oura smart ring",
