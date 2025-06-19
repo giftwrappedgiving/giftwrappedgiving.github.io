@@ -55,6 +55,8 @@ h6 {
   --page-background-colour: var(--monochrome-white);
   --highlight-background-color: var(--monochrome-2);
   --hero-img-cream: #EEE9E0;
+  --gwg-footer-background-colour: var(--highlight-background-color);
+  --gwg-footer-text-colour: var(--monochrome-4);
 }
 
 :root {
@@ -644,6 +646,18 @@ a {
   height: var(--gift-guide-hero-height);
 }
 
+.gwg-hero__tagline span {
+  --highlight-text-colour: var(--hero-text-colour);
+  --highlight-background-color: transparent;
+  display: inline;
+  background-color: var(--highlight-background-color);
+  padding: 0.2em 0.4em;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  color: var(--highlight-text-colour);
+  line-height: 1.5;
+}
+
 .gwg-hero__container {
   position: absolute;
   top: 0;
@@ -696,7 +710,6 @@ a {
     text-align: center;
   }
 }
-
 .gwg-hero--home .gwg-hero__title {
   font-weight: 700;
   font-size: 5.3125rem;
@@ -710,9 +723,11 @@ a {
 }
 
 .gwg-footer {
-  --footer-background-colour: var(--highlight-background-color);
+  --footer-background-colour: var(--gwg-footer-background-colour);
+  --footer-text-colour: var(--gwg-footer-text-colour);
   padding: calc(2 * var(--site-spacing)) var(--site-spacing);
   background: var(--footer-background-colour);
+  color: var(--gwg-footer-text-colour);
 }
 @media (min-width: 46.25em) {
   .gwg-footer {
@@ -1012,6 +1027,15 @@ a {
     font-size: 3.75rem;
     line-height: 1.0666666667;
   }
+}
+
+.gwg-guide--fitness {
+  --gwg-footer-background-colour: var(--main-text-colour);
+  --gwg-footer-text-colour: var(--monochrome-white);
+}
+.gwg-guide--fitness .gwg-hero__tagline span {
+  --highlight-text-colour: white;
+  --highlight-background-color: var(--hero-text-colour);
 }
 
 h1 {
