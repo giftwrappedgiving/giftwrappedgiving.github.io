@@ -44,6 +44,59 @@ def check_guides():
     print("==============")
 
 
+def check_missing_gift_descriptions():
+    guides = read_all_guides()
+    guides_with_missing = 0
+    total_missing = 0
+    prompts = []
+
+    for guide in guides:
+        missing_descriptions = []
+        print(f"\nChecking guide: {guide['name']}\n--------")
+
+        for gift in guide.get("gifts", []):
+            if not gift.get("description"):
+                missing_descriptions.append(gift["name"])
+                total_missing += 1
+
+        if missing_descriptions:
+            guides_with_missing += 1
+            print(f"Missing descriptions for: {', '.join(missing_descriptions)}")
+
+            # Prepare prompt for this guide
+            prompt = f"""review this json
+where there are missing gift descriptions add them for that gift
+the descriptions should follow a similar style to the other descriptions,
+they should be fun, witty and hook people in. Consider the guide description and purpose
+
+Description of guide:
+{guide.get('description', 'No guide description found')}
+
+Gift json:
+{guide['gifts']}
+
+---
+tell me which descriptions you've added or tweaked
+"""
+            prompts.append((guide["name"], prompt))
+        else:
+            print(f"No missing descriptions in guide: {guide['name']}")
+
+    print("\n=== Summary ===")
+    print(f"Total guides checked: {len(guides)}")
+    print(f"Guides with missing descriptions: {guides_with_missing}")
+    print(f"Total missing descriptions: {total_missing}")
+    print("==============")
+
+    if prompts:
+        print("\nPrompts for missing descriptions:")
+        for guide_name, prompt in prompts:
+            print(f"\n=== {guide_name} ===")
+            print(prompt)
+            print("=" * (len(guide_name) + 8))
+
+
 if __name__ == "__main__":
-    check_guides()
+    # check_guides()
+    check_missing_gift_descriptions()
     print("Finished checking guides.")
