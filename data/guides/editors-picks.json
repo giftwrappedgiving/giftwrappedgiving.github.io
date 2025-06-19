@@ -1,6 +1,7 @@
 {
   "name": "Editors' picks",
   "tagline": "A collection of our absolute favourite gifts. There is a guaranteed winner in here.",
+  "description":"This curated collection of Editor’s Picks is your insider’s shortcut to the very best gifts on the market. Each item has been hand-selected by our team of gifting enthusiasts and design obsessives, seeking out products that balance style, function, and delight. From show-stoppers and handcrafted delights to small but mighty tools that spark joy, these are the gifts we’d be thrilled to give—or receive—ourselves.",
   "entry-date": "2024-09-30",
   "update-date": "2024-10-03",
   "homepage-order": 1,
@@ -20,7 +21,7 @@
       "name": "SURI Sustainable Electric Toothbrush",
       "shop": "SURI",
       "gift_url": "https://amzn.to/4dpDyd8",
-      "description": "",
+      "description": "Brush up on eco-credentials: this sleek electric toothbrush uses replaceable heads and recyclable materials for a dazzling, guilt-free smile.",
       "image": {
         "url": "/static/images/gifts/suri_toothbrish_green-no-background.png",
         "alt_text": "Image of SURI Sustainable Electric Toothbrush. A great gift to give someone special."
@@ -30,7 +31,7 @@
       "name": "RAINS Classic Jacket",
       "shop": "RAINS",
       "gift_url": "https://www.uk.rains.com/collections/jacket/products/jacket-female?variant=39580159213651",
-      "description": "",
+      "description": "Who says rain gear has to be boring? This RAINS jacket keeps you dry in sleek, minimalist style. Umbrella optional.",
       "image": {
         "url": "/static/images/gifts/rains-jacket-classic-mid-length.jpeg",
         "alt_text": "Image of RAINS Classic Jacket. A great gift to give someone special."
@@ -61,7 +62,7 @@
       "name": "Votch Watch Gift Set",
       "shop": "Votch",
       "gift_url": "https://votch.co.uk/collections/gift-sets/products/rose-gold-slate-grey-moment-gift-set",
-      "description": "",
+      "description": "Time to upgrade your or their wristwear. This vegan-friendly watch gift set comes with two stylish straps for swapping looks as easily as your mood.",
       "image": {
         "url": "/static/images/gifts/Votch_GiftBox_watch.jpg",
         "alt_text": "Image of Votch Watch Gift Set. A great gift to give someone special."
@@ -92,7 +93,7 @@
       "name": "Opinel Bread Knife",
       "shop": "Amazon",
       "gift_url": "https://amzn.to/46ZUpkj",
-      "description": "",
+      "description": "This legendary French blade slices through crust and crumb with ease. Welcome to artisanal bread bliss.",
       "image": {
         "url": "/static/images/gifts/opinel-bread-knife-2.jpg",
         "alt_text": "Image of Opinel Bread Knife. A great gift to give someone special."
@@ -122,7 +123,7 @@
       "name": "Foldable Bike Helmet",
       "shop": "Freddie Grubb",
       "gift_url": "https://amzn.to/4fRDqVs",
-      "description": "",
+      "description": "Helmet when you need it, stash it when you don't. This folding helmet makes safety as portable as your commute.",
       "image": {
         "url": "/static/images/gifts/Closca-Helmet-Loop-Graphite-Black.jpg",
         "alt_text": "Image of Foldable Bike Helmet. A great gift to give someone special."
@@ -132,7 +133,7 @@
       "name": "Allbirds Tree runners",
       "shop": "Allbirds",
       "gift_url": "https://www.allbirds.co.uk/products/womens-tree-runners-kaikoura-white",
-      "description": "",
+      "description": "Step into sustainable comfort. These breezy, tree-based sneakers feel like walking on clouds. Feet and the planet will thank you.",
       "image": {
         "url": "/static/images/gifts/all-birds-tree-runner.jpeg",
         "alt_text": "Image of Allbirds Tree runners. A great gift to give someone special."
@@ -142,7 +143,7 @@
       "name": "Fujifilm Instax mini evo instant camera",
       "shop": "John Lewis",
       "gift_url": "https://www.johnlewis.com/fujifilm-instax-mini-evo-instant-camera-with-built-in-flash/brown/p6058439?srsltid=AfmBOoqYA_aJb8wN12oMeEK5-RQhLLkJPxSU5QVLepd2RWc0hL5YseuaBZs",
-      "description": "",
+      "description": "Snap, tweak, print! This hybrid instant camera lets you preview shots, add filters, and watch your memories develop in seconds.",
       "image": {
         "url": "/static/images/gifts/fujifilm-instax-min-evo-camera.webp",
         "alt_text": "Image of Fujifilm Instax mini evo instant camera. A great gift to give someone special."
