@@ -81,16 +81,6 @@
       }
     },
     {
-      "name": "Oura smart ring",
-      "shop": "Oura",
-      "gift_url": "https://ouraring.com/product/rings",
-      "description": "Next fitness tracker tech. Monitor sleep, activity, and all-round health with this great gift",
-      "image": {
-        "url": "/static/images/gifts/oura-smart-ring.jpeg",
-        "alt_text": "Image of Oura smart ring. A great gift to give someone special."
-      }
-    },
-    {
       "name": "Theragun prime",
       "shop": "Theragun",
       "gift_url": "https://www.theragun.com/uk/en-gb/prime-uk.html",
