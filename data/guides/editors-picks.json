@@ -170,6 +170,16 @@
         "url": "/static/images/gifts/marcato-pasta-machine-red.jpeg",
         "alt_text": "Image of Marcato pasta maker. A great gift to give someone special."
       }
+    },
+    {
+      "name": "FC 26",
+      "shop": "Amazon",
+      "gift_url": "https://amzn.to/3VeEQQK",
+      "description": "FC 26 (formerly known as Fifa) is the must-have game for the new season. Is there a better way to spend your time between match days?",
+      "image": {
+        "url": "/static/images/gifts/fifa-26.jpg",
+        "alt_text": "Image of FC 26. A great gift to give the football fan gamer special."
+      }
     }
   ]
 }

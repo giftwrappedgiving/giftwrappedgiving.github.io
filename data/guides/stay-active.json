@@ -139,6 +139,16 @@
         "url": "/static/images/gifts/bulldog-Zero2-Overlays.jpg",
         "alt_text": "Image of Zero 2 Cable Pulley. A great gift to give someone special."
       }
+    },
+    {
+      "name": "FPRO football skills mat",
+      "shop": "FPRO",
+      "gift_url": "https://fpromat.co.uk/products/fpro-ball-mastery-elite-pro-training-mat",
+      "description": "Keep them active with the FPRO Ball Mastery Mat. It'll help them sharpen control, dribbling and first touch. Compact, pro‑tested and perfect for drills or casual show‑offs.",
+      "image": {
+        "url": "/static/images/gifts/fpro-football-skills-map.jpg",
+        "alt_text": "Image of Fpro football skills mat. A great gift to give to the football player in your life."
+      }
     }
   ]
 }
