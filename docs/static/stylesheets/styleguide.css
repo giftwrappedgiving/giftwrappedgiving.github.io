@@ -1000,6 +1000,10 @@ a {
   overflow-x: scroll;
 }
 
+.gwg-article-page {
+  display: flow-root;
+}
+
 .gwg-list__container {
   --top-offset: calc(50px + var(--site-spacing));
   --list-vertical-extents-padding: 65px;
