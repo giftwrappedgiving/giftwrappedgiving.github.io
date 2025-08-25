@@ -4,8 +4,9 @@
 {% include 'components/site-nav.html' %}
 {% endblock %}
 
-{% block content %}
+{% set bodyClasses = 'gwg-article-page' %}
 
+{% block content %}
 <article class="gwg-article">
   <div class="gwg-width-container">
     {% block articleHead %}

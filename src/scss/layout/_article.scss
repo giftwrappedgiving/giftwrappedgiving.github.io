@@ -1,0 +1,5 @@
+.gwg-article-page {
+  // fixes the margin collapse issue
+  // modern approach (2025) is to use flow-root
+  display: flow-root;
+}
