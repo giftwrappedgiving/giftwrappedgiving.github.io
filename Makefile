@@ -42,6 +42,11 @@ copy-imgs:
 build::
 	npm run build
 
+
+check-guides::
+	python bin/check_guides.py
+
+
 watch::
 	npm run watch:scss
 
