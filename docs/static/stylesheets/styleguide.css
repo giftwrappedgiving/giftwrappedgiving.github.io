@@ -480,6 +480,15 @@ a {
   }
 }
 
+.gwg-blockquote {
+  --blockquote-text: var(--monochrome-4);
+  --blockquote-border-colour: rgb(79, 109, 193);
+  border-left: 4px solid var(--blockquote-border-colour);
+  padding-left: 1em;
+  color: var(--blockquote-text);
+  font-style: italic;
+}
+
 .gwg-blog_heading {
   --gwg-blog-heading-margin: var(--site-spacing);
   margin-top: calc(var(--gwg-blog-heading-margin) * 2);
@@ -746,6 +755,13 @@ a {
     font-size: 7.5rem;
     line-height: 1;
   }
+}
+
+.gwg-article .gwg-img {
+  max-width: calc(var(--site-spacing-large) * 8);
+  border-radius: 1.5em;
+  padding: var(--site-spacing);
+  background: #e6beae;
 }
 
 .gwg-footer {
