@@ -38,3 +38,5 @@ def _add_html_attrs(soup):
         tag["class"] = "gwg-list gwg-list--number"
     for tag in soup.select("hr"):
         tag["class"] = "gwg-section-break gwg-section-break--l"
+    for tag in soup.select("blockquote"):
+        tag["class"] = "gwg-blockquote"

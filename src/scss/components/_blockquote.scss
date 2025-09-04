@@ -1,0 +1,8 @@
+.gwg-blockquote {
+  --blockquote-text: var(--monochrome-4);
+  --blockquote-border-colour: rgb(79, 109, 193);
+  border-left: 4px solid var(--blockquote-border-colour);
+  padding-left: 1em;
+  color: var(--blockquote-text);
+  font-style: italic;
+}
