@@ -180,6 +180,16 @@
         "url": "/static/images/gifts/fifa-26.jpg",
         "alt_text": "Image of FC 26. A great gift to give the football fan gamer special."
       }
+    },
+    {
+    "name": "Aura digital photo frame",
+    "shop": "Amazon",
+    "gift_url": "https://amzn.to/3YR8u1j",
+    "description": "Have your memories displayed on this stylish frame. Let loved ones near and far using add photos for you to enjoy over and over. Effortlessly stylish, deeply sentimental",
+    "image": {
+      "url": "/static/images/gifts/aura-picture-frame.jpg",
+      "alt_text": "Image of Aura Digital Photo Frame. A great gift to give someone special."
     }
+  }
   ]
 }
