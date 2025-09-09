@@ -1,0 +1,180 @@
+{
+  "name": "Little Readers, Big Imaginations",
+  "tagline": "A collection of books to spark wonder, laughter, and learning in toddlers.",
+  "description": "This guide brings together a handpicked selection of storybooks perfect for little ones taking their first steps into reading. From timeless classics to modern favourites, these books are designed to captivate curious minds and encourage a lifelong love of stories. Whether it’s for bedtime snuggles, giggles on the sofa, or building their very first bookshelf, these toddler-friendly reads are as delightful for parents as they are for children.",
+  "entry-date": "2025-09-09",
+  "update-date": "2025-09-09",
+  "homepage-order": 4,
+  "gifts": [
+    {
+      "name": "Never touch a panda",
+      "shop": "Amazon",
+      "gift_url": "https://amzn.to/3TAmYii",
+      "description": "A silly, shouty read that kids will adore. This book's rules (and the chaos that follows) are a guaranteed giggle for toddlers.",
+      "image": {
+        "url": "/static/images/gifts/book-never-touch-a-panda.jpg",
+        "alt_text": "Image of Never touch a panda. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "We're going on a bear hunt",
+      "shop": "Amazon",
+      "gift_url": "https://amzn.to/4llNvvP",
+      "description": "A rhythmic, adventurous classic perfect for joining in. Ideal for little explorers aged about 1–3.",
+      "image": {
+        "url": "/static/images/gifts/book-were-going-on-a-bear-hunt.jpg",
+        "alt_text": "Image of We're going on a bear hunt. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Dave's cave",
+      "shop": "Amazon",
+      "gift_url": "https://amzn.to/44tUtZW",
+      "description": "A playful, animated tale that kids act out as they read. Expect lots of laughs and pretend caveman voices.",
+      "image": {
+        "url": "/static/images/gifts/book-daves-cave.jpg",
+        "alt_text": "Image of Dave's cave. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "The bee who loved words",
+      "shop": "Amazon",
+      "gift_url": "https://amzn.to/40crWpi",
+      "description": "A warm, uplifting picture book that celebrates words and kindness. Perfect for early language fans. Thoroughly heartwarming,",
+      "image": {
+        "url": "/static/images/gifts/book-the-bee-who-loved-words.jpg",
+        "alt_text": "Image of The bee who loved words. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "A singing mermaid",
+      "shop": "Amazon",
+      "gift_url": "https://amzn.to/4nfVgFa",
+      "description": "A lyrical, joyful story from Julia Donaldson. Ffull of rhythm and sparkle for ages 2+.",
+      "image": {
+        "url": "/static/images/gifts/book-a-singing-mermaid.jpg",
+        "alt_text": "Image of A singing mermaid. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "I'm (almost) always kind",
+      "shop": "Amazon",
+      "gift_url": "https://amzn.to/4ecKCem",
+      "description": "A gentle, funny book about trying your best. A sweet reminder about kindness for little people.",
+      "image": {
+        "url": "/static/images/gifts/book-im-almost-always-kind.jpg",
+        "alt_text": "Image of I'm (almost) always kind. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Wow said the owl",
+      "shop": "Amazon",
+      "gift_url": "https://amzn.to/45CJxu6",
+      "description": "A cosy, singalong-style read that invites kids to join in every \"WOW\". Perfect for snug storytime.",
+      "image": {
+        "url": "/static/images/gifts/book-wow-said-the-owl.jpg",
+        "alt_text": "Image of Wow said the owl. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "The colour of us",
+      "shop": "Amazon",
+      "gift_url": "https://amzn.to/4k1jmAQ",
+      "description": "An interactive, thoughtful book that introduces diversity and celebrates all skin tones. Great for preschoolers.",
+      "image": {
+        "url": "/static/images/gifts/book-the-colour-of-us.jpg",
+        "alt_text": "Image of The colour of us. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Oi frog!",
+      "shop": "Amazon",
+      "gift_url": "https://amzn.to/3GatXvq",
+      "description": "Loud, silly and utterly addictive. A rowdy read that'll have kids roaring with laughter.",
+      "image": {
+        "url": "/static/images/gifts/book-oi-frog.jpg",
+        "alt_text": "Image of Oi frog!. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "A dress with pockets",
+      "shop": "Amazon",
+      "gift_url": "https://amzn.to/45wMNao",
+      "description": "A charming tale with small surprises on every page. Simple, sweet and perfect for little ones who love dresses, and pockets!",
+      "image": {
+        "url": "/static/images/gifts/book-a-dress-with-pockets.jpg",
+        "alt_text": "Image of A dress with pockets. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Mr Men Happy Eid",
+      "shop": "Amazon",
+      "gift_url": "https://amzn.to/3FW2y0a",
+      "description": "A bright, inclusive celebration story that makes festivals and traditions fun and accessible for toddlers.",
+      "image": {
+        "url": "/static/images/gifts/mr-men-eid-book.jpg",
+        "alt_text": "Image of Mr Men Happy Eid. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Giraffes can't dance",
+      "shop": "Amazon",
+      "gift_url": "https://amzn.to/3TDG0Ey",
+      "description": "A touching story about finding your rhythm: gentle, funny and strangely danceable.",
+      "image": {
+        "url": "/static/images/gifts/book-giraffes-cant-dance.jpg",
+        "alt_text": "Image of Giraffes can't dance. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Dragon's love underpants",
+      "shop": "Amazon",
+      "gift_url": "https://amzn.to/4k8XFiq",
+      "description": "Quirky, colourful and utterly silly. A guaranteed hit for 2+ year olds.",
+      "image": {
+        "url": "/static/images/gifts/book-dragons-love-underpants.jpg",
+        "alt_text": "Image of Dragon's love underpants. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "The lion inside",
+      "shop": "Amazon",
+      "gift_url": "https://amzn.to/4ndvYrd",
+      "description": "Heartfelt and comforting. A book that helps little ones find courage and warmth in every read.",
+      "image": {
+        "url": "/static/images/gifts/book-the-lion-inside.jpg",
+        "alt_text": "Image of The lion inside. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "How to catch a star",
+      "shop": "Amazon",
+      "gift_url": "https://amzn.to/4kWljQo",
+      "description": "A gently magical tale about chasing dreams. Soft, simple and perfect for bedtime.",
+      "image": {
+        "url": "/static/images/gifts/book-how-to-catch-a-star.jpg",
+        "alt_text": "Image of How to catch a star. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "People need people",
+      "shop": "Amazon",
+      "gift_url": "https://amzn.to/3G5gQvC",
+      "description": "A lyrical, community-minded book by Benjamin Zephaniah that's both soothing and profound for young readers.",
+      "image": {
+        "url": "/static/images/gifts/book-people-need-people.jpg",
+        "alt_text": "Image of People need people. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Mouse by the sea",
+      "shop": "Amazon",
+      "gift_url": "https://amzn.to/4jXiiOh",
+      "description": "A delightfully interactive seaside story full of tiny discoveries that keep kids coming back for more.",
+      "image": {
+        "url": "/static/images/gifts/book-mouse-by-the-sea.jpg",
+        "alt_text": "Image of Mouse by the sea. A great gift to give someone special."
+      }
+    }
+  ]
+}
