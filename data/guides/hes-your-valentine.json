@@ -146,13 +146,14 @@
       }
     },
     {
-    "name": "MagSafe wallet and stand",
-    "shop": "NAOA",
-    "gift_url": "https://naoadesign.com/products/2-pack-magsafe-stand-wallet-strap-copy",
-    "description": "Look at this beautifully crafted apple leather wallet. And iPhone stand. Connected by MagSafe magic. Did we also say it comes with a strap? Pretty good right?",
-    "image": {
-      "url": "/static/images/gifts/naoa-magsafe-wallet-stand.jpg",
-      "alt_text": "Image of MagSafe wallet and stand. A great gift to give someone special."
+      "name": "MagSafe wallet and stand",
+      "shop": "NAOA",
+      "gift_url": "https://naoadesign.com/products/2-pack-magsafe-stand-wallet-strap-copy",
+      "description": "Look at this beautifully crafted apple leather wallet. And iPhone stand. Connected by MagSafe magic. Did we also say it comes with a strap? Pretty good right?",
+      "image": {
+        "url": "/static/images/gifts/naoa-magsafe-wallet-stand.jpg",
+        "alt_text": "Image of MagSafe wallet and stand. A great gift to give someone special."
+      }
     }
   ]
 }
