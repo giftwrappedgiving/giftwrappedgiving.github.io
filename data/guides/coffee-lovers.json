@@ -1,0 +1,109 @@
+{
+  "name": "Gifts for Coffee Lovers",
+  "tagline": "A curated selection of coffee gifts for every type of coffee lover.",
+  "description": "Whether they like to brew, sip or snack, these gifts are sure to delight any coffee enthusiast.",
+  "entry-date": "2025-10-01",
+  "update-date": "2025-10-01",
+  "gifts": [
+    {
+      "name": "Vacuum coffee storage",
+      "shop": "Amazon",
+      "gift_url": "https://amzn.to/3IzhQJD",
+      "description": "It may look like a speaker but this item is the addition all coffee lovers need. Keep those coffee beans and grounds guarded from the pesky air for a fresh brew every time!",
+      "image": {
+        "url": "/static/images/gifts/atmos-coffee-storage.jpg",
+        "alt_text": "Image of Vacuum coffee storage. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Big love mug",
+      "shop": "Oliver Bonas",
+      "gift_url": "https://www.oliverbonas.com/homeware/big-love-splatter-ceramic-mug-372945",
+      "description": "Say I love you with the Big Love mug!",
+      "image": {
+        "url": "/static/images/gifts/big-love-mug-ob.jpg",
+        "alt_text": "Image of Big love mug. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Ember mug 2",
+      "shop": "Ember",
+      "gift_url": "https://uk.ember.com/products/ember-mug-2?variant=41744754573482",
+      "description": "For the perfect sip, every time.",
+      "image": {
+        "url": "/static/images/gifts/ember-mug-emerald-green.jpeg",
+        "alt_text": "Image of Ember mug 2. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Black coffee scoop clip",
+      "shop": "Peace with the wild",
+      "gift_url": "https://www.peacewiththewild.co.uk/product/black-coffee-scoop-clip/",
+      "description": "A classic item for a homemaker, coffee lover or just about anyone. Also available in gold, silver and rose gold.",
+      "image": {
+        "url": "/static/images/gifts/green-island-coffee-scoop-black-03.jpg",
+        "alt_text": "Image of Black coffee scoop clip. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Roasted Coffee Soy Candle",
+      "shop": "Etsy",
+      "gift_url": "https://www.etsy.com/uk/listing/1589732906/roasted-coffee-candle-coffee-gifts-for",
+      "description": "Think outside the coffee mug and get them this hand-poured, coffee-scented soy candle. It keeps those coffee smells going long after the cup has been drained. UK based. Smells amazing.",
+      "image": {
+        "url": "/static/images/gifts/roast-coffee-soy-candle.jpg",
+        "alt_text": "Image of Roasted Coffee Soy Candle. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Chemex Classic",
+      "shop": "HasBean",
+      "gift_url": "https://www.hasbean.co.uk/collections/chemex/products/chemex",
+      "description": "Take your time to brew the perfect cup with this iconic pour-over coffee maker. A beautiful gift for any coffee lover.",
+      "image": {
+        "url": "/static/images/gifts/coffeemaker-classic-six-detail_6_large.png",
+        "alt_text": "Image of Chemex Classic. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "A grind coffee subscription",
+      "shop": "Grind",
+      "gift_url": "https://grind.co.uk/",
+      "description": "Mmmmm delicious coffee. Delivered to your door whenever you need it. Bliss.",
+      "image": {
+        "url": "/static/images/gifts/grind-coffee-uk.jpg",
+        "alt_text": "Image of A grind coffee subscription. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Aeropress Go coffee press kit",
+      "shop": "Amazon",
+      "gift_url": "https://amzn.to/3VG4xtR",
+      "description": "The aeropress but redesigned for travel. Errrm yes. To be honest we always thought the original was great for travel so imagine how good this updated version is. A coffee and travel lover special.",
+      "image": {
+        "url": "/static/images/gifts/aeropress-go.jpg",
+        "alt_text": "Image of Aeropress Go coffee press kit. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Opus conical burr grinder",
+      "shop": "Healf",
+      "gift_url": "https://healf.com/en-uk/products/fellow-opus-conical-burr-grinder",
+      "description": "Easily elevate your coffee brewing technique with this high-precision, highly stylish coffee grinder from Fellow. Looks good, smells good, works good.",
+      "image": {
+        "url": "/static/images/gifts/healf-opus-burr-grinder.jpg",
+        "alt_text": "Image of Opus conical burr grinder. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "HyperChiller",
+      "shop": "Amazon",
+      "gift_url": "https://amzn.to/4foLWue",
+      "description": "Cools a coffee in seconds... So you'll be sorted the few days a year its hot enough in the UK to want an iced coffee.",
+      "image": {
+        "url": "/static/images/gifts/hyperchiller.jpg",
+        "alt_text": "Image of HyperChiller. A great gift to give someone special."
+      }
+    }
+  ]
+}
