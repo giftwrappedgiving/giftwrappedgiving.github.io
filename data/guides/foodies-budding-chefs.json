@@ -2,7 +2,7 @@
   "name": "For foodies and budding chiefs",
   "tagline": "A collection of gifts that are perfect for foodies and budding chiefs.",
   "entry-date": "2024-10-13",
-  "update-date": "2024-11-08",
+  "update-date": "2025-10-08",
   "gifts": [
     {
       "name": "Marcato pasta maker",
@@ -222,6 +222,56 @@
       "image": {
         "url": "/static/images/gifts/velvetiser-copper-edition.jpg",
         "alt_text": "Image of The Velvetiser. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "A curry tour of India gift box",
+      "shop": "The Spicery",
+      "gift_url": "https://www.thespicery.com/a-curry-tour-of-india-gift-box",
+      "description": "Experience 6 different dishes from around India, just add fresh ingredients and enjoy the ride. Perfect for budding chefs big on flavour",
+      "image": {
+        "url": "/static/images/gifts/curry-tour-of-india-gift-box.jpg",
+        "alt_text": "Image of A curry tour of India gift box. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Pestle and mortar",
+      "shop": "TOAST",
+      "gift_url": "https://www.toa.st/products/grace-mccarthy-pestle-and-mortar-vulcan-black",
+      "description": "Adorn your kitchen with a piece that’s as beautiful as it is useful.",
+      "image": {
+        "url": "/static/images/gifts/vulcan-black-pestle-and-mortar.jpg",
+        "alt_text": "Image of Pestle and mortar. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Masala chai",
+      "shop": "Chai Guys",
+      "gift_url": "https://chaiguys.shop/products/masala-chai",
+      "description": "Amazing chai from the wonderful Chai Guys. And a masala blend too. What else do you need to go along with your curry?",
+      "image": {
+        "url": "/static/images/gifts/masala_chai_chai_guys.jpg",
+        "alt_text": "Image of Masala chai. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Made in India cookbook",
+      "shop": "Amazon",
+      "gift_url": "https://amzn.to/46XuDh7",
+      "description": "An essential addition to any cookbook collection and the perfect foodie gift, it will change the way they cook, eat and think about Indian food forever.",
+      "image": {
+        "url": "/static/images/gifts/made_in_india_cookbook.jpg",
+        "alt_text": "Image of Made in India cookbook. A great gift to give someone special."
+      }
+    },
+    {
+      "name": "Yorkshire curry pies",
+      "shop": "Yorkshire handmade pies",
+      "gift_url": "https://www.yorkshirehandmadepies.co.uk/products/the-yorkshire-curry-box",
+      "description": "Take someone to pie and curry heaven with these fabulous pies from Yorkshire Handmade Pies!",
+      "image": {
+        "url": "/static/images/gifts/YHP_Yorkshire_Curry_Box_1024x1024@2x.jpg",
+        "alt_text": "Image of Yorkshire curry pies. A great gift to give someone special."
       }
     }
   ]
